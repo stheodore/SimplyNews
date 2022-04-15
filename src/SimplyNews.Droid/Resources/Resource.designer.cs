@@ -6391,70 +6391,76 @@ namespace SimplyNews
 			public const int design_snackbar_background = 2131165291;
 			
 			// aapt resource value: 0x7F07006C
-			public const int ic_arrow_down_24dp = 2131165292;
+			public const int gradient_spinner = 2131165292;
 			
 			// aapt resource value: 0x7F07006D
-			public const int ic_mtrl_chip_checked_black = 2131165293;
+			public const int ic_arrow_down_24dp = 2131165293;
 			
 			// aapt resource value: 0x7F07006E
-			public const int ic_mtrl_chip_checked_circle = 2131165294;
+			public const int ic_mtrl_chip_checked_black = 2131165294;
 			
 			// aapt resource value: 0x7F07006F
-			public const int ic_mtrl_chip_close_circle = 2131165295;
+			public const int ic_mtrl_chip_checked_circle = 2131165295;
 			
 			// aapt resource value: 0x7F070070
-			public const int mtrl_snackbar_background = 2131165296;
+			public const int ic_mtrl_chip_close_circle = 2131165296;
 			
 			// aapt resource value: 0x7F070071
-			public const int mtrl_tabs_default_indicator = 2131165297;
+			public const int mtrl_snackbar_background = 2131165297;
 			
 			// aapt resource value: 0x7F070072
-			public const int navigation_empty_icon = 2131165298;
+			public const int mtrl_tabs_default_indicator = 2131165298;
 			
 			// aapt resource value: 0x7F070073
-			public const int notification_action_background = 2131165299;
+			public const int navigation_empty_icon = 2131165299;
 			
 			// aapt resource value: 0x7F070074
-			public const int notification_bg = 2131165300;
+			public const int notification_action_background = 2131165300;
 			
 			// aapt resource value: 0x7F070075
-			public const int notification_bg_low = 2131165301;
+			public const int notification_bg = 2131165301;
 			
 			// aapt resource value: 0x7F070076
-			public const int notification_bg_low_normal = 2131165302;
+			public const int notification_bg_low = 2131165302;
 			
 			// aapt resource value: 0x7F070077
-			public const int notification_bg_low_pressed = 2131165303;
+			public const int notification_bg_low_normal = 2131165303;
 			
 			// aapt resource value: 0x7F070078
-			public const int notification_bg_normal = 2131165304;
+			public const int notification_bg_low_pressed = 2131165304;
 			
 			// aapt resource value: 0x7F070079
-			public const int notification_bg_normal_pressed = 2131165305;
+			public const int notification_bg_normal = 2131165305;
 			
 			// aapt resource value: 0x7F07007A
-			public const int notification_icon_background = 2131165306;
+			public const int notification_bg_normal_pressed = 2131165306;
 			
 			// aapt resource value: 0x7F07007B
-			public const int notification_template_icon_bg = 2131165307;
+			public const int notification_icon_background = 2131165307;
 			
 			// aapt resource value: 0x7F07007C
-			public const int notification_template_icon_low_bg = 2131165308;
+			public const int notification_template_icon_bg = 2131165308;
 			
 			// aapt resource value: 0x7F07007D
-			public const int notification_tile_bg = 2131165309;
+			public const int notification_template_icon_low_bg = 2131165309;
 			
 			// aapt resource value: 0x7F07007E
-			public const int notify_panel_notification_icon_bg = 2131165310;
+			public const int notification_tile_bg = 2131165310;
 			
 			// aapt resource value: 0x7F07007F
-			public const int preference_list_divider_material = 2131165311;
+			public const int notify_panel_notification_icon_bg = 2131165311;
 			
 			// aapt resource value: 0x7F070080
-			public const int tooltip_frame_dark = 2131165312;
+			public const int preference_list_divider_material = 2131165312;
 			
 			// aapt resource value: 0x7F070081
-			public const int tooltip_frame_light = 2131165313;
+			public const int spinner_dropdown = 2131165313;
+			
+			// aapt resource value: 0x7F070082
+			public const int tooltip_frame_dark = 2131165314;
+			
+			// aapt resource value: 0x7F070083
+			public const int tooltip_frame_light = 2131165315;
 			
 			static Drawable()
 			{
@@ -7493,100 +7499,94 @@ namespace SimplyNews
 			public const int design_text_input_password_icon = 2131427373;
 			
 			// aapt resource value: 0x7F0B002E
-			public const int dropdown_item_template = 2131427374;
+			public const int expand_button = 2131427374;
 			
 			// aapt resource value: 0x7F0B002F
-			public const int expand_button = 2131427375;
+			public const int image_frame = 2131427375;
 			
 			// aapt resource value: 0x7F0B0030
-			public const int image_frame = 2131427376;
+			public const int mtrl_layout_snackbar = 2131427376;
 			
 			// aapt resource value: 0x7F0B0031
-			public const int item_template = 2131427377;
+			public const int mtrl_layout_snackbar_include = 2131427377;
 			
 			// aapt resource value: 0x7F0B0032
-			public const int mtrl_layout_snackbar = 2131427378;
+			public const int notification_action = 2131427378;
 			
 			// aapt resource value: 0x7F0B0033
-			public const int mtrl_layout_snackbar_include = 2131427379;
+			public const int notification_action_tombstone = 2131427379;
 			
 			// aapt resource value: 0x7F0B0034
-			public const int notification_action = 2131427380;
+			public const int notification_template_custom_big = 2131427380;
 			
 			// aapt resource value: 0x7F0B0035
-			public const int notification_action_tombstone = 2131427381;
+			public const int notification_template_icon_group = 2131427381;
 			
 			// aapt resource value: 0x7F0B0036
-			public const int notification_template_custom_big = 2131427382;
+			public const int notification_template_part_chronometer = 2131427382;
 			
 			// aapt resource value: 0x7F0B0037
-			public const int notification_template_icon_group = 2131427383;
+			public const int notification_template_part_time = 2131427383;
 			
 			// aapt resource value: 0x7F0B0038
-			public const int notification_template_part_chronometer = 2131427384;
+			public const int preference = 2131427384;
 			
 			// aapt resource value: 0x7F0B0039
-			public const int notification_template_part_time = 2131427385;
+			public const int preference_category = 2131427385;
 			
 			// aapt resource value: 0x7F0B003A
-			public const int preference = 2131427386;
+			public const int preference_category_material = 2131427386;
 			
 			// aapt resource value: 0x7F0B003B
-			public const int preference_category = 2131427387;
+			public const int preference_dialog_edittext = 2131427387;
 			
 			// aapt resource value: 0x7F0B003C
-			public const int preference_category_material = 2131427388;
+			public const int preference_dropdown = 2131427388;
 			
 			// aapt resource value: 0x7F0B003D
-			public const int preference_dialog_edittext = 2131427389;
+			public const int preference_dropdown_material = 2131427389;
 			
 			// aapt resource value: 0x7F0B003E
-			public const int preference_dropdown = 2131427390;
+			public const int preference_information = 2131427390;
 			
 			// aapt resource value: 0x7F0B003F
-			public const int preference_dropdown_material = 2131427391;
+			public const int preference_information_material = 2131427391;
 			
 			// aapt resource value: 0x7F0B0040
-			public const int preference_information = 2131427392;
+			public const int preference_list_fragment = 2131427392;
 			
 			// aapt resource value: 0x7F0B0041
-			public const int preference_information_material = 2131427393;
+			public const int preference_material = 2131427393;
 			
 			// aapt resource value: 0x7F0B0042
-			public const int preference_list_fragment = 2131427394;
+			public const int preference_recyclerview = 2131427394;
 			
 			// aapt resource value: 0x7F0B0043
-			public const int preference_material = 2131427395;
+			public const int preference_widget_checkbox = 2131427395;
 			
 			// aapt resource value: 0x7F0B0044
-			public const int preference_recyclerview = 2131427396;
+			public const int preference_widget_seekbar = 2131427396;
 			
 			// aapt resource value: 0x7F0B0045
-			public const int preference_widget_checkbox = 2131427397;
+			public const int preference_widget_seekbar_material = 2131427397;
 			
 			// aapt resource value: 0x7F0B0046
-			public const int preference_widget_seekbar = 2131427398;
+			public const int preference_widget_switch = 2131427398;
 			
 			// aapt resource value: 0x7F0B0047
-			public const int preference_widget_seekbar_material = 2131427399;
+			public const int preference_widget_switch_compat = 2131427399;
 			
 			// aapt resource value: 0x7F0B0048
-			public const int preference_widget_switch = 2131427400;
+			public const int select_dialog_item_material = 2131427400;
 			
 			// aapt resource value: 0x7F0B0049
-			public const int preference_widget_switch_compat = 2131427401;
+			public const int select_dialog_multichoice_material = 2131427401;
 			
 			// aapt resource value: 0x7F0B004A
-			public const int select_dialog_item_material = 2131427402;
+			public const int select_dialog_singlechoice_material = 2131427402;
 			
 			// aapt resource value: 0x7F0B004B
-			public const int select_dialog_multichoice_material = 2131427403;
-			
-			// aapt resource value: 0x7F0B004C
-			public const int select_dialog_singlechoice_material = 2131427404;
-			
-			// aapt resource value: 0x7F0B004D
-			public const int support_simple_spinner_dropdown_item = 2131427405;
+			public const int support_simple_spinner_dropdown_item = 2131427403;
 			
 			static Layout()
 			{
@@ -8583,6 +8583,9 @@ namespace SimplyNews
 			
 			// aapt resource value: 0x7F0E0104
 			public const int RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = 2131624196;
+			
+			// aapt resource value: 0x7F0E0214
+			public const int spinner_style = 2131624468;
 			
 			// aapt resource value: 0x7F0E0105
 			public const int TextAppearance_AppCompat = 2131624197;
