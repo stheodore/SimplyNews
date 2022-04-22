@@ -19,7 +19,6 @@ namespace SimplyNews
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
-            Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             SetContentView(Resource.Layout.activity_main);
 
             try
@@ -36,13 +35,6 @@ namespace SimplyNews
             {
                 Toast.MakeText(this, e.Message, ToastLength.Short).Show();
             }
-        }
-
-        public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)
-        {
-            Xamarin.Essentials.Platform.OnRequestPermissionsResult(requestCode, permissions, grantResults);
-
-            base.OnRequestPermissionsResult(requestCode, permissions, grantResults);
         }
 
         public override bool OnKeyDown([GeneratedEnum] Keycode keyCode, KeyEvent e)

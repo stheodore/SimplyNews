@@ -2895,196 +2895,2876 @@ namespace SimplyNews
 			global::MvvmCross.Resource.Styleable.View_paddingEnd = global::SimplyNews.Resource.Styleable.View_paddingEnd;
 			global::MvvmCross.Resource.Styleable.View_paddingStart = global::SimplyNews.Resource.Styleable.View_paddingStart;
 			global::MvvmCross.Resource.Styleable.View_theme = global::SimplyNews.Resource.Styleable.View_theme;
-			global::Xamarin.Essentials.Resource.Attribute.alpha = global::SimplyNews.Resource.Attribute.alpha;
-			global::Xamarin.Essentials.Resource.Attribute.font = global::SimplyNews.Resource.Attribute.font;
-			global::Xamarin.Essentials.Resource.Attribute.fontProviderAuthority = global::SimplyNews.Resource.Attribute.fontProviderAuthority;
-			global::Xamarin.Essentials.Resource.Attribute.fontProviderCerts = global::SimplyNews.Resource.Attribute.fontProviderCerts;
-			global::Xamarin.Essentials.Resource.Attribute.fontProviderFetchStrategy = global::SimplyNews.Resource.Attribute.fontProviderFetchStrategy;
-			global::Xamarin.Essentials.Resource.Attribute.fontProviderFetchTimeout = global::SimplyNews.Resource.Attribute.fontProviderFetchTimeout;
-			global::Xamarin.Essentials.Resource.Attribute.fontProviderPackage = global::SimplyNews.Resource.Attribute.fontProviderPackage;
-			global::Xamarin.Essentials.Resource.Attribute.fontProviderQuery = global::SimplyNews.Resource.Attribute.fontProviderQuery;
-			global::Xamarin.Essentials.Resource.Attribute.fontStyle = global::SimplyNews.Resource.Attribute.fontStyle;
-			global::Xamarin.Essentials.Resource.Attribute.fontVariationSettings = global::SimplyNews.Resource.Attribute.fontVariationSettings;
-			global::Xamarin.Essentials.Resource.Attribute.fontWeight = global::SimplyNews.Resource.Attribute.fontWeight;
-			global::Xamarin.Essentials.Resource.Attribute.ttcIndex = global::SimplyNews.Resource.Attribute.ttcIndex;
-			global::Xamarin.Essentials.Resource.Color.androidx_core_ripple_material_light = global::SimplyNews.Resource.Color.androidx_core_ripple_material_light;
-			global::Xamarin.Essentials.Resource.Color.androidx_core_secondary_text_default_material_light = global::SimplyNews.Resource.Color.androidx_core_secondary_text_default_material_light;
-			global::Xamarin.Essentials.Resource.Color.browser_actions_bg_grey = global::SimplyNews.Resource.Color.browser_actions_bg_grey;
-			global::Xamarin.Essentials.Resource.Color.browser_actions_divider_color = global::SimplyNews.Resource.Color.browser_actions_divider_color;
-			global::Xamarin.Essentials.Resource.Color.browser_actions_text_color = global::SimplyNews.Resource.Color.browser_actions_text_color;
-			global::Xamarin.Essentials.Resource.Color.browser_actions_title_color = global::SimplyNews.Resource.Color.browser_actions_title_color;
-			global::Xamarin.Essentials.Resource.Color.notification_action_color_filter = global::SimplyNews.Resource.Color.notification_action_color_filter;
-			global::Xamarin.Essentials.Resource.Color.notification_icon_bg_color = global::SimplyNews.Resource.Color.notification_icon_bg_color;
-			global::Xamarin.Essentials.Resource.Dimension.browser_actions_context_menu_max_width = global::SimplyNews.Resource.Dimension.browser_actions_context_menu_max_width;
-			global::Xamarin.Essentials.Resource.Dimension.browser_actions_context_menu_min_padding = global::SimplyNews.Resource.Dimension.browser_actions_context_menu_min_padding;
-			global::Xamarin.Essentials.Resource.Dimension.compat_button_inset_horizontal_material = global::SimplyNews.Resource.Dimension.compat_button_inset_horizontal_material;
-			global::Xamarin.Essentials.Resource.Dimension.compat_button_inset_vertical_material = global::SimplyNews.Resource.Dimension.compat_button_inset_vertical_material;
-			global::Xamarin.Essentials.Resource.Dimension.compat_button_padding_horizontal_material = global::SimplyNews.Resource.Dimension.compat_button_padding_horizontal_material;
-			global::Xamarin.Essentials.Resource.Dimension.compat_button_padding_vertical_material = global::SimplyNews.Resource.Dimension.compat_button_padding_vertical_material;
-			global::Xamarin.Essentials.Resource.Dimension.compat_control_corner_material = global::SimplyNews.Resource.Dimension.compat_control_corner_material;
-			global::Xamarin.Essentials.Resource.Dimension.compat_notification_large_icon_max_height = global::SimplyNews.Resource.Dimension.compat_notification_large_icon_max_height;
-			global::Xamarin.Essentials.Resource.Dimension.compat_notification_large_icon_max_width = global::SimplyNews.Resource.Dimension.compat_notification_large_icon_max_width;
-			global::Xamarin.Essentials.Resource.Dimension.notification_action_icon_size = global::SimplyNews.Resource.Dimension.notification_action_icon_size;
-			global::Xamarin.Essentials.Resource.Dimension.notification_action_text_size = global::SimplyNews.Resource.Dimension.notification_action_text_size;
-			global::Xamarin.Essentials.Resource.Dimension.notification_big_circle_margin = global::SimplyNews.Resource.Dimension.notification_big_circle_margin;
-			global::Xamarin.Essentials.Resource.Dimension.notification_content_margin_start = global::SimplyNews.Resource.Dimension.notification_content_margin_start;
-			global::Xamarin.Essentials.Resource.Dimension.notification_large_icon_height = global::SimplyNews.Resource.Dimension.notification_large_icon_height;
-			global::Xamarin.Essentials.Resource.Dimension.notification_large_icon_width = global::SimplyNews.Resource.Dimension.notification_large_icon_width;
-			global::Xamarin.Essentials.Resource.Dimension.notification_main_column_padding_top = global::SimplyNews.Resource.Dimension.notification_main_column_padding_top;
-			global::Xamarin.Essentials.Resource.Dimension.notification_media_narrow_margin = global::SimplyNews.Resource.Dimension.notification_media_narrow_margin;
-			global::Xamarin.Essentials.Resource.Dimension.notification_right_icon_size = global::SimplyNews.Resource.Dimension.notification_right_icon_size;
-			global::Xamarin.Essentials.Resource.Dimension.notification_right_side_padding_top = global::SimplyNews.Resource.Dimension.notification_right_side_padding_top;
-			global::Xamarin.Essentials.Resource.Dimension.notification_small_icon_background_padding = global::SimplyNews.Resource.Dimension.notification_small_icon_background_padding;
-			global::Xamarin.Essentials.Resource.Dimension.notification_small_icon_size_as_large = global::SimplyNews.Resource.Dimension.notification_small_icon_size_as_large;
-			global::Xamarin.Essentials.Resource.Dimension.notification_subtext_size = global::SimplyNews.Resource.Dimension.notification_subtext_size;
-			global::Xamarin.Essentials.Resource.Dimension.notification_top_pad = global::SimplyNews.Resource.Dimension.notification_top_pad;
-			global::Xamarin.Essentials.Resource.Dimension.notification_top_pad_large_text = global::SimplyNews.Resource.Dimension.notification_top_pad_large_text;
-			global::Xamarin.Essentials.Resource.Drawable.notification_action_background = global::SimplyNews.Resource.Drawable.notification_action_background;
-			global::Xamarin.Essentials.Resource.Drawable.notification_bg = global::SimplyNews.Resource.Drawable.notification_bg;
-			global::Xamarin.Essentials.Resource.Drawable.notification_bg_low = global::SimplyNews.Resource.Drawable.notification_bg_low;
-			global::Xamarin.Essentials.Resource.Drawable.notification_bg_low_normal = global::SimplyNews.Resource.Drawable.notification_bg_low_normal;
-			global::Xamarin.Essentials.Resource.Drawable.notification_bg_low_pressed = global::SimplyNews.Resource.Drawable.notification_bg_low_pressed;
-			global::Xamarin.Essentials.Resource.Drawable.notification_bg_normal = global::SimplyNews.Resource.Drawable.notification_bg_normal;
-			global::Xamarin.Essentials.Resource.Drawable.notification_bg_normal_pressed = global::SimplyNews.Resource.Drawable.notification_bg_normal_pressed;
-			global::Xamarin.Essentials.Resource.Drawable.notification_icon_background = global::SimplyNews.Resource.Drawable.notification_icon_background;
-			global::Xamarin.Essentials.Resource.Drawable.notification_template_icon_bg = global::SimplyNews.Resource.Drawable.notification_template_icon_bg;
-			global::Xamarin.Essentials.Resource.Drawable.notification_template_icon_low_bg = global::SimplyNews.Resource.Drawable.notification_template_icon_low_bg;
-			global::Xamarin.Essentials.Resource.Drawable.notification_tile_bg = global::SimplyNews.Resource.Drawable.notification_tile_bg;
-			global::Xamarin.Essentials.Resource.Drawable.notify_panel_notification_icon_bg = global::SimplyNews.Resource.Drawable.notify_panel_notification_icon_bg;
-			global::Xamarin.Essentials.Resource.Id.accessibility_action_clickable_span = global::SimplyNews.Resource.Id.accessibility_action_clickable_span;
-			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_0 = global::SimplyNews.Resource.Id.accessibility_custom_action_0;
-			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_1 = global::SimplyNews.Resource.Id.accessibility_custom_action_1;
-			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_10 = global::SimplyNews.Resource.Id.accessibility_custom_action_10;
-			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_11 = global::SimplyNews.Resource.Id.accessibility_custom_action_11;
-			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_12 = global::SimplyNews.Resource.Id.accessibility_custom_action_12;
-			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_13 = global::SimplyNews.Resource.Id.accessibility_custom_action_13;
-			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_14 = global::SimplyNews.Resource.Id.accessibility_custom_action_14;
-			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_15 = global::SimplyNews.Resource.Id.accessibility_custom_action_15;
-			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_16 = global::SimplyNews.Resource.Id.accessibility_custom_action_16;
-			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_17 = global::SimplyNews.Resource.Id.accessibility_custom_action_17;
-			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_18 = global::SimplyNews.Resource.Id.accessibility_custom_action_18;
-			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_19 = global::SimplyNews.Resource.Id.accessibility_custom_action_19;
-			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_2 = global::SimplyNews.Resource.Id.accessibility_custom_action_2;
-			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_20 = global::SimplyNews.Resource.Id.accessibility_custom_action_20;
-			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_21 = global::SimplyNews.Resource.Id.accessibility_custom_action_21;
-			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_22 = global::SimplyNews.Resource.Id.accessibility_custom_action_22;
-			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_23 = global::SimplyNews.Resource.Id.accessibility_custom_action_23;
-			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_24 = global::SimplyNews.Resource.Id.accessibility_custom_action_24;
-			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_25 = global::SimplyNews.Resource.Id.accessibility_custom_action_25;
-			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_26 = global::SimplyNews.Resource.Id.accessibility_custom_action_26;
-			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_27 = global::SimplyNews.Resource.Id.accessibility_custom_action_27;
-			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_28 = global::SimplyNews.Resource.Id.accessibility_custom_action_28;
-			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_29 = global::SimplyNews.Resource.Id.accessibility_custom_action_29;
-			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_3 = global::SimplyNews.Resource.Id.accessibility_custom_action_3;
-			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_30 = global::SimplyNews.Resource.Id.accessibility_custom_action_30;
-			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_31 = global::SimplyNews.Resource.Id.accessibility_custom_action_31;
-			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_4 = global::SimplyNews.Resource.Id.accessibility_custom_action_4;
-			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_5 = global::SimplyNews.Resource.Id.accessibility_custom_action_5;
-			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_6 = global::SimplyNews.Resource.Id.accessibility_custom_action_6;
-			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_7 = global::SimplyNews.Resource.Id.accessibility_custom_action_7;
-			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_8 = global::SimplyNews.Resource.Id.accessibility_custom_action_8;
-			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_9 = global::SimplyNews.Resource.Id.accessibility_custom_action_9;
-			global::Xamarin.Essentials.Resource.Id.actions = global::SimplyNews.Resource.Id.actions;
-			global::Xamarin.Essentials.Resource.Id.action_container = global::SimplyNews.Resource.Id.action_container;
-			global::Xamarin.Essentials.Resource.Id.action_divider = global::SimplyNews.Resource.Id.action_divider;
-			global::Xamarin.Essentials.Resource.Id.action_image = global::SimplyNews.Resource.Id.action_image;
-			global::Xamarin.Essentials.Resource.Id.action_text = global::SimplyNews.Resource.Id.action_text;
-			global::Xamarin.Essentials.Resource.Id.async = global::SimplyNews.Resource.Id.async;
-			global::Xamarin.Essentials.Resource.Id.blocking = global::SimplyNews.Resource.Id.blocking;
-			global::Xamarin.Essentials.Resource.Id.browser_actions_header_text = global::SimplyNews.Resource.Id.browser_actions_header_text;
-			global::Xamarin.Essentials.Resource.Id.browser_actions_menu_items = global::SimplyNews.Resource.Id.browser_actions_menu_items;
-			global::Xamarin.Essentials.Resource.Id.browser_actions_menu_item_icon = global::SimplyNews.Resource.Id.browser_actions_menu_item_icon;
-			global::Xamarin.Essentials.Resource.Id.browser_actions_menu_item_text = global::SimplyNews.Resource.Id.browser_actions_menu_item_text;
-			global::Xamarin.Essentials.Resource.Id.browser_actions_menu_view = global::SimplyNews.Resource.Id.browser_actions_menu_view;
-			global::Xamarin.Essentials.Resource.Id.chronometer = global::SimplyNews.Resource.Id.chronometer;
-			global::Xamarin.Essentials.Resource.Id.dialog_button = global::SimplyNews.Resource.Id.dialog_button;
-			global::Xamarin.Essentials.Resource.Id.forever = global::SimplyNews.Resource.Id.forever;
-			global::Xamarin.Essentials.Resource.Id.icon = global::SimplyNews.Resource.Id.icon;
-			global::Xamarin.Essentials.Resource.Id.icon_group = global::SimplyNews.Resource.Id.icon_group;
-			global::Xamarin.Essentials.Resource.Id.info = global::SimplyNews.Resource.Id.info;
-			global::Xamarin.Essentials.Resource.Id.italic = global::SimplyNews.Resource.Id.italic;
-			global::Xamarin.Essentials.Resource.Id.line1 = global::SimplyNews.Resource.Id.line1;
-			global::Xamarin.Essentials.Resource.Id.line3 = global::SimplyNews.Resource.Id.line3;
-			global::Xamarin.Essentials.Resource.Id.normal = global::SimplyNews.Resource.Id.normal;
-			global::Xamarin.Essentials.Resource.Id.notification_background = global::SimplyNews.Resource.Id.notification_background;
-			global::Xamarin.Essentials.Resource.Id.notification_main_column = global::SimplyNews.Resource.Id.notification_main_column;
-			global::Xamarin.Essentials.Resource.Id.notification_main_column_container = global::SimplyNews.Resource.Id.notification_main_column_container;
-			global::Xamarin.Essentials.Resource.Id.right_icon = global::SimplyNews.Resource.Id.right_icon;
-			global::Xamarin.Essentials.Resource.Id.right_side = global::SimplyNews.Resource.Id.right_side;
-			global::Xamarin.Essentials.Resource.Id.tag_accessibility_actions = global::SimplyNews.Resource.Id.tag_accessibility_actions;
-			global::Xamarin.Essentials.Resource.Id.tag_accessibility_clickable_spans = global::SimplyNews.Resource.Id.tag_accessibility_clickable_spans;
-			global::Xamarin.Essentials.Resource.Id.tag_accessibility_heading = global::SimplyNews.Resource.Id.tag_accessibility_heading;
-			global::Xamarin.Essentials.Resource.Id.tag_accessibility_pane_title = global::SimplyNews.Resource.Id.tag_accessibility_pane_title;
-			global::Xamarin.Essentials.Resource.Id.tag_screen_reader_focusable = global::SimplyNews.Resource.Id.tag_screen_reader_focusable;
-			global::Xamarin.Essentials.Resource.Id.tag_transition_group = global::SimplyNews.Resource.Id.tag_transition_group;
-			global::Xamarin.Essentials.Resource.Id.tag_unhandled_key_event_manager = global::SimplyNews.Resource.Id.tag_unhandled_key_event_manager;
-			global::Xamarin.Essentials.Resource.Id.tag_unhandled_key_listeners = global::SimplyNews.Resource.Id.tag_unhandled_key_listeners;
-			global::Xamarin.Essentials.Resource.Id.text = global::SimplyNews.Resource.Id.text;
-			global::Xamarin.Essentials.Resource.Id.text2 = global::SimplyNews.Resource.Id.text2;
-			global::Xamarin.Essentials.Resource.Id.time = global::SimplyNews.Resource.Id.time;
-			global::Xamarin.Essentials.Resource.Id.title = global::SimplyNews.Resource.Id.title;
-			global::Xamarin.Essentials.Resource.Integer.status_bar_notification_info_maxnum = global::SimplyNews.Resource.Integer.status_bar_notification_info_maxnum;
-			global::Xamarin.Essentials.Resource.Layout.browser_actions_context_menu_page = global::SimplyNews.Resource.Layout.browser_actions_context_menu_page;
-			global::Xamarin.Essentials.Resource.Layout.browser_actions_context_menu_row = global::SimplyNews.Resource.Layout.browser_actions_context_menu_row;
-			global::Xamarin.Essentials.Resource.Layout.custom_dialog = global::SimplyNews.Resource.Layout.custom_dialog;
-			global::Xamarin.Essentials.Resource.Layout.notification_action = global::SimplyNews.Resource.Layout.notification_action;
-			global::Xamarin.Essentials.Resource.Layout.notification_action_tombstone = global::SimplyNews.Resource.Layout.notification_action_tombstone;
-			global::Xamarin.Essentials.Resource.Layout.notification_template_custom_big = global::SimplyNews.Resource.Layout.notification_template_custom_big;
-			global::Xamarin.Essentials.Resource.Layout.notification_template_icon_group = global::SimplyNews.Resource.Layout.notification_template_icon_group;
-			global::Xamarin.Essentials.Resource.Layout.notification_template_part_chronometer = global::SimplyNews.Resource.Layout.notification_template_part_chronometer;
-			global::Xamarin.Essentials.Resource.Layout.notification_template_part_time = global::SimplyNews.Resource.Layout.notification_template_part_time;
-			global::Xamarin.Essentials.Resource.String.copy_toast_msg = global::SimplyNews.Resource.String.copy_toast_msg;
-			global::Xamarin.Essentials.Resource.String.fallback_menu_item_copy_link = global::SimplyNews.Resource.String.fallback_menu_item_copy_link;
-			global::Xamarin.Essentials.Resource.String.fallback_menu_item_open_in_browser = global::SimplyNews.Resource.String.fallback_menu_item_open_in_browser;
-			global::Xamarin.Essentials.Resource.String.fallback_menu_item_share_link = global::SimplyNews.Resource.String.fallback_menu_item_share_link;
-			global::Xamarin.Essentials.Resource.String.status_bar_notification_info_overflow = global::SimplyNews.Resource.String.status_bar_notification_info_overflow;
-			global::Xamarin.Essentials.Resource.Style.TextAppearance_Compat_Notification = global::SimplyNews.Resource.Style.TextAppearance_Compat_Notification;
-			global::Xamarin.Essentials.Resource.Style.TextAppearance_Compat_Notification_Info = global::SimplyNews.Resource.Style.TextAppearance_Compat_Notification_Info;
-			global::Xamarin.Essentials.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::SimplyNews.Resource.Style.TextAppearance_Compat_Notification_Line2;
-			global::Xamarin.Essentials.Resource.Style.TextAppearance_Compat_Notification_Time = global::SimplyNews.Resource.Style.TextAppearance_Compat_Notification_Time;
-			global::Xamarin.Essentials.Resource.Style.TextAppearance_Compat_Notification_Title = global::SimplyNews.Resource.Style.TextAppearance_Compat_Notification_Title;
-			global::Xamarin.Essentials.Resource.Style.Widget_Compat_NotificationActionContainer = global::SimplyNews.Resource.Style.Widget_Compat_NotificationActionContainer;
-			global::Xamarin.Essentials.Resource.Style.Widget_Compat_NotificationActionText = global::SimplyNews.Resource.Style.Widget_Compat_NotificationActionText;
-			global::Xamarin.Essentials.Resource.Styleable.ColorStateListItem = global::SimplyNews.Resource.Styleable.ColorStateListItem;
-			global::Xamarin.Essentials.Resource.Styleable.ColorStateListItem_alpha = global::SimplyNews.Resource.Styleable.ColorStateListItem_alpha;
-			global::Xamarin.Essentials.Resource.Styleable.ColorStateListItem_android_alpha = global::SimplyNews.Resource.Styleable.ColorStateListItem_android_alpha;
-			global::Xamarin.Essentials.Resource.Styleable.ColorStateListItem_android_color = global::SimplyNews.Resource.Styleable.ColorStateListItem_android_color;
-			global::Xamarin.Essentials.Resource.Styleable.FontFamily = global::SimplyNews.Resource.Styleable.FontFamily;
-			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont = global::SimplyNews.Resource.Styleable.FontFamilyFont;
-			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont_android_font = global::SimplyNews.Resource.Styleable.FontFamilyFont_android_font;
-			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont_android_fontStyle = global::SimplyNews.Resource.Styleable.FontFamilyFont_android_fontStyle;
-			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont_android_fontVariationSettings = global::SimplyNews.Resource.Styleable.FontFamilyFont_android_fontVariationSettings;
-			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont_android_fontWeight = global::SimplyNews.Resource.Styleable.FontFamilyFont_android_fontWeight;
-			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont_android_ttcIndex = global::SimplyNews.Resource.Styleable.FontFamilyFont_android_ttcIndex;
-			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont_font = global::SimplyNews.Resource.Styleable.FontFamilyFont_font;
-			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont_fontStyle = global::SimplyNews.Resource.Styleable.FontFamilyFont_fontStyle;
-			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont_fontVariationSettings = global::SimplyNews.Resource.Styleable.FontFamilyFont_fontVariationSettings;
-			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont_fontWeight = global::SimplyNews.Resource.Styleable.FontFamilyFont_fontWeight;
-			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont_ttcIndex = global::SimplyNews.Resource.Styleable.FontFamilyFont_ttcIndex;
-			global::Xamarin.Essentials.Resource.Styleable.FontFamily_fontProviderAuthority = global::SimplyNews.Resource.Styleable.FontFamily_fontProviderAuthority;
-			global::Xamarin.Essentials.Resource.Styleable.FontFamily_fontProviderCerts = global::SimplyNews.Resource.Styleable.FontFamily_fontProviderCerts;
-			global::Xamarin.Essentials.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::SimplyNews.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
-			global::Xamarin.Essentials.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::SimplyNews.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
-			global::Xamarin.Essentials.Resource.Styleable.FontFamily_fontProviderPackage = global::SimplyNews.Resource.Styleable.FontFamily_fontProviderPackage;
-			global::Xamarin.Essentials.Resource.Styleable.FontFamily_fontProviderQuery = global::SimplyNews.Resource.Styleable.FontFamily_fontProviderQuery;
-			global::Xamarin.Essentials.Resource.Styleable.GradientColor = global::SimplyNews.Resource.Styleable.GradientColor;
-			global::Xamarin.Essentials.Resource.Styleable.GradientColorItem = global::SimplyNews.Resource.Styleable.GradientColorItem;
-			global::Xamarin.Essentials.Resource.Styleable.GradientColorItem_android_color = global::SimplyNews.Resource.Styleable.GradientColorItem_android_color;
-			global::Xamarin.Essentials.Resource.Styleable.GradientColorItem_android_offset = global::SimplyNews.Resource.Styleable.GradientColorItem_android_offset;
-			global::Xamarin.Essentials.Resource.Styleable.GradientColor_android_centerColor = global::SimplyNews.Resource.Styleable.GradientColor_android_centerColor;
-			global::Xamarin.Essentials.Resource.Styleable.GradientColor_android_centerX = global::SimplyNews.Resource.Styleable.GradientColor_android_centerX;
-			global::Xamarin.Essentials.Resource.Styleable.GradientColor_android_centerY = global::SimplyNews.Resource.Styleable.GradientColor_android_centerY;
-			global::Xamarin.Essentials.Resource.Styleable.GradientColor_android_endColor = global::SimplyNews.Resource.Styleable.GradientColor_android_endColor;
-			global::Xamarin.Essentials.Resource.Styleable.GradientColor_android_endX = global::SimplyNews.Resource.Styleable.GradientColor_android_endX;
-			global::Xamarin.Essentials.Resource.Styleable.GradientColor_android_endY = global::SimplyNews.Resource.Styleable.GradientColor_android_endY;
-			global::Xamarin.Essentials.Resource.Styleable.GradientColor_android_gradientRadius = global::SimplyNews.Resource.Styleable.GradientColor_android_gradientRadius;
-			global::Xamarin.Essentials.Resource.Styleable.GradientColor_android_startColor = global::SimplyNews.Resource.Styleable.GradientColor_android_startColor;
-			global::Xamarin.Essentials.Resource.Styleable.GradientColor_android_startX = global::SimplyNews.Resource.Styleable.GradientColor_android_startX;
-			global::Xamarin.Essentials.Resource.Styleable.GradientColor_android_startY = global::SimplyNews.Resource.Styleable.GradientColor_android_startY;
-			global::Xamarin.Essentials.Resource.Styleable.GradientColor_android_tileMode = global::SimplyNews.Resource.Styleable.GradientColor_android_tileMode;
-			global::Xamarin.Essentials.Resource.Styleable.GradientColor_android_type = global::SimplyNews.Resource.Styleable.GradientColor_android_type;
-			global::Xamarin.Essentials.Resource.Xml.image_share_filepaths = global::SimplyNews.Resource.Xml.image_share_filepaths;
-			global::Xamarin.Essentials.Resource.Xml.xamarin_essentials_fileprovider_file_paths = global::SimplyNews.Resource.Xml.xamarin_essentials_fileprovider_file_paths;
+			global::MvvmCross.Plugin.Visibility.Resource.Animation.abc_fade_in = global::SimplyNews.Resource.Animation.abc_fade_in;
+			global::MvvmCross.Plugin.Visibility.Resource.Animation.abc_fade_out = global::SimplyNews.Resource.Animation.abc_fade_out;
+			global::MvvmCross.Plugin.Visibility.Resource.Animation.abc_grow_fade_in_from_bottom = global::SimplyNews.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::MvvmCross.Plugin.Visibility.Resource.Animation.abc_popup_enter = global::SimplyNews.Resource.Animation.abc_popup_enter;
+			global::MvvmCross.Plugin.Visibility.Resource.Animation.abc_popup_exit = global::SimplyNews.Resource.Animation.abc_popup_exit;
+			global::MvvmCross.Plugin.Visibility.Resource.Animation.abc_shrink_fade_out_from_bottom = global::SimplyNews.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::MvvmCross.Plugin.Visibility.Resource.Animation.abc_slide_in_bottom = global::SimplyNews.Resource.Animation.abc_slide_in_bottom;
+			global::MvvmCross.Plugin.Visibility.Resource.Animation.abc_slide_in_top = global::SimplyNews.Resource.Animation.abc_slide_in_top;
+			global::MvvmCross.Plugin.Visibility.Resource.Animation.abc_slide_out_bottom = global::SimplyNews.Resource.Animation.abc_slide_out_bottom;
+			global::MvvmCross.Plugin.Visibility.Resource.Animation.abc_slide_out_top = global::SimplyNews.Resource.Animation.abc_slide_out_top;
+			global::MvvmCross.Plugin.Visibility.Resource.Animation.abc_tooltip_enter = global::SimplyNews.Resource.Animation.abc_tooltip_enter;
+			global::MvvmCross.Plugin.Visibility.Resource.Animation.abc_tooltip_exit = global::SimplyNews.Resource.Animation.abc_tooltip_exit;
+			global::MvvmCross.Plugin.Visibility.Resource.Animation.btn_checkbox_to_checked_box_inner_merged_animation = global::SimplyNews.Resource.Animation.btn_checkbox_to_checked_box_inner_merged_animation;
+			global::MvvmCross.Plugin.Visibility.Resource.Animation.btn_checkbox_to_checked_box_outer_merged_animation = global::SimplyNews.Resource.Animation.btn_checkbox_to_checked_box_outer_merged_animation;
+			global::MvvmCross.Plugin.Visibility.Resource.Animation.btn_checkbox_to_checked_icon_null_animation = global::SimplyNews.Resource.Animation.btn_checkbox_to_checked_icon_null_animation;
+			global::MvvmCross.Plugin.Visibility.Resource.Animation.btn_checkbox_to_unchecked_box_inner_merged_animation = global::SimplyNews.Resource.Animation.btn_checkbox_to_unchecked_box_inner_merged_animation;
+			global::MvvmCross.Plugin.Visibility.Resource.Animation.btn_checkbox_to_unchecked_check_path_merged_animation = global::SimplyNews.Resource.Animation.btn_checkbox_to_unchecked_check_path_merged_animation;
+			global::MvvmCross.Plugin.Visibility.Resource.Animation.btn_checkbox_to_unchecked_icon_null_animation = global::SimplyNews.Resource.Animation.btn_checkbox_to_unchecked_icon_null_animation;
+			global::MvvmCross.Plugin.Visibility.Resource.Animation.btn_radio_to_off_mtrl_dot_group_animation = global::SimplyNews.Resource.Animation.btn_radio_to_off_mtrl_dot_group_animation;
+			global::MvvmCross.Plugin.Visibility.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_animation = global::SimplyNews.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_animation;
+			global::MvvmCross.Plugin.Visibility.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_path_animation = global::SimplyNews.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_path_animation;
+			global::MvvmCross.Plugin.Visibility.Resource.Animation.btn_radio_to_on_mtrl_dot_group_animation = global::SimplyNews.Resource.Animation.btn_radio_to_on_mtrl_dot_group_animation;
+			global::MvvmCross.Plugin.Visibility.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_animation = global::SimplyNews.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_animation;
+			global::MvvmCross.Plugin.Visibility.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_path_animation = global::SimplyNews.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_path_animation;
+			global::MvvmCross.Plugin.Visibility.Resource.Animation.design_bottom_sheet_slide_in = global::SimplyNews.Resource.Animation.design_bottom_sheet_slide_in;
+			global::MvvmCross.Plugin.Visibility.Resource.Animation.design_bottom_sheet_slide_out = global::SimplyNews.Resource.Animation.design_bottom_sheet_slide_out;
+			global::MvvmCross.Plugin.Visibility.Resource.Animation.design_snackbar_in = global::SimplyNews.Resource.Animation.design_snackbar_in;
+			global::MvvmCross.Plugin.Visibility.Resource.Animation.design_snackbar_out = global::SimplyNews.Resource.Animation.design_snackbar_out;
+			global::MvvmCross.Plugin.Visibility.Resource.Animation.fragment_fast_out_extra_slow_in = global::SimplyNews.Resource.Animation.fragment_fast_out_extra_slow_in;
+			global::MvvmCross.Plugin.Visibility.Resource.Animator.design_appbar_state_list_animator = global::SimplyNews.Resource.Animator.design_appbar_state_list_animator;
+			global::MvvmCross.Plugin.Visibility.Resource.Animator.design_fab_hide_motion_spec = global::SimplyNews.Resource.Animator.design_fab_hide_motion_spec;
+			global::MvvmCross.Plugin.Visibility.Resource.Animator.design_fab_show_motion_spec = global::SimplyNews.Resource.Animator.design_fab_show_motion_spec;
+			global::MvvmCross.Plugin.Visibility.Resource.Animator.fragment_close_enter = global::SimplyNews.Resource.Animator.fragment_close_enter;
+			global::MvvmCross.Plugin.Visibility.Resource.Animator.fragment_close_exit = global::SimplyNews.Resource.Animator.fragment_close_exit;
+			global::MvvmCross.Plugin.Visibility.Resource.Animator.fragment_fade_enter = global::SimplyNews.Resource.Animator.fragment_fade_enter;
+			global::MvvmCross.Plugin.Visibility.Resource.Animator.fragment_fade_exit = global::SimplyNews.Resource.Animator.fragment_fade_exit;
+			global::MvvmCross.Plugin.Visibility.Resource.Animator.fragment_open_enter = global::SimplyNews.Resource.Animator.fragment_open_enter;
+			global::MvvmCross.Plugin.Visibility.Resource.Animator.fragment_open_exit = global::SimplyNews.Resource.Animator.fragment_open_exit;
+			global::MvvmCross.Plugin.Visibility.Resource.Animator.mtrl_btn_state_list_anim = global::SimplyNews.Resource.Animator.mtrl_btn_state_list_anim;
+			global::MvvmCross.Plugin.Visibility.Resource.Animator.mtrl_btn_unelevated_state_list_anim = global::SimplyNews.Resource.Animator.mtrl_btn_unelevated_state_list_anim;
+			global::MvvmCross.Plugin.Visibility.Resource.Animator.mtrl_chip_state_list_anim = global::SimplyNews.Resource.Animator.mtrl_chip_state_list_anim;
+			global::MvvmCross.Plugin.Visibility.Resource.Animator.mtrl_fab_hide_motion_spec = global::SimplyNews.Resource.Animator.mtrl_fab_hide_motion_spec;
+			global::MvvmCross.Plugin.Visibility.Resource.Animator.mtrl_fab_show_motion_spec = global::SimplyNews.Resource.Animator.mtrl_fab_show_motion_spec;
+			global::MvvmCross.Plugin.Visibility.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec = global::SimplyNews.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec;
+			global::MvvmCross.Plugin.Visibility.Resource.Animator.mtrl_fab_transformation_sheet_expand_spec = global::SimplyNews.Resource.Animator.mtrl_fab_transformation_sheet_expand_spec;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.actionBarDivider = global::SimplyNews.Resource.Attribute.actionBarDivider;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.actionBarItemBackground = global::SimplyNews.Resource.Attribute.actionBarItemBackground;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.actionBarPopupTheme = global::SimplyNews.Resource.Attribute.actionBarPopupTheme;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.actionBarSize = global::SimplyNews.Resource.Attribute.actionBarSize;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.actionBarSplitStyle = global::SimplyNews.Resource.Attribute.actionBarSplitStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.actionBarStyle = global::SimplyNews.Resource.Attribute.actionBarStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.actionBarTabBarStyle = global::SimplyNews.Resource.Attribute.actionBarTabBarStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.actionBarTabStyle = global::SimplyNews.Resource.Attribute.actionBarTabStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.actionBarTabTextStyle = global::SimplyNews.Resource.Attribute.actionBarTabTextStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.actionBarTheme = global::SimplyNews.Resource.Attribute.actionBarTheme;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.actionBarWidgetTheme = global::SimplyNews.Resource.Attribute.actionBarWidgetTheme;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.actionButtonStyle = global::SimplyNews.Resource.Attribute.actionButtonStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.actionDropDownStyle = global::SimplyNews.Resource.Attribute.actionDropDownStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.actionLayout = global::SimplyNews.Resource.Attribute.actionLayout;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.actionMenuTextAppearance = global::SimplyNews.Resource.Attribute.actionMenuTextAppearance;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.actionMenuTextColor = global::SimplyNews.Resource.Attribute.actionMenuTextColor;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.actionModeBackground = global::SimplyNews.Resource.Attribute.actionModeBackground;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.actionModeCloseButtonStyle = global::SimplyNews.Resource.Attribute.actionModeCloseButtonStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.actionModeCloseDrawable = global::SimplyNews.Resource.Attribute.actionModeCloseDrawable;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.actionModeCopyDrawable = global::SimplyNews.Resource.Attribute.actionModeCopyDrawable;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.actionModeCutDrawable = global::SimplyNews.Resource.Attribute.actionModeCutDrawable;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.actionModeFindDrawable = global::SimplyNews.Resource.Attribute.actionModeFindDrawable;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.actionModePasteDrawable = global::SimplyNews.Resource.Attribute.actionModePasteDrawable;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.actionModePopupWindowStyle = global::SimplyNews.Resource.Attribute.actionModePopupWindowStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.actionModeSelectAllDrawable = global::SimplyNews.Resource.Attribute.actionModeSelectAllDrawable;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.actionModeShareDrawable = global::SimplyNews.Resource.Attribute.actionModeShareDrawable;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.actionModeSplitBackground = global::SimplyNews.Resource.Attribute.actionModeSplitBackground;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.actionModeStyle = global::SimplyNews.Resource.Attribute.actionModeStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.actionModeWebSearchDrawable = global::SimplyNews.Resource.Attribute.actionModeWebSearchDrawable;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.actionOverflowButtonStyle = global::SimplyNews.Resource.Attribute.actionOverflowButtonStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.actionOverflowMenuStyle = global::SimplyNews.Resource.Attribute.actionOverflowMenuStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.actionProviderClass = global::SimplyNews.Resource.Attribute.actionProviderClass;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.actionViewClass = global::SimplyNews.Resource.Attribute.actionViewClass;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.activityChooserViewStyle = global::SimplyNews.Resource.Attribute.activityChooserViewStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.adjustable = global::SimplyNews.Resource.Attribute.adjustable;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.alertDialogButtonGroupStyle = global::SimplyNews.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.alertDialogCenterButtons = global::SimplyNews.Resource.Attribute.alertDialogCenterButtons;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.alertDialogStyle = global::SimplyNews.Resource.Attribute.alertDialogStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.alertDialogTheme = global::SimplyNews.Resource.Attribute.alertDialogTheme;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.allowDividerAbove = global::SimplyNews.Resource.Attribute.allowDividerAbove;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.allowDividerAfterLastItem = global::SimplyNews.Resource.Attribute.allowDividerAfterLastItem;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.allowDividerBelow = global::SimplyNews.Resource.Attribute.allowDividerBelow;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.allowStacking = global::SimplyNews.Resource.Attribute.allowStacking;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.alpha = global::SimplyNews.Resource.Attribute.alpha;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.alphabeticModifiers = global::SimplyNews.Resource.Attribute.alphabeticModifiers;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.arrowHeadLength = global::SimplyNews.Resource.Attribute.arrowHeadLength;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.arrowShaftLength = global::SimplyNews.Resource.Attribute.arrowShaftLength;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.autoCompleteTextViewStyle = global::SimplyNews.Resource.Attribute.autoCompleteTextViewStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.autoSizeMaxTextSize = global::SimplyNews.Resource.Attribute.autoSizeMaxTextSize;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.autoSizeMinTextSize = global::SimplyNews.Resource.Attribute.autoSizeMinTextSize;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.autoSizePresetSizes = global::SimplyNews.Resource.Attribute.autoSizePresetSizes;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.autoSizeStepGranularity = global::SimplyNews.Resource.Attribute.autoSizeStepGranularity;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.autoSizeTextType = global::SimplyNews.Resource.Attribute.autoSizeTextType;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.background = global::SimplyNews.Resource.Attribute.background;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.backgroundSplit = global::SimplyNews.Resource.Attribute.backgroundSplit;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.backgroundStacked = global::SimplyNews.Resource.Attribute.backgroundStacked;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.backgroundTint = global::SimplyNews.Resource.Attribute.backgroundTint;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.backgroundTintMode = global::SimplyNews.Resource.Attribute.backgroundTintMode;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.barLength = global::SimplyNews.Resource.Attribute.barLength;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.behavior_autoHide = global::SimplyNews.Resource.Attribute.behavior_autoHide;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.behavior_fitToContents = global::SimplyNews.Resource.Attribute.behavior_fitToContents;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.behavior_hideable = global::SimplyNews.Resource.Attribute.behavior_hideable;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.behavior_overlapTop = global::SimplyNews.Resource.Attribute.behavior_overlapTop;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.behavior_peekHeight = global::SimplyNews.Resource.Attribute.behavior_peekHeight;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.behavior_skipCollapsed = global::SimplyNews.Resource.Attribute.behavior_skipCollapsed;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.borderlessButtonStyle = global::SimplyNews.Resource.Attribute.borderlessButtonStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.borderWidth = global::SimplyNews.Resource.Attribute.borderWidth;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.bottomAppBarStyle = global::SimplyNews.Resource.Attribute.bottomAppBarStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.bottomNavigationStyle = global::SimplyNews.Resource.Attribute.bottomNavigationStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.bottomSheetDialogTheme = global::SimplyNews.Resource.Attribute.bottomSheetDialogTheme;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.bottomSheetStyle = global::SimplyNews.Resource.Attribute.bottomSheetStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.boxBackgroundColor = global::SimplyNews.Resource.Attribute.boxBackgroundColor;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.boxBackgroundMode = global::SimplyNews.Resource.Attribute.boxBackgroundMode;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.boxCollapsedPaddingTop = global::SimplyNews.Resource.Attribute.boxCollapsedPaddingTop;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.boxCornerRadiusBottomEnd = global::SimplyNews.Resource.Attribute.boxCornerRadiusBottomEnd;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.boxCornerRadiusBottomStart = global::SimplyNews.Resource.Attribute.boxCornerRadiusBottomStart;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.boxCornerRadiusTopEnd = global::SimplyNews.Resource.Attribute.boxCornerRadiusTopEnd;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.boxCornerRadiusTopStart = global::SimplyNews.Resource.Attribute.boxCornerRadiusTopStart;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.boxStrokeColor = global::SimplyNews.Resource.Attribute.boxStrokeColor;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.boxStrokeWidth = global::SimplyNews.Resource.Attribute.boxStrokeWidth;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.buttonBarButtonStyle = global::SimplyNews.Resource.Attribute.buttonBarButtonStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.buttonBarNegativeButtonStyle = global::SimplyNews.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.buttonBarNeutralButtonStyle = global::SimplyNews.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.buttonBarPositiveButtonStyle = global::SimplyNews.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.buttonBarStyle = global::SimplyNews.Resource.Attribute.buttonBarStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.buttonCompat = global::SimplyNews.Resource.Attribute.buttonCompat;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.buttonGravity = global::SimplyNews.Resource.Attribute.buttonGravity;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.buttonIconDimen = global::SimplyNews.Resource.Attribute.buttonIconDimen;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.buttonPanelSideLayout = global::SimplyNews.Resource.Attribute.buttonPanelSideLayout;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.buttonStyle = global::SimplyNews.Resource.Attribute.buttonStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.buttonStyleSmall = global::SimplyNews.Resource.Attribute.buttonStyleSmall;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.buttonTint = global::SimplyNews.Resource.Attribute.buttonTint;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.buttonTintMode = global::SimplyNews.Resource.Attribute.buttonTintMode;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.cardBackgroundColor = global::SimplyNews.Resource.Attribute.cardBackgroundColor;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.cardCornerRadius = global::SimplyNews.Resource.Attribute.cardCornerRadius;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.cardElevation = global::SimplyNews.Resource.Attribute.cardElevation;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.cardMaxElevation = global::SimplyNews.Resource.Attribute.cardMaxElevation;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.cardPreventCornerOverlap = global::SimplyNews.Resource.Attribute.cardPreventCornerOverlap;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.cardUseCompatPadding = global::SimplyNews.Resource.Attribute.cardUseCompatPadding;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.cardViewStyle = global::SimplyNews.Resource.Attribute.cardViewStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.checkBoxPreferenceStyle = global::SimplyNews.Resource.Attribute.checkBoxPreferenceStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.checkboxStyle = global::SimplyNews.Resource.Attribute.checkboxStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.checkedChip = global::SimplyNews.Resource.Attribute.checkedChip;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.checkedIcon = global::SimplyNews.Resource.Attribute.checkedIcon;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.checkedIconEnabled = global::SimplyNews.Resource.Attribute.checkedIconEnabled;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.checkedIconVisible = global::SimplyNews.Resource.Attribute.checkedIconVisible;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.checkedTextViewStyle = global::SimplyNews.Resource.Attribute.checkedTextViewStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.chipBackgroundColor = global::SimplyNews.Resource.Attribute.chipBackgroundColor;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.chipCornerRadius = global::SimplyNews.Resource.Attribute.chipCornerRadius;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.chipEndPadding = global::SimplyNews.Resource.Attribute.chipEndPadding;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.chipGroupStyle = global::SimplyNews.Resource.Attribute.chipGroupStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.chipIcon = global::SimplyNews.Resource.Attribute.chipIcon;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.chipIconEnabled = global::SimplyNews.Resource.Attribute.chipIconEnabled;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.chipIconSize = global::SimplyNews.Resource.Attribute.chipIconSize;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.chipIconTint = global::SimplyNews.Resource.Attribute.chipIconTint;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.chipIconVisible = global::SimplyNews.Resource.Attribute.chipIconVisible;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.chipMinHeight = global::SimplyNews.Resource.Attribute.chipMinHeight;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.chipSpacing = global::SimplyNews.Resource.Attribute.chipSpacing;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.chipSpacingHorizontal = global::SimplyNews.Resource.Attribute.chipSpacingHorizontal;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.chipSpacingVertical = global::SimplyNews.Resource.Attribute.chipSpacingVertical;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.chipStandaloneStyle = global::SimplyNews.Resource.Attribute.chipStandaloneStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.chipStartPadding = global::SimplyNews.Resource.Attribute.chipStartPadding;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.chipStrokeColor = global::SimplyNews.Resource.Attribute.chipStrokeColor;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.chipStrokeWidth = global::SimplyNews.Resource.Attribute.chipStrokeWidth;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.chipStyle = global::SimplyNews.Resource.Attribute.chipStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.closeIcon = global::SimplyNews.Resource.Attribute.closeIcon;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.closeIconEnabled = global::SimplyNews.Resource.Attribute.closeIconEnabled;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.closeIconEndPadding = global::SimplyNews.Resource.Attribute.closeIconEndPadding;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.closeIconSize = global::SimplyNews.Resource.Attribute.closeIconSize;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.closeIconStartPadding = global::SimplyNews.Resource.Attribute.closeIconStartPadding;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.closeIconTint = global::SimplyNews.Resource.Attribute.closeIconTint;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.closeIconVisible = global::SimplyNews.Resource.Attribute.closeIconVisible;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.closeItemLayout = global::SimplyNews.Resource.Attribute.closeItemLayout;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.collapseContentDescription = global::SimplyNews.Resource.Attribute.collapseContentDescription;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.collapsedTitleGravity = global::SimplyNews.Resource.Attribute.collapsedTitleGravity;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.collapsedTitleTextAppearance = global::SimplyNews.Resource.Attribute.collapsedTitleTextAppearance;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.collapseIcon = global::SimplyNews.Resource.Attribute.collapseIcon;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.color = global::SimplyNews.Resource.Attribute.color;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.colorAccent = global::SimplyNews.Resource.Attribute.colorAccent;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.colorBackgroundFloating = global::SimplyNews.Resource.Attribute.colorBackgroundFloating;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.colorButtonNormal = global::SimplyNews.Resource.Attribute.colorButtonNormal;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.colorControlActivated = global::SimplyNews.Resource.Attribute.colorControlActivated;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.colorControlHighlight = global::SimplyNews.Resource.Attribute.colorControlHighlight;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.colorControlNormal = global::SimplyNews.Resource.Attribute.colorControlNormal;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.colorError = global::SimplyNews.Resource.Attribute.colorError;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.colorPrimary = global::SimplyNews.Resource.Attribute.colorPrimary;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.colorPrimaryDark = global::SimplyNews.Resource.Attribute.colorPrimaryDark;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.colorSecondary = global::SimplyNews.Resource.Attribute.colorSecondary;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.colorSwitchThumbNormal = global::SimplyNews.Resource.Attribute.colorSwitchThumbNormal;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.commitIcon = global::SimplyNews.Resource.Attribute.commitIcon;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.contentDescription = global::SimplyNews.Resource.Attribute.contentDescription;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.contentInsetEnd = global::SimplyNews.Resource.Attribute.contentInsetEnd;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.contentInsetEndWithActions = global::SimplyNews.Resource.Attribute.contentInsetEndWithActions;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.contentInsetLeft = global::SimplyNews.Resource.Attribute.contentInsetLeft;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.contentInsetRight = global::SimplyNews.Resource.Attribute.contentInsetRight;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.contentInsetStart = global::SimplyNews.Resource.Attribute.contentInsetStart;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.contentInsetStartWithNavigation = global::SimplyNews.Resource.Attribute.contentInsetStartWithNavigation;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.contentPadding = global::SimplyNews.Resource.Attribute.contentPadding;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.contentPaddingBottom = global::SimplyNews.Resource.Attribute.contentPaddingBottom;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.contentPaddingLeft = global::SimplyNews.Resource.Attribute.contentPaddingLeft;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.contentPaddingRight = global::SimplyNews.Resource.Attribute.contentPaddingRight;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.contentPaddingTop = global::SimplyNews.Resource.Attribute.contentPaddingTop;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.contentScrim = global::SimplyNews.Resource.Attribute.contentScrim;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.controlBackground = global::SimplyNews.Resource.Attribute.controlBackground;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.coordinatorLayoutStyle = global::SimplyNews.Resource.Attribute.coordinatorLayoutStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.cornerRadius = global::SimplyNews.Resource.Attribute.cornerRadius;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.counterEnabled = global::SimplyNews.Resource.Attribute.counterEnabled;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.counterMaxLength = global::SimplyNews.Resource.Attribute.counterMaxLength;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.counterOverflowTextAppearance = global::SimplyNews.Resource.Attribute.counterOverflowTextAppearance;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.counterTextAppearance = global::SimplyNews.Resource.Attribute.counterTextAppearance;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.customNavigationLayout = global::SimplyNews.Resource.Attribute.customNavigationLayout;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.defaultQueryHint = global::SimplyNews.Resource.Attribute.defaultQueryHint;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.defaultValue = global::SimplyNews.Resource.Attribute.defaultValue;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.dependency = global::SimplyNews.Resource.Attribute.dependency;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.dialogCornerRadius = global::SimplyNews.Resource.Attribute.dialogCornerRadius;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.dialogIcon = global::SimplyNews.Resource.Attribute.dialogIcon;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.dialogLayout = global::SimplyNews.Resource.Attribute.dialogLayout;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.dialogMessage = global::SimplyNews.Resource.Attribute.dialogMessage;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.dialogPreferenceStyle = global::SimplyNews.Resource.Attribute.dialogPreferenceStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.dialogPreferredPadding = global::SimplyNews.Resource.Attribute.dialogPreferredPadding;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.dialogTheme = global::SimplyNews.Resource.Attribute.dialogTheme;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.dialogTitle = global::SimplyNews.Resource.Attribute.dialogTitle;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.disableDependentsState = global::SimplyNews.Resource.Attribute.disableDependentsState;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.displayOptions = global::SimplyNews.Resource.Attribute.displayOptions;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.divider = global::SimplyNews.Resource.Attribute.divider;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.dividerHorizontal = global::SimplyNews.Resource.Attribute.dividerHorizontal;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.dividerPadding = global::SimplyNews.Resource.Attribute.dividerPadding;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.dividerVertical = global::SimplyNews.Resource.Attribute.dividerVertical;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.drawableBottomCompat = global::SimplyNews.Resource.Attribute.drawableBottomCompat;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.drawableEndCompat = global::SimplyNews.Resource.Attribute.drawableEndCompat;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.drawableLeftCompat = global::SimplyNews.Resource.Attribute.drawableLeftCompat;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.drawableRightCompat = global::SimplyNews.Resource.Attribute.drawableRightCompat;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.drawableSize = global::SimplyNews.Resource.Attribute.drawableSize;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.drawableStartCompat = global::SimplyNews.Resource.Attribute.drawableStartCompat;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.drawableTint = global::SimplyNews.Resource.Attribute.drawableTint;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.drawableTintMode = global::SimplyNews.Resource.Attribute.drawableTintMode;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.drawableTopCompat = global::SimplyNews.Resource.Attribute.drawableTopCompat;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.drawerArrowStyle = global::SimplyNews.Resource.Attribute.drawerArrowStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.drawerLayoutStyle = global::SimplyNews.Resource.Attribute.drawerLayoutStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.dropdownListPreferredItemHeight = global::SimplyNews.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.dropDownListViewStyle = global::SimplyNews.Resource.Attribute.dropDownListViewStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.dropdownPreferenceStyle = global::SimplyNews.Resource.Attribute.dropdownPreferenceStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.editTextBackground = global::SimplyNews.Resource.Attribute.editTextBackground;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.editTextColor = global::SimplyNews.Resource.Attribute.editTextColor;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.editTextPreferenceStyle = global::SimplyNews.Resource.Attribute.editTextPreferenceStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.editTextStyle = global::SimplyNews.Resource.Attribute.editTextStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.elevation = global::SimplyNews.Resource.Attribute.elevation;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.enableCopying = global::SimplyNews.Resource.Attribute.enableCopying;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.enabled = global::SimplyNews.Resource.Attribute.enabled;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.enforceMaterialTheme = global::SimplyNews.Resource.Attribute.enforceMaterialTheme;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.enforceTextAppearance = global::SimplyNews.Resource.Attribute.enforceTextAppearance;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.entries = global::SimplyNews.Resource.Attribute.entries;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.entryValues = global::SimplyNews.Resource.Attribute.entryValues;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.errorEnabled = global::SimplyNews.Resource.Attribute.errorEnabled;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.errorTextAppearance = global::SimplyNews.Resource.Attribute.errorTextAppearance;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.expandActivityOverflowButtonDrawable = global::SimplyNews.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.expanded = global::SimplyNews.Resource.Attribute.expanded;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.expandedTitleGravity = global::SimplyNews.Resource.Attribute.expandedTitleGravity;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.expandedTitleMargin = global::SimplyNews.Resource.Attribute.expandedTitleMargin;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.expandedTitleMarginBottom = global::SimplyNews.Resource.Attribute.expandedTitleMarginBottom;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.expandedTitleMarginEnd = global::SimplyNews.Resource.Attribute.expandedTitleMarginEnd;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.expandedTitleMarginStart = global::SimplyNews.Resource.Attribute.expandedTitleMarginStart;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.expandedTitleMarginTop = global::SimplyNews.Resource.Attribute.expandedTitleMarginTop;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.expandedTitleTextAppearance = global::SimplyNews.Resource.Attribute.expandedTitleTextAppearance;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.fabAlignmentMode = global::SimplyNews.Resource.Attribute.fabAlignmentMode;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.fabCradleMargin = global::SimplyNews.Resource.Attribute.fabCradleMargin;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.fabCradleRoundedCornerRadius = global::SimplyNews.Resource.Attribute.fabCradleRoundedCornerRadius;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.fabCradleVerticalOffset = global::SimplyNews.Resource.Attribute.fabCradleVerticalOffset;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.fabCustomSize = global::SimplyNews.Resource.Attribute.fabCustomSize;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.fabSize = global::SimplyNews.Resource.Attribute.fabSize;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.fastScrollEnabled = global::SimplyNews.Resource.Attribute.fastScrollEnabled;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.fastScrollHorizontalThumbDrawable = global::SimplyNews.Resource.Attribute.fastScrollHorizontalThumbDrawable;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.fastScrollHorizontalTrackDrawable = global::SimplyNews.Resource.Attribute.fastScrollHorizontalTrackDrawable;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.fastScrollVerticalThumbDrawable = global::SimplyNews.Resource.Attribute.fastScrollVerticalThumbDrawable;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.fastScrollVerticalTrackDrawable = global::SimplyNews.Resource.Attribute.fastScrollVerticalTrackDrawable;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.firstBaselineToTopHeight = global::SimplyNews.Resource.Attribute.firstBaselineToTopHeight;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.floatingActionButtonStyle = global::SimplyNews.Resource.Attribute.floatingActionButtonStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.font = global::SimplyNews.Resource.Attribute.font;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.fontFamily = global::SimplyNews.Resource.Attribute.fontFamily;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.fontProviderAuthority = global::SimplyNews.Resource.Attribute.fontProviderAuthority;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.fontProviderCerts = global::SimplyNews.Resource.Attribute.fontProviderCerts;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.fontProviderFetchStrategy = global::SimplyNews.Resource.Attribute.fontProviderFetchStrategy;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.fontProviderFetchTimeout = global::SimplyNews.Resource.Attribute.fontProviderFetchTimeout;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.fontProviderPackage = global::SimplyNews.Resource.Attribute.fontProviderPackage;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.fontProviderQuery = global::SimplyNews.Resource.Attribute.fontProviderQuery;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.fontProviderSystemFontFamily = global::SimplyNews.Resource.Attribute.fontProviderSystemFontFamily;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.fontStyle = global::SimplyNews.Resource.Attribute.fontStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.fontVariationSettings = global::SimplyNews.Resource.Attribute.fontVariationSettings;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.fontWeight = global::SimplyNews.Resource.Attribute.fontWeight;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.foregroundInsidePadding = global::SimplyNews.Resource.Attribute.foregroundInsidePadding;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.fragment = global::SimplyNews.Resource.Attribute.fragment;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.gapBetweenBars = global::SimplyNews.Resource.Attribute.gapBetweenBars;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.goIcon = global::SimplyNews.Resource.Attribute.goIcon;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.headerLayout = global::SimplyNews.Resource.Attribute.headerLayout;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.height = global::SimplyNews.Resource.Attribute.height;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.helperText = global::SimplyNews.Resource.Attribute.helperText;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.helperTextEnabled = global::SimplyNews.Resource.Attribute.helperTextEnabled;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.helperTextTextAppearance = global::SimplyNews.Resource.Attribute.helperTextTextAppearance;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.hideMotionSpec = global::SimplyNews.Resource.Attribute.hideMotionSpec;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.hideOnContentScroll = global::SimplyNews.Resource.Attribute.hideOnContentScroll;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.hideOnScroll = global::SimplyNews.Resource.Attribute.hideOnScroll;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.hintAnimationEnabled = global::SimplyNews.Resource.Attribute.hintAnimationEnabled;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.hintEnabled = global::SimplyNews.Resource.Attribute.hintEnabled;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.hintTextAppearance = global::SimplyNews.Resource.Attribute.hintTextAppearance;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.homeAsUpIndicator = global::SimplyNews.Resource.Attribute.homeAsUpIndicator;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.homeLayout = global::SimplyNews.Resource.Attribute.homeLayout;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.hoveredFocusedTranslationZ = global::SimplyNews.Resource.Attribute.hoveredFocusedTranslationZ;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.icon = global::SimplyNews.Resource.Attribute.icon;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.iconEndPadding = global::SimplyNews.Resource.Attribute.iconEndPadding;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.iconGravity = global::SimplyNews.Resource.Attribute.iconGravity;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.iconifiedByDefault = global::SimplyNews.Resource.Attribute.iconifiedByDefault;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.iconPadding = global::SimplyNews.Resource.Attribute.iconPadding;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.iconSize = global::SimplyNews.Resource.Attribute.iconSize;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.iconSpaceReserved = global::SimplyNews.Resource.Attribute.iconSpaceReserved;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.iconStartPadding = global::SimplyNews.Resource.Attribute.iconStartPadding;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.iconTint = global::SimplyNews.Resource.Attribute.iconTint;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.iconTintMode = global::SimplyNews.Resource.Attribute.iconTintMode;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.imageButtonStyle = global::SimplyNews.Resource.Attribute.imageButtonStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.indeterminateProgressStyle = global::SimplyNews.Resource.Attribute.indeterminateProgressStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.initialActivityCount = global::SimplyNews.Resource.Attribute.initialActivityCount;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.initialExpandedChildrenCount = global::SimplyNews.Resource.Attribute.initialExpandedChildrenCount;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.insetForeground = global::SimplyNews.Resource.Attribute.insetForeground;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.isLightTheme = global::SimplyNews.Resource.Attribute.isLightTheme;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.isPreferenceVisible = global::SimplyNews.Resource.Attribute.isPreferenceVisible;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.itemBackground = global::SimplyNews.Resource.Attribute.itemBackground;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.itemHorizontalPadding = global::SimplyNews.Resource.Attribute.itemHorizontalPadding;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.itemHorizontalTranslationEnabled = global::SimplyNews.Resource.Attribute.itemHorizontalTranslationEnabled;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.itemIconPadding = global::SimplyNews.Resource.Attribute.itemIconPadding;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.itemIconSize = global::SimplyNews.Resource.Attribute.itemIconSize;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.itemIconTint = global::SimplyNews.Resource.Attribute.itemIconTint;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.itemPadding = global::SimplyNews.Resource.Attribute.itemPadding;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.itemSpacing = global::SimplyNews.Resource.Attribute.itemSpacing;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.itemTextAppearance = global::SimplyNews.Resource.Attribute.itemTextAppearance;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.itemTextAppearanceActive = global::SimplyNews.Resource.Attribute.itemTextAppearanceActive;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.itemTextAppearanceInactive = global::SimplyNews.Resource.Attribute.itemTextAppearanceInactive;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.itemTextColor = global::SimplyNews.Resource.Attribute.itemTextColor;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.key = global::SimplyNews.Resource.Attribute.key;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.keylines = global::SimplyNews.Resource.Attribute.keylines;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.labelVisibilityMode = global::SimplyNews.Resource.Attribute.labelVisibilityMode;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.lastBaselineToBottomHeight = global::SimplyNews.Resource.Attribute.lastBaselineToBottomHeight;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.layout = global::SimplyNews.Resource.Attribute.layout;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.layoutManager = global::SimplyNews.Resource.Attribute.layoutManager;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.layout_anchor = global::SimplyNews.Resource.Attribute.layout_anchor;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.layout_anchorGravity = global::SimplyNews.Resource.Attribute.layout_anchorGravity;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.layout_behavior = global::SimplyNews.Resource.Attribute.layout_behavior;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.layout_collapseMode = global::SimplyNews.Resource.Attribute.layout_collapseMode;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.layout_collapseParallaxMultiplier = global::SimplyNews.Resource.Attribute.layout_collapseParallaxMultiplier;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.layout_dodgeInsetEdges = global::SimplyNews.Resource.Attribute.layout_dodgeInsetEdges;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.layout_insetEdge = global::SimplyNews.Resource.Attribute.layout_insetEdge;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.layout_keyline = global::SimplyNews.Resource.Attribute.layout_keyline;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.layout_scrollFlags = global::SimplyNews.Resource.Attribute.layout_scrollFlags;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.layout_scrollInterpolator = global::SimplyNews.Resource.Attribute.layout_scrollInterpolator;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.liftOnScroll = global::SimplyNews.Resource.Attribute.liftOnScroll;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.lineHeight = global::SimplyNews.Resource.Attribute.lineHeight;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.lineSpacing = global::SimplyNews.Resource.Attribute.lineSpacing;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.listChoiceBackgroundIndicator = global::SimplyNews.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.listChoiceIndicatorMultipleAnimated = global::SimplyNews.Resource.Attribute.listChoiceIndicatorMultipleAnimated;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.listChoiceIndicatorSingleAnimated = global::SimplyNews.Resource.Attribute.listChoiceIndicatorSingleAnimated;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.listDividerAlertDialog = global::SimplyNews.Resource.Attribute.listDividerAlertDialog;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.listItemLayout = global::SimplyNews.Resource.Attribute.listItemLayout;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.listLayout = global::SimplyNews.Resource.Attribute.listLayout;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.listMenuViewStyle = global::SimplyNews.Resource.Attribute.listMenuViewStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.listPopupWindowStyle = global::SimplyNews.Resource.Attribute.listPopupWindowStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.listPreferredItemHeight = global::SimplyNews.Resource.Attribute.listPreferredItemHeight;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.listPreferredItemHeightLarge = global::SimplyNews.Resource.Attribute.listPreferredItemHeightLarge;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.listPreferredItemHeightSmall = global::SimplyNews.Resource.Attribute.listPreferredItemHeightSmall;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.listPreferredItemPaddingEnd = global::SimplyNews.Resource.Attribute.listPreferredItemPaddingEnd;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.listPreferredItemPaddingLeft = global::SimplyNews.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.listPreferredItemPaddingRight = global::SimplyNews.Resource.Attribute.listPreferredItemPaddingRight;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.listPreferredItemPaddingStart = global::SimplyNews.Resource.Attribute.listPreferredItemPaddingStart;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.logo = global::SimplyNews.Resource.Attribute.logo;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.logoDescription = global::SimplyNews.Resource.Attribute.logoDescription;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.materialButtonStyle = global::SimplyNews.Resource.Attribute.materialButtonStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.materialCardViewStyle = global::SimplyNews.Resource.Attribute.materialCardViewStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.maxActionInlineWidth = global::SimplyNews.Resource.Attribute.maxActionInlineWidth;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.maxButtonHeight = global::SimplyNews.Resource.Attribute.maxButtonHeight;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.maxHeight = global::SimplyNews.Resource.Attribute.maxHeight;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.maxImageSize = global::SimplyNews.Resource.Attribute.maxImageSize;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.maxWidth = global::SimplyNews.Resource.Attribute.maxWidth;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.measureWithLargestChild = global::SimplyNews.Resource.Attribute.measureWithLargestChild;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.menu = global::SimplyNews.Resource.Attribute.menu;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.min = global::SimplyNews.Resource.Attribute.min;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.multiChoiceItemLayout = global::SimplyNews.Resource.Attribute.multiChoiceItemLayout;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.MvxBind = global::SimplyNews.Resource.Attribute.MvxBind;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.MvxDropDownItemTemplate = global::SimplyNews.Resource.Attribute.MvxDropDownItemTemplate;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.MvxGroupItemTemplate = global::SimplyNews.Resource.Attribute.MvxGroupItemTemplate;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.MvxItemTemplate = global::SimplyNews.Resource.Attribute.MvxItemTemplate;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.MvxLang = global::SimplyNews.Resource.Attribute.MvxLang;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.MvxTemplate = global::SimplyNews.Resource.Attribute.MvxTemplate;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.navigationContentDescription = global::SimplyNews.Resource.Attribute.navigationContentDescription;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.navigationIcon = global::SimplyNews.Resource.Attribute.navigationIcon;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.navigationMode = global::SimplyNews.Resource.Attribute.navigationMode;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.navigationViewStyle = global::SimplyNews.Resource.Attribute.navigationViewStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.negativeButtonText = global::SimplyNews.Resource.Attribute.negativeButtonText;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.numericModifiers = global::SimplyNews.Resource.Attribute.numericModifiers;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.order = global::SimplyNews.Resource.Attribute.order;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.orderingFromXml = global::SimplyNews.Resource.Attribute.orderingFromXml;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.overlapAnchor = global::SimplyNews.Resource.Attribute.overlapAnchor;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.paddingBottomNoButtons = global::SimplyNews.Resource.Attribute.paddingBottomNoButtons;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.paddingEnd = global::SimplyNews.Resource.Attribute.paddingEnd;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.paddingStart = global::SimplyNews.Resource.Attribute.paddingStart;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.paddingTopNoTitle = global::SimplyNews.Resource.Attribute.paddingTopNoTitle;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.panelBackground = global::SimplyNews.Resource.Attribute.panelBackground;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.panelMenuListTheme = global::SimplyNews.Resource.Attribute.panelMenuListTheme;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.panelMenuListWidth = global::SimplyNews.Resource.Attribute.panelMenuListWidth;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.passwordToggleContentDescription = global::SimplyNews.Resource.Attribute.passwordToggleContentDescription;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.passwordToggleDrawable = global::SimplyNews.Resource.Attribute.passwordToggleDrawable;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.passwordToggleEnabled = global::SimplyNews.Resource.Attribute.passwordToggleEnabled;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.passwordToggleTint = global::SimplyNews.Resource.Attribute.passwordToggleTint;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.passwordToggleTintMode = global::SimplyNews.Resource.Attribute.passwordToggleTintMode;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.persistent = global::SimplyNews.Resource.Attribute.persistent;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.popupMenuStyle = global::SimplyNews.Resource.Attribute.popupMenuStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.popupTheme = global::SimplyNews.Resource.Attribute.popupTheme;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.popupWindowStyle = global::SimplyNews.Resource.Attribute.popupWindowStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.positiveButtonText = global::SimplyNews.Resource.Attribute.positiveButtonText;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.preferenceCategoryStyle = global::SimplyNews.Resource.Attribute.preferenceCategoryStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.preferenceCategoryTitleTextAppearance = global::SimplyNews.Resource.Attribute.preferenceCategoryTitleTextAppearance;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.preferenceFragmentCompatStyle = global::SimplyNews.Resource.Attribute.preferenceFragmentCompatStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.preferenceFragmentListStyle = global::SimplyNews.Resource.Attribute.preferenceFragmentListStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.preferenceFragmentStyle = global::SimplyNews.Resource.Attribute.preferenceFragmentStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.preferenceInformationStyle = global::SimplyNews.Resource.Attribute.preferenceInformationStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.preferenceScreenStyle = global::SimplyNews.Resource.Attribute.preferenceScreenStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.preferenceStyle = global::SimplyNews.Resource.Attribute.preferenceStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.preferenceTheme = global::SimplyNews.Resource.Attribute.preferenceTheme;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.preserveIconSpacing = global::SimplyNews.Resource.Attribute.preserveIconSpacing;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.pressedTranslationZ = global::SimplyNews.Resource.Attribute.pressedTranslationZ;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.progressBarPadding = global::SimplyNews.Resource.Attribute.progressBarPadding;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.progressBarStyle = global::SimplyNews.Resource.Attribute.progressBarStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.queryBackground = global::SimplyNews.Resource.Attribute.queryBackground;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.queryHint = global::SimplyNews.Resource.Attribute.queryHint;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.radioButtonStyle = global::SimplyNews.Resource.Attribute.radioButtonStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.ratingBarStyle = global::SimplyNews.Resource.Attribute.ratingBarStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.ratingBarStyleIndicator = global::SimplyNews.Resource.Attribute.ratingBarStyleIndicator;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.ratingBarStyleSmall = global::SimplyNews.Resource.Attribute.ratingBarStyleSmall;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.recyclerViewStyle = global::SimplyNews.Resource.Attribute.recyclerViewStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.reverseLayout = global::SimplyNews.Resource.Attribute.reverseLayout;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.rippleColor = global::SimplyNews.Resource.Attribute.rippleColor;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.scrimAnimationDuration = global::SimplyNews.Resource.Attribute.scrimAnimationDuration;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.scrimBackground = global::SimplyNews.Resource.Attribute.scrimBackground;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.scrimVisibleHeightTrigger = global::SimplyNews.Resource.Attribute.scrimVisibleHeightTrigger;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.searchHintIcon = global::SimplyNews.Resource.Attribute.searchHintIcon;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.searchIcon = global::SimplyNews.Resource.Attribute.searchIcon;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.searchViewStyle = global::SimplyNews.Resource.Attribute.searchViewStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.seekBarIncrement = global::SimplyNews.Resource.Attribute.seekBarIncrement;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.seekBarPreferenceStyle = global::SimplyNews.Resource.Attribute.seekBarPreferenceStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.seekBarStyle = global::SimplyNews.Resource.Attribute.seekBarStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.selectable = global::SimplyNews.Resource.Attribute.selectable;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.selectableItemBackground = global::SimplyNews.Resource.Attribute.selectableItemBackground;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.selectableItemBackgroundBorderless = global::SimplyNews.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.shouldDisableView = global::SimplyNews.Resource.Attribute.shouldDisableView;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.showAsAction = global::SimplyNews.Resource.Attribute.showAsAction;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.showDividers = global::SimplyNews.Resource.Attribute.showDividers;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.showMotionSpec = global::SimplyNews.Resource.Attribute.showMotionSpec;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.showSeekBarValue = global::SimplyNews.Resource.Attribute.showSeekBarValue;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.showText = global::SimplyNews.Resource.Attribute.showText;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.showTitle = global::SimplyNews.Resource.Attribute.showTitle;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.singleChoiceItemLayout = global::SimplyNews.Resource.Attribute.singleChoiceItemLayout;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.singleLine = global::SimplyNews.Resource.Attribute.singleLine;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.singleLineTitle = global::SimplyNews.Resource.Attribute.singleLineTitle;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.singleSelection = global::SimplyNews.Resource.Attribute.singleSelection;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.snackbarButtonStyle = global::SimplyNews.Resource.Attribute.snackbarButtonStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.snackbarStyle = global::SimplyNews.Resource.Attribute.snackbarStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.spanCount = global::SimplyNews.Resource.Attribute.spanCount;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.spinBars = global::SimplyNews.Resource.Attribute.spinBars;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.spinnerDropDownItemStyle = global::SimplyNews.Resource.Attribute.spinnerDropDownItemStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.spinnerStyle = global::SimplyNews.Resource.Attribute.spinnerStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.splitTrack = global::SimplyNews.Resource.Attribute.splitTrack;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.srcCompat = global::SimplyNews.Resource.Attribute.srcCompat;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.stackFromEnd = global::SimplyNews.Resource.Attribute.stackFromEnd;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.state_above_anchor = global::SimplyNews.Resource.Attribute.state_above_anchor;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.state_collapsed = global::SimplyNews.Resource.Attribute.state_collapsed;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.state_collapsible = global::SimplyNews.Resource.Attribute.state_collapsible;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.state_liftable = global::SimplyNews.Resource.Attribute.state_liftable;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.state_lifted = global::SimplyNews.Resource.Attribute.state_lifted;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.statusBarBackground = global::SimplyNews.Resource.Attribute.statusBarBackground;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.statusBarScrim = global::SimplyNews.Resource.Attribute.statusBarScrim;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.strokeColor = global::SimplyNews.Resource.Attribute.strokeColor;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.strokeWidth = global::SimplyNews.Resource.Attribute.strokeWidth;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.subMenuArrow = global::SimplyNews.Resource.Attribute.subMenuArrow;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.submitBackground = global::SimplyNews.Resource.Attribute.submitBackground;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.subtitle = global::SimplyNews.Resource.Attribute.subtitle;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.subtitleTextAppearance = global::SimplyNews.Resource.Attribute.subtitleTextAppearance;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.subtitleTextColor = global::SimplyNews.Resource.Attribute.subtitleTextColor;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.subtitleTextStyle = global::SimplyNews.Resource.Attribute.subtitleTextStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.suggestionRowLayout = global::SimplyNews.Resource.Attribute.suggestionRowLayout;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.summary = global::SimplyNews.Resource.Attribute.summary;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.summaryOff = global::SimplyNews.Resource.Attribute.summaryOff;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.summaryOn = global::SimplyNews.Resource.Attribute.summaryOn;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.switchMinWidth = global::SimplyNews.Resource.Attribute.switchMinWidth;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.switchPadding = global::SimplyNews.Resource.Attribute.switchPadding;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.switchPreferenceCompatStyle = global::SimplyNews.Resource.Attribute.switchPreferenceCompatStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.switchPreferenceStyle = global::SimplyNews.Resource.Attribute.switchPreferenceStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.switchStyle = global::SimplyNews.Resource.Attribute.switchStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.switchTextAppearance = global::SimplyNews.Resource.Attribute.switchTextAppearance;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.switchTextOff = global::SimplyNews.Resource.Attribute.switchTextOff;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.switchTextOn = global::SimplyNews.Resource.Attribute.switchTextOn;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.tabBackground = global::SimplyNews.Resource.Attribute.tabBackground;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.tabContentStart = global::SimplyNews.Resource.Attribute.tabContentStart;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.tabGravity = global::SimplyNews.Resource.Attribute.tabGravity;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.tabIconTint = global::SimplyNews.Resource.Attribute.tabIconTint;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.tabIconTintMode = global::SimplyNews.Resource.Attribute.tabIconTintMode;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.tabIndicator = global::SimplyNews.Resource.Attribute.tabIndicator;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.tabIndicatorAnimationDuration = global::SimplyNews.Resource.Attribute.tabIndicatorAnimationDuration;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.tabIndicatorColor = global::SimplyNews.Resource.Attribute.tabIndicatorColor;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.tabIndicatorFullWidth = global::SimplyNews.Resource.Attribute.tabIndicatorFullWidth;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.tabIndicatorGravity = global::SimplyNews.Resource.Attribute.tabIndicatorGravity;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.tabIndicatorHeight = global::SimplyNews.Resource.Attribute.tabIndicatorHeight;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.tabInlineLabel = global::SimplyNews.Resource.Attribute.tabInlineLabel;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.tabMaxWidth = global::SimplyNews.Resource.Attribute.tabMaxWidth;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.tabMinWidth = global::SimplyNews.Resource.Attribute.tabMinWidth;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.tabMode = global::SimplyNews.Resource.Attribute.tabMode;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.tabPadding = global::SimplyNews.Resource.Attribute.tabPadding;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.tabPaddingBottom = global::SimplyNews.Resource.Attribute.tabPaddingBottom;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.tabPaddingEnd = global::SimplyNews.Resource.Attribute.tabPaddingEnd;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.tabPaddingStart = global::SimplyNews.Resource.Attribute.tabPaddingStart;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.tabPaddingTop = global::SimplyNews.Resource.Attribute.tabPaddingTop;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.tabRippleColor = global::SimplyNews.Resource.Attribute.tabRippleColor;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.tabSelectedTextColor = global::SimplyNews.Resource.Attribute.tabSelectedTextColor;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.tabStyle = global::SimplyNews.Resource.Attribute.tabStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.tabTextAppearance = global::SimplyNews.Resource.Attribute.tabTextAppearance;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.tabTextColor = global::SimplyNews.Resource.Attribute.tabTextColor;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.tabUnboundedRipple = global::SimplyNews.Resource.Attribute.tabUnboundedRipple;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.textAllCaps = global::SimplyNews.Resource.Attribute.textAllCaps;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.textAppearanceBody1 = global::SimplyNews.Resource.Attribute.textAppearanceBody1;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.textAppearanceBody2 = global::SimplyNews.Resource.Attribute.textAppearanceBody2;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.textAppearanceButton = global::SimplyNews.Resource.Attribute.textAppearanceButton;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.textAppearanceCaption = global::SimplyNews.Resource.Attribute.textAppearanceCaption;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.textAppearanceHeadline1 = global::SimplyNews.Resource.Attribute.textAppearanceHeadline1;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.textAppearanceHeadline2 = global::SimplyNews.Resource.Attribute.textAppearanceHeadline2;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.textAppearanceHeadline3 = global::SimplyNews.Resource.Attribute.textAppearanceHeadline3;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.textAppearanceHeadline4 = global::SimplyNews.Resource.Attribute.textAppearanceHeadline4;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.textAppearanceHeadline5 = global::SimplyNews.Resource.Attribute.textAppearanceHeadline5;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.textAppearanceHeadline6 = global::SimplyNews.Resource.Attribute.textAppearanceHeadline6;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.textAppearanceLargePopupMenu = global::SimplyNews.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.textAppearanceListItem = global::SimplyNews.Resource.Attribute.textAppearanceListItem;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.textAppearanceListItemSecondary = global::SimplyNews.Resource.Attribute.textAppearanceListItemSecondary;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.textAppearanceListItemSmall = global::SimplyNews.Resource.Attribute.textAppearanceListItemSmall;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.textAppearanceOverline = global::SimplyNews.Resource.Attribute.textAppearanceOverline;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.textAppearancePopupMenuHeader = global::SimplyNews.Resource.Attribute.textAppearancePopupMenuHeader;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.textAppearanceSearchResultSubtitle = global::SimplyNews.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.textAppearanceSearchResultTitle = global::SimplyNews.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.textAppearanceSmallPopupMenu = global::SimplyNews.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.textAppearanceSubtitle1 = global::SimplyNews.Resource.Attribute.textAppearanceSubtitle1;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.textAppearanceSubtitle2 = global::SimplyNews.Resource.Attribute.textAppearanceSubtitle2;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.textColorAlertDialogListItem = global::SimplyNews.Resource.Attribute.textColorAlertDialogListItem;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.textColorSearchUrl = global::SimplyNews.Resource.Attribute.textColorSearchUrl;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.textEndPadding = global::SimplyNews.Resource.Attribute.textEndPadding;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.textInputStyle = global::SimplyNews.Resource.Attribute.textInputStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.textLocale = global::SimplyNews.Resource.Attribute.textLocale;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.textStartPadding = global::SimplyNews.Resource.Attribute.textStartPadding;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.theme = global::SimplyNews.Resource.Attribute.theme;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.thickness = global::SimplyNews.Resource.Attribute.thickness;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.thumbTextPadding = global::SimplyNews.Resource.Attribute.thumbTextPadding;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.thumbTint = global::SimplyNews.Resource.Attribute.thumbTint;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.thumbTintMode = global::SimplyNews.Resource.Attribute.thumbTintMode;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.tickMark = global::SimplyNews.Resource.Attribute.tickMark;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.tickMarkTint = global::SimplyNews.Resource.Attribute.tickMarkTint;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.tickMarkTintMode = global::SimplyNews.Resource.Attribute.tickMarkTintMode;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.tint = global::SimplyNews.Resource.Attribute.tint;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.tintMode = global::SimplyNews.Resource.Attribute.tintMode;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.title = global::SimplyNews.Resource.Attribute.title;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.titleEnabled = global::SimplyNews.Resource.Attribute.titleEnabled;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.titleMargin = global::SimplyNews.Resource.Attribute.titleMargin;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.titleMarginBottom = global::SimplyNews.Resource.Attribute.titleMarginBottom;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.titleMarginEnd = global::SimplyNews.Resource.Attribute.titleMarginEnd;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.titleMargins = global::SimplyNews.Resource.Attribute.titleMargins;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.titleMarginStart = global::SimplyNews.Resource.Attribute.titleMarginStart;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.titleMarginTop = global::SimplyNews.Resource.Attribute.titleMarginTop;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.titleTextAppearance = global::SimplyNews.Resource.Attribute.titleTextAppearance;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.titleTextColor = global::SimplyNews.Resource.Attribute.titleTextColor;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.titleTextStyle = global::SimplyNews.Resource.Attribute.titleTextStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.toolbarId = global::SimplyNews.Resource.Attribute.toolbarId;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.toolbarNavigationButtonStyle = global::SimplyNews.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.toolbarStyle = global::SimplyNews.Resource.Attribute.toolbarStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.tooltipForegroundColor = global::SimplyNews.Resource.Attribute.tooltipForegroundColor;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.tooltipFrameBackground = global::SimplyNews.Resource.Attribute.tooltipFrameBackground;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.tooltipText = global::SimplyNews.Resource.Attribute.tooltipText;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.track = global::SimplyNews.Resource.Attribute.track;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.trackTint = global::SimplyNews.Resource.Attribute.trackTint;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.trackTintMode = global::SimplyNews.Resource.Attribute.trackTintMode;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.ttcIndex = global::SimplyNews.Resource.Attribute.ttcIndex;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.updatesContinuously = global::SimplyNews.Resource.Attribute.updatesContinuously;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.useCompatPadding = global::SimplyNews.Resource.Attribute.useCompatPadding;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.useSimpleSummaryProvider = global::SimplyNews.Resource.Attribute.useSimpleSummaryProvider;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.viewInflaterClass = global::SimplyNews.Resource.Attribute.viewInflaterClass;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.voiceIcon = global::SimplyNews.Resource.Attribute.voiceIcon;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.widgetLayout = global::SimplyNews.Resource.Attribute.widgetLayout;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.windowActionBar = global::SimplyNews.Resource.Attribute.windowActionBar;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.windowActionBarOverlay = global::SimplyNews.Resource.Attribute.windowActionBarOverlay;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.windowActionModeOverlay = global::SimplyNews.Resource.Attribute.windowActionModeOverlay;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.windowFixedHeightMajor = global::SimplyNews.Resource.Attribute.windowFixedHeightMajor;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.windowFixedHeightMinor = global::SimplyNews.Resource.Attribute.windowFixedHeightMinor;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.windowFixedWidthMajor = global::SimplyNews.Resource.Attribute.windowFixedWidthMajor;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.windowFixedWidthMinor = global::SimplyNews.Resource.Attribute.windowFixedWidthMinor;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.windowMinWidthMajor = global::SimplyNews.Resource.Attribute.windowMinWidthMajor;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.windowMinWidthMinor = global::SimplyNews.Resource.Attribute.windowMinWidthMinor;
+			global::MvvmCross.Plugin.Visibility.Resource.Attribute.windowNoTitle = global::SimplyNews.Resource.Attribute.windowNoTitle;
+			global::MvvmCross.Plugin.Visibility.Resource.Boolean.abc_action_bar_embed_tabs = global::SimplyNews.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::MvvmCross.Plugin.Visibility.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::SimplyNews.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::MvvmCross.Plugin.Visibility.Resource.Boolean.config_materialPreferenceIconSpaceReserved = global::SimplyNews.Resource.Boolean.config_materialPreferenceIconSpaceReserved;
+			global::MvvmCross.Plugin.Visibility.Resource.Boolean.mtrl_btn_textappearance_all_caps = global::SimplyNews.Resource.Boolean.mtrl_btn_textappearance_all_caps;
+			global::MvvmCross.Plugin.Visibility.Resource.Color.abc_background_cache_hint_selector_material_dark = global::SimplyNews.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::MvvmCross.Plugin.Visibility.Resource.Color.abc_background_cache_hint_selector_material_light = global::SimplyNews.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::MvvmCross.Plugin.Visibility.Resource.Color.abc_btn_colored_borderless_text_material = global::SimplyNews.Resource.Color.abc_btn_colored_borderless_text_material;
+			global::MvvmCross.Plugin.Visibility.Resource.Color.abc_btn_colored_text_material = global::SimplyNews.Resource.Color.abc_btn_colored_text_material;
+			global::MvvmCross.Plugin.Visibility.Resource.Color.abc_color_highlight_material = global::SimplyNews.Resource.Color.abc_color_highlight_material;
+			global::MvvmCross.Plugin.Visibility.Resource.Color.abc_decor_view_status_guard = global::SimplyNews.Resource.Color.abc_decor_view_status_guard;
+			global::MvvmCross.Plugin.Visibility.Resource.Color.abc_decor_view_status_guard_light = global::SimplyNews.Resource.Color.abc_decor_view_status_guard_light;
+			global::MvvmCross.Plugin.Visibility.Resource.Color.abc_hint_foreground_material_dark = global::SimplyNews.Resource.Color.abc_hint_foreground_material_dark;
+			global::MvvmCross.Plugin.Visibility.Resource.Color.abc_hint_foreground_material_light = global::SimplyNews.Resource.Color.abc_hint_foreground_material_light;
+			global::MvvmCross.Plugin.Visibility.Resource.Color.abc_primary_text_disable_only_material_dark = global::SimplyNews.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::MvvmCross.Plugin.Visibility.Resource.Color.abc_primary_text_disable_only_material_light = global::SimplyNews.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::MvvmCross.Plugin.Visibility.Resource.Color.abc_primary_text_material_dark = global::SimplyNews.Resource.Color.abc_primary_text_material_dark;
+			global::MvvmCross.Plugin.Visibility.Resource.Color.abc_primary_text_material_light = global::SimplyNews.Resource.Color.abc_primary_text_material_light;
+			global::MvvmCross.Plugin.Visibility.Resource.Color.abc_search_url_text = global::SimplyNews.Resource.Color.abc_search_url_text;
+			global::MvvmCross.Plugin.Visibility.Resource.Color.abc_search_url_text_normal = global::SimplyNews.Resource.Color.abc_search_url_text_normal;
+			global::MvvmCross.Plugin.Visibility.Resource.Color.abc_search_url_text_pressed = global::SimplyNews.Resource.Color.abc_search_url_text_pressed;
+			global::MvvmCross.Plugin.Visibility.Resource.Color.abc_search_url_text_selected = global::SimplyNews.Resource.Color.abc_search_url_text_selected;
+			global::MvvmCross.Plugin.Visibility.Resource.Color.abc_secondary_text_material_dark = global::SimplyNews.Resource.Color.abc_secondary_text_material_dark;
+			global::MvvmCross.Plugin.Visibility.Resource.Color.abc_secondary_text_material_light = global::SimplyNews.Resource.Color.abc_secondary_text_material_light;
+			global::MvvmCross.Plugin.Visibility.Resource.Color.abc_tint_btn_checkable = global::SimplyNews.Resource.Color.abc_tint_btn_checkable;
+			global::MvvmCross.Plugin.Visibility.Resource.Color.abc_tint_default = global::SimplyNews.Resource.Color.abc_tint_default;
+			global::MvvmCross.Plugin.Visibility.Resource.Color.abc_tint_edittext = global::SimplyNews.Resource.Color.abc_tint_edittext;
+			global::MvvmCross.Plugin.Visibility.Resource.Color.abc_tint_seek_thumb = global::SimplyNews.Resource.Color.abc_tint_seek_thumb;
+			global::MvvmCross.Plugin.Visibility.Resource.Color.abc_tint_spinner = global::SimplyNews.Resource.Color.abc_tint_spinner;
+			global::MvvmCross.Plugin.Visibility.Resource.Color.abc_tint_switch_track = global::SimplyNews.Resource.Color.abc_tint_switch_track;
+			global::MvvmCross.Plugin.Visibility.Resource.Color.accent_material_dark = global::SimplyNews.Resource.Color.accent_material_dark;
+			global::MvvmCross.Plugin.Visibility.Resource.Color.accent_material_light = global::SimplyNews.Resource.Color.accent_material_light;
+			global::MvvmCross.Plugin.Visibility.Resource.Color.androidx_core_ripple_material_light = global::SimplyNews.Resource.Color.androidx_core_ripple_material_light;
+			global::MvvmCross.Plugin.Visibility.Resource.Color.androidx_core_secondary_text_default_material_light = global::SimplyNews.Resource.Color.androidx_core_secondary_text_default_material_light;
+			global::MvvmCross.Plugin.Visibility.Resource.Color.background_floating_material_dark = global::SimplyNews.Resource.Color.background_floating_material_dark;
+			global::MvvmCross.Plugin.Visibility.Resource.Color.background_floating_material_light = global::SimplyNews.Resource.Color.background_floating_material_light;
+			global::MvvmCross.Plugin.Visibility.Resource.Color.background_material_dark = global::SimplyNews.Resource.Color.background_material_dark;
+			global::MvvmCross.Plugin.Visibility.Resource.Color.background_material_light = global::SimplyNews.Resource.Color.background_material_light;
+			global::MvvmCross.Plugin.Visibility.Resource.Color.bright_foreground_disabled_material_dark = global::SimplyNews.Resource.Color.bright_foreground_disabled_material_dark;
+			global::MvvmCross.Plugin.Visibility.Resource.Color.bright_foreground_disabled_material_light = global::SimplyNews.Resource.Color.bright_foreground_disabled_material_light;
+			global::MvvmCross.Plugin.Visibility.Resource.Color.bright_foreground_inverse_material_dark = global::SimplyNews.Resource.Color.bright_foreground_inverse_material_dark;
+			global::MvvmCross.Plugin.Visibility.Resource.Color.bright_foreground_inverse_material_light = global::SimplyNews.Resource.Color.bright_foreground_inverse_material_light;
+			global::MvvmCross.Plugin.Visibility.Resource.Color.bright_foreground_material_dark = global::SimplyNews.Resource.Color.bright_foreground_material_dark;
+			global::MvvmCross.Plugin.Visibility.Resource.Color.bright_foreground_material_light = global::SimplyNews.Resource.Color.bright_foreground_material_light;
+			global::MvvmCross.Plugin.Visibility.Resource.Color.button_material_dark = global::SimplyNews.Resource.Color.button_material_dark;
+			global::MvvmCross.Plugin.Visibility.Resource.Color.button_material_light = global::SimplyNews.Resource.Color.button_material_light;
+			global::MvvmCross.Plugin.Visibility.Resource.Color.cardview_dark_background = global::SimplyNews.Resource.Color.cardview_dark_background;
+			global::MvvmCross.Plugin.Visibility.Resource.Color.cardview_light_background = global::SimplyNews.Resource.Color.cardview_light_background;
+			global::MvvmCross.Plugin.Visibility.Resource.Color.cardview_shadow_end_color = global::SimplyNews.Resource.Color.cardview_shadow_end_color;
+			global::MvvmCross.Plugin.Visibility.Resource.Color.cardview_shadow_start_color = global::SimplyNews.Resource.Color.cardview_shadow_start_color;
+			global::MvvmCross.Plugin.Visibility.Resource.Color.design_bottom_navigation_shadow_color = global::SimplyNews.Resource.Color.design_bottom_navigation_shadow_color;
+			global::MvvmCross.Plugin.Visibility.Resource.Color.design_default_color_primary = global::SimplyNews.Resource.Color.design_default_color_primary;
+			global::MvvmCross.Plugin.Visibility.Resource.Color.design_default_color_primary_dark = global::SimplyNews.Resource.Color.design_default_color_primary_dark;
+			global::MvvmCross.Plugin.Visibility.Resource.Color.design_error = global::SimplyNews.Resource.Color.design_error;
+			global::MvvmCross.Plugin.Visibility.Resource.Color.design_fab_shadow_end_color = global::SimplyNews.Resource.Color.design_fab_shadow_end_color;
+			global::MvvmCross.Plugin.Visibility.Resource.Color.design_fab_shadow_mid_color = global::SimplyNews.Resource.Color.design_fab_shadow_mid_color;
+			global::MvvmCross.Plugin.Visibility.Resource.Color.design_fab_shadow_start_color = global::SimplyNews.Resource.Color.design_fab_shadow_start_color;
+			global::MvvmCross.Plugin.Visibility.Resource.Color.design_fab_stroke_end_inner_color = global::SimplyNews.Resource.Color.design_fab_stroke_end_inner_color;
+			global::MvvmCross.Plugin.Visibility.Resource.Color.design_fab_stroke_end_outer_color = global::SimplyNews.Resource.Color.design_fab_stroke_end_outer_color;
+			global::MvvmCross.Plugin.Visibility.Resource.Color.design_fab_stroke_top_inner_color = global::SimplyNews.Resource.Color.design_fab_stroke_top_inner_color;
+			global::MvvmCross.Plugin.Visibility.Resource.Color.design_fab_stroke_top_outer_color = global::SimplyNews.Resource.Color.design_fab_stroke_top_outer_color;
+			global::MvvmCross.Plugin.Visibility.Resource.Color.design_snackbar_background_color = global::SimplyNews.Resource.Color.design_snackbar_background_color;
+			global::MvvmCross.Plugin.Visibility.Resource.Color.dim_foreground_disabled_material_dark = global::SimplyNews.Resource.Color.dim_foreground_disabled_material_dark;
+			global::MvvmCross.Plugin.Visibility.Resource.Color.dim_foreground_disabled_material_light = global::SimplyNews.Resource.Color.dim_foreground_disabled_material_light;
+			global::MvvmCross.Plugin.Visibility.Resource.Color.dim_foreground_material_dark = global::SimplyNews.Resource.Color.dim_foreground_material_dark;
+			global::MvvmCross.Plugin.Visibility.Resource.Color.dim_foreground_material_light = global::SimplyNews.Resource.Color.dim_foreground_material_light;
+			global::MvvmCross.Plugin.Visibility.Resource.Color.error_color_material_dark = global::SimplyNews.Resource.Color.error_color_material_dark;
+			global::MvvmCross.Plugin.Visibility.Resource.Color.error_color_material_light = global::SimplyNews.Resource.Color.error_color_material_light;
+			global::MvvmCross.Plugin.Visibility.Resource.Color.foreground_material_dark = global::SimplyNews.Resource.Color.foreground_material_dark;
+			global::MvvmCross.Plugin.Visibility.Resource.Color.foreground_material_light = global::SimplyNews.Resource.Color.foreground_material_light;
+			global::MvvmCross.Plugin.Visibility.Resource.Color.highlighted_text_material_dark = global::SimplyNews.Resource.Color.highlighted_text_material_dark;
+			global::MvvmCross.Plugin.Visibility.Resource.Color.highlighted_text_material_light = global::SimplyNews.Resource.Color.highlighted_text_material_light;
+			global::MvvmCross.Plugin.Visibility.Resource.Color.material_blue_grey_800 = global::SimplyNews.Resource.Color.material_blue_grey_800;
+			global::MvvmCross.Plugin.Visibility.Resource.Color.material_blue_grey_900 = global::SimplyNews.Resource.Color.material_blue_grey_900;
+			global::MvvmCross.Plugin.Visibility.Resource.Color.material_blue_grey_950 = global::SimplyNews.Resource.Color.material_blue_grey_950;
+			global::MvvmCross.Plugin.Visibility.Resource.Color.material_deep_teal_200 = global::SimplyNews.Resource.Color.material_deep_teal_200;
+			global::MvvmCross.Plugin.Visibility.Resource.Color.material_deep_teal_500 = global::SimplyNews.Resource.Color.material_deep_teal_500;
+			global::MvvmCross.Plugin.Visibility.Resource.Color.material_grey_100 = global::SimplyNews.Resource.Color.material_grey_100;
+			global::MvvmCross.Plugin.Visibility.Resource.Color.material_grey_300 = global::SimplyNews.Resource.Color.material_grey_300;
+			global::MvvmCross.Plugin.Visibility.Resource.Color.material_grey_50 = global::SimplyNews.Resource.Color.material_grey_50;
+			global::MvvmCross.Plugin.Visibility.Resource.Color.material_grey_600 = global::SimplyNews.Resource.Color.material_grey_600;
+			global::MvvmCross.Plugin.Visibility.Resource.Color.material_grey_800 = global::SimplyNews.Resource.Color.material_grey_800;
+			global::MvvmCross.Plugin.Visibility.Resource.Color.material_grey_850 = global::SimplyNews.Resource.Color.material_grey_850;
+			global::MvvmCross.Plugin.Visibility.Resource.Color.material_grey_900 = global::SimplyNews.Resource.Color.material_grey_900;
+			global::MvvmCross.Plugin.Visibility.Resource.Color.mtrl_btn_bg_color_selector = global::SimplyNews.Resource.Color.mtrl_btn_bg_color_selector;
+			global::MvvmCross.Plugin.Visibility.Resource.Color.mtrl_btn_ripple_color = global::SimplyNews.Resource.Color.mtrl_btn_ripple_color;
+			global::MvvmCross.Plugin.Visibility.Resource.Color.mtrl_btn_stroke_color_selector = global::SimplyNews.Resource.Color.mtrl_btn_stroke_color_selector;
+			global::MvvmCross.Plugin.Visibility.Resource.Color.mtrl_btn_text_btn_ripple_color = global::SimplyNews.Resource.Color.mtrl_btn_text_btn_ripple_color;
+			global::MvvmCross.Plugin.Visibility.Resource.Color.mtrl_btn_text_color_disabled = global::SimplyNews.Resource.Color.mtrl_btn_text_color_disabled;
+			global::MvvmCross.Plugin.Visibility.Resource.Color.mtrl_btn_text_color_selector = global::SimplyNews.Resource.Color.mtrl_btn_text_color_selector;
+			global::MvvmCross.Plugin.Visibility.Resource.Color.mtrl_btn_transparent_bg_color = global::SimplyNews.Resource.Color.mtrl_btn_transparent_bg_color;
+			global::MvvmCross.Plugin.Visibility.Resource.Color.mtrl_chip_background_color = global::SimplyNews.Resource.Color.mtrl_chip_background_color;
+			global::MvvmCross.Plugin.Visibility.Resource.Color.mtrl_chip_close_icon_tint = global::SimplyNews.Resource.Color.mtrl_chip_close_icon_tint;
+			global::MvvmCross.Plugin.Visibility.Resource.Color.mtrl_chip_text_color = global::SimplyNews.Resource.Color.mtrl_chip_text_color;
+			global::MvvmCross.Plugin.Visibility.Resource.Color.mtrl_fab_ripple_color = global::SimplyNews.Resource.Color.mtrl_fab_ripple_color;
+			global::MvvmCross.Plugin.Visibility.Resource.Color.mtrl_scrim_color = global::SimplyNews.Resource.Color.mtrl_scrim_color;
+			global::MvvmCross.Plugin.Visibility.Resource.Color.mtrl_tabs_colored_ripple_color = global::SimplyNews.Resource.Color.mtrl_tabs_colored_ripple_color;
+			global::MvvmCross.Plugin.Visibility.Resource.Color.mtrl_tabs_icon_color_selector = global::SimplyNews.Resource.Color.mtrl_tabs_icon_color_selector;
+			global::MvvmCross.Plugin.Visibility.Resource.Color.mtrl_tabs_icon_color_selector_colored = global::SimplyNews.Resource.Color.mtrl_tabs_icon_color_selector_colored;
+			global::MvvmCross.Plugin.Visibility.Resource.Color.mtrl_tabs_legacy_text_color_selector = global::SimplyNews.Resource.Color.mtrl_tabs_legacy_text_color_selector;
+			global::MvvmCross.Plugin.Visibility.Resource.Color.mtrl_tabs_ripple_color = global::SimplyNews.Resource.Color.mtrl_tabs_ripple_color;
+			global::MvvmCross.Plugin.Visibility.Resource.Color.mtrl_textinput_default_box_stroke_color = global::SimplyNews.Resource.Color.mtrl_textinput_default_box_stroke_color;
+			global::MvvmCross.Plugin.Visibility.Resource.Color.mtrl_textinput_disabled_color = global::SimplyNews.Resource.Color.mtrl_textinput_disabled_color;
+			global::MvvmCross.Plugin.Visibility.Resource.Color.mtrl_textinput_filled_box_default_background_color = global::SimplyNews.Resource.Color.mtrl_textinput_filled_box_default_background_color;
+			global::MvvmCross.Plugin.Visibility.Resource.Color.mtrl_textinput_hovered_box_stroke_color = global::SimplyNews.Resource.Color.mtrl_textinput_hovered_box_stroke_color;
+			global::MvvmCross.Plugin.Visibility.Resource.Color.mtrl_text_btn_text_color_selector = global::SimplyNews.Resource.Color.mtrl_text_btn_text_color_selector;
+			global::MvvmCross.Plugin.Visibility.Resource.Color.notification_action_color_filter = global::SimplyNews.Resource.Color.notification_action_color_filter;
+			global::MvvmCross.Plugin.Visibility.Resource.Color.notification_icon_bg_color = global::SimplyNews.Resource.Color.notification_icon_bg_color;
+			global::MvvmCross.Plugin.Visibility.Resource.Color.preference_fallback_accent_color = global::SimplyNews.Resource.Color.preference_fallback_accent_color;
+			global::MvvmCross.Plugin.Visibility.Resource.Color.primary_dark_material_dark = global::SimplyNews.Resource.Color.primary_dark_material_dark;
+			global::MvvmCross.Plugin.Visibility.Resource.Color.primary_dark_material_light = global::SimplyNews.Resource.Color.primary_dark_material_light;
+			global::MvvmCross.Plugin.Visibility.Resource.Color.primary_material_dark = global::SimplyNews.Resource.Color.primary_material_dark;
+			global::MvvmCross.Plugin.Visibility.Resource.Color.primary_material_light = global::SimplyNews.Resource.Color.primary_material_light;
+			global::MvvmCross.Plugin.Visibility.Resource.Color.primary_text_default_material_dark = global::SimplyNews.Resource.Color.primary_text_default_material_dark;
+			global::MvvmCross.Plugin.Visibility.Resource.Color.primary_text_default_material_light = global::SimplyNews.Resource.Color.primary_text_default_material_light;
+			global::MvvmCross.Plugin.Visibility.Resource.Color.primary_text_disabled_material_dark = global::SimplyNews.Resource.Color.primary_text_disabled_material_dark;
+			global::MvvmCross.Plugin.Visibility.Resource.Color.primary_text_disabled_material_light = global::SimplyNews.Resource.Color.primary_text_disabled_material_light;
+			global::MvvmCross.Plugin.Visibility.Resource.Color.ripple_material_dark = global::SimplyNews.Resource.Color.ripple_material_dark;
+			global::MvvmCross.Plugin.Visibility.Resource.Color.ripple_material_light = global::SimplyNews.Resource.Color.ripple_material_light;
+			global::MvvmCross.Plugin.Visibility.Resource.Color.secondary_text_default_material_dark = global::SimplyNews.Resource.Color.secondary_text_default_material_dark;
+			global::MvvmCross.Plugin.Visibility.Resource.Color.secondary_text_default_material_light = global::SimplyNews.Resource.Color.secondary_text_default_material_light;
+			global::MvvmCross.Plugin.Visibility.Resource.Color.secondary_text_disabled_material_dark = global::SimplyNews.Resource.Color.secondary_text_disabled_material_dark;
+			global::MvvmCross.Plugin.Visibility.Resource.Color.secondary_text_disabled_material_light = global::SimplyNews.Resource.Color.secondary_text_disabled_material_light;
+			global::MvvmCross.Plugin.Visibility.Resource.Color.switch_thumb_disabled_material_dark = global::SimplyNews.Resource.Color.switch_thumb_disabled_material_dark;
+			global::MvvmCross.Plugin.Visibility.Resource.Color.switch_thumb_disabled_material_light = global::SimplyNews.Resource.Color.switch_thumb_disabled_material_light;
+			global::MvvmCross.Plugin.Visibility.Resource.Color.switch_thumb_material_dark = global::SimplyNews.Resource.Color.switch_thumb_material_dark;
+			global::MvvmCross.Plugin.Visibility.Resource.Color.switch_thumb_material_light = global::SimplyNews.Resource.Color.switch_thumb_material_light;
+			global::MvvmCross.Plugin.Visibility.Resource.Color.switch_thumb_normal_material_dark = global::SimplyNews.Resource.Color.switch_thumb_normal_material_dark;
+			global::MvvmCross.Plugin.Visibility.Resource.Color.switch_thumb_normal_material_light = global::SimplyNews.Resource.Color.switch_thumb_normal_material_light;
+			global::MvvmCross.Plugin.Visibility.Resource.Color.tooltip_background_dark = global::SimplyNews.Resource.Color.tooltip_background_dark;
+			global::MvvmCross.Plugin.Visibility.Resource.Color.tooltip_background_light = global::SimplyNews.Resource.Color.tooltip_background_light;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.abc_action_bar_content_inset_material = global::SimplyNews.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::SimplyNews.Resource.Dimension.abc_action_bar_content_inset_with_nav;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.abc_action_bar_default_height_material = global::SimplyNews.Resource.Dimension.abc_action_bar_default_height_material;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.abc_action_bar_default_padding_end_material = global::SimplyNews.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.abc_action_bar_default_padding_start_material = global::SimplyNews.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.abc_action_bar_elevation_material = global::SimplyNews.Resource.Dimension.abc_action_bar_elevation_material;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::SimplyNews.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::SimplyNews.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::SimplyNews.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.abc_action_bar_stacked_max_height = global::SimplyNews.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::SimplyNews.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::SimplyNews.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::SimplyNews.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.abc_action_button_min_height_material = global::SimplyNews.Resource.Dimension.abc_action_button_min_height_material;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.abc_action_button_min_width_material = global::SimplyNews.Resource.Dimension.abc_action_button_min_width_material;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.abc_action_button_min_width_overflow_material = global::SimplyNews.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.abc_alert_dialog_button_bar_height = global::SimplyNews.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.abc_alert_dialog_button_dimen = global::SimplyNews.Resource.Dimension.abc_alert_dialog_button_dimen;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.abc_button_inset_horizontal_material = global::SimplyNews.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.abc_button_inset_vertical_material = global::SimplyNews.Resource.Dimension.abc_button_inset_vertical_material;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.abc_button_padding_horizontal_material = global::SimplyNews.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.abc_button_padding_vertical_material = global::SimplyNews.Resource.Dimension.abc_button_padding_vertical_material;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::SimplyNews.Resource.Dimension.abc_cascading_menus_min_smallest_width;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.abc_config_prefDialogWidth = global::SimplyNews.Resource.Dimension.abc_config_prefDialogWidth;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.abc_control_corner_material = global::SimplyNews.Resource.Dimension.abc_control_corner_material;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.abc_control_inset_material = global::SimplyNews.Resource.Dimension.abc_control_inset_material;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.abc_control_padding_material = global::SimplyNews.Resource.Dimension.abc_control_padding_material;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.abc_dialog_corner_radius_material = global::SimplyNews.Resource.Dimension.abc_dialog_corner_radius_material;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.abc_dialog_fixed_height_major = global::SimplyNews.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.abc_dialog_fixed_height_minor = global::SimplyNews.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.abc_dialog_fixed_width_major = global::SimplyNews.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.abc_dialog_fixed_width_minor = global::SimplyNews.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons = global::SimplyNews.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.abc_dialog_list_padding_top_no_title = global::SimplyNews.Resource.Dimension.abc_dialog_list_padding_top_no_title;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.abc_dialog_min_width_major = global::SimplyNews.Resource.Dimension.abc_dialog_min_width_major;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.abc_dialog_min_width_minor = global::SimplyNews.Resource.Dimension.abc_dialog_min_width_minor;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.abc_dialog_padding_material = global::SimplyNews.Resource.Dimension.abc_dialog_padding_material;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.abc_dialog_padding_top_material = global::SimplyNews.Resource.Dimension.abc_dialog_padding_top_material;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.abc_dialog_title_divider_material = global::SimplyNews.Resource.Dimension.abc_dialog_title_divider_material;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.abc_disabled_alpha_material_dark = global::SimplyNews.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.abc_disabled_alpha_material_light = global::SimplyNews.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.abc_dropdownitem_icon_width = global::SimplyNews.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.abc_dropdownitem_text_padding_left = global::SimplyNews.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.abc_dropdownitem_text_padding_right = global::SimplyNews.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.abc_edit_text_inset_bottom_material = global::SimplyNews.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::SimplyNews.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.abc_edit_text_inset_top_material = global::SimplyNews.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.abc_floating_window_z = global::SimplyNews.Resource.Dimension.abc_floating_window_z;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.abc_list_item_height_large_material = global::SimplyNews.Resource.Dimension.abc_list_item_height_large_material;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.abc_list_item_height_material = global::SimplyNews.Resource.Dimension.abc_list_item_height_material;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.abc_list_item_height_small_material = global::SimplyNews.Resource.Dimension.abc_list_item_height_small_material;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.abc_list_item_padding_horizontal_material = global::SimplyNews.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.abc_panel_menu_list_width = global::SimplyNews.Resource.Dimension.abc_panel_menu_list_width;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.abc_progress_bar_height_material = global::SimplyNews.Resource.Dimension.abc_progress_bar_height_material;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.abc_search_view_preferred_height = global::SimplyNews.Resource.Dimension.abc_search_view_preferred_height;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.abc_search_view_preferred_width = global::SimplyNews.Resource.Dimension.abc_search_view_preferred_width;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.abc_seekbar_track_background_height_material = global::SimplyNews.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.abc_seekbar_track_progress_height_material = global::SimplyNews.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.abc_select_dialog_padding_start_material = global::SimplyNews.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.abc_switch_padding = global::SimplyNews.Resource.Dimension.abc_switch_padding;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.abc_text_size_body_1_material = global::SimplyNews.Resource.Dimension.abc_text_size_body_1_material;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.abc_text_size_body_2_material = global::SimplyNews.Resource.Dimension.abc_text_size_body_2_material;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.abc_text_size_button_material = global::SimplyNews.Resource.Dimension.abc_text_size_button_material;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.abc_text_size_caption_material = global::SimplyNews.Resource.Dimension.abc_text_size_caption_material;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.abc_text_size_display_1_material = global::SimplyNews.Resource.Dimension.abc_text_size_display_1_material;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.abc_text_size_display_2_material = global::SimplyNews.Resource.Dimension.abc_text_size_display_2_material;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.abc_text_size_display_3_material = global::SimplyNews.Resource.Dimension.abc_text_size_display_3_material;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.abc_text_size_display_4_material = global::SimplyNews.Resource.Dimension.abc_text_size_display_4_material;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.abc_text_size_headline_material = global::SimplyNews.Resource.Dimension.abc_text_size_headline_material;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.abc_text_size_large_material = global::SimplyNews.Resource.Dimension.abc_text_size_large_material;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.abc_text_size_medium_material = global::SimplyNews.Resource.Dimension.abc_text_size_medium_material;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.abc_text_size_menu_header_material = global::SimplyNews.Resource.Dimension.abc_text_size_menu_header_material;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.abc_text_size_menu_material = global::SimplyNews.Resource.Dimension.abc_text_size_menu_material;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.abc_text_size_small_material = global::SimplyNews.Resource.Dimension.abc_text_size_small_material;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.abc_text_size_subhead_material = global::SimplyNews.Resource.Dimension.abc_text_size_subhead_material;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::SimplyNews.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.abc_text_size_title_material = global::SimplyNews.Resource.Dimension.abc_text_size_title_material;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.abc_text_size_title_material_toolbar = global::SimplyNews.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.cardview_compat_inset_shadow = global::SimplyNews.Resource.Dimension.cardview_compat_inset_shadow;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.cardview_default_elevation = global::SimplyNews.Resource.Dimension.cardview_default_elevation;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.cardview_default_radius = global::SimplyNews.Resource.Dimension.cardview_default_radius;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.compat_button_inset_horizontal_material = global::SimplyNews.Resource.Dimension.compat_button_inset_horizontal_material;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.compat_button_inset_vertical_material = global::SimplyNews.Resource.Dimension.compat_button_inset_vertical_material;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.compat_button_padding_horizontal_material = global::SimplyNews.Resource.Dimension.compat_button_padding_horizontal_material;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.compat_button_padding_vertical_material = global::SimplyNews.Resource.Dimension.compat_button_padding_vertical_material;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.compat_control_corner_material = global::SimplyNews.Resource.Dimension.compat_control_corner_material;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.compat_notification_large_icon_max_height = global::SimplyNews.Resource.Dimension.compat_notification_large_icon_max_height;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.compat_notification_large_icon_max_width = global::SimplyNews.Resource.Dimension.compat_notification_large_icon_max_width;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.def_drawer_elevation = global::SimplyNews.Resource.Dimension.def_drawer_elevation;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.design_appbar_elevation = global::SimplyNews.Resource.Dimension.design_appbar_elevation;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::SimplyNews.Resource.Dimension.design_bottom_navigation_active_item_max_width;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.design_bottom_navigation_active_item_min_width = global::SimplyNews.Resource.Dimension.design_bottom_navigation_active_item_min_width;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.design_bottom_navigation_active_text_size = global::SimplyNews.Resource.Dimension.design_bottom_navigation_active_text_size;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.design_bottom_navigation_elevation = global::SimplyNews.Resource.Dimension.design_bottom_navigation_elevation;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.design_bottom_navigation_height = global::SimplyNews.Resource.Dimension.design_bottom_navigation_height;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.design_bottom_navigation_icon_size = global::SimplyNews.Resource.Dimension.design_bottom_navigation_icon_size;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.design_bottom_navigation_item_max_width = global::SimplyNews.Resource.Dimension.design_bottom_navigation_item_max_width;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.design_bottom_navigation_item_min_width = global::SimplyNews.Resource.Dimension.design_bottom_navigation_item_min_width;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.design_bottom_navigation_margin = global::SimplyNews.Resource.Dimension.design_bottom_navigation_margin;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.design_bottom_navigation_shadow_height = global::SimplyNews.Resource.Dimension.design_bottom_navigation_shadow_height;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.design_bottom_navigation_text_size = global::SimplyNews.Resource.Dimension.design_bottom_navigation_text_size;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.design_bottom_sheet_modal_elevation = global::SimplyNews.Resource.Dimension.design_bottom_sheet_modal_elevation;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.design_bottom_sheet_peek_height_min = global::SimplyNews.Resource.Dimension.design_bottom_sheet_peek_height_min;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.design_fab_border_width = global::SimplyNews.Resource.Dimension.design_fab_border_width;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.design_fab_elevation = global::SimplyNews.Resource.Dimension.design_fab_elevation;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.design_fab_image_size = global::SimplyNews.Resource.Dimension.design_fab_image_size;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.design_fab_size_mini = global::SimplyNews.Resource.Dimension.design_fab_size_mini;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.design_fab_size_normal = global::SimplyNews.Resource.Dimension.design_fab_size_normal;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.design_fab_translation_z_hovered_focused = global::SimplyNews.Resource.Dimension.design_fab_translation_z_hovered_focused;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.design_fab_translation_z_pressed = global::SimplyNews.Resource.Dimension.design_fab_translation_z_pressed;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.design_navigation_elevation = global::SimplyNews.Resource.Dimension.design_navigation_elevation;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.design_navigation_icon_padding = global::SimplyNews.Resource.Dimension.design_navigation_icon_padding;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.design_navigation_icon_size = global::SimplyNews.Resource.Dimension.design_navigation_icon_size;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.design_navigation_item_horizontal_padding = global::SimplyNews.Resource.Dimension.design_navigation_item_horizontal_padding;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.design_navigation_item_icon_padding = global::SimplyNews.Resource.Dimension.design_navigation_item_icon_padding;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.design_navigation_max_width = global::SimplyNews.Resource.Dimension.design_navigation_max_width;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.design_navigation_padding_bottom = global::SimplyNews.Resource.Dimension.design_navigation_padding_bottom;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.design_navigation_separator_vertical_padding = global::SimplyNews.Resource.Dimension.design_navigation_separator_vertical_padding;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.design_snackbar_action_inline_max_width = global::SimplyNews.Resource.Dimension.design_snackbar_action_inline_max_width;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.design_snackbar_background_corner_radius = global::SimplyNews.Resource.Dimension.design_snackbar_background_corner_radius;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.design_snackbar_elevation = global::SimplyNews.Resource.Dimension.design_snackbar_elevation;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::SimplyNews.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.design_snackbar_max_width = global::SimplyNews.Resource.Dimension.design_snackbar_max_width;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.design_snackbar_min_width = global::SimplyNews.Resource.Dimension.design_snackbar_min_width;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.design_snackbar_padding_horizontal = global::SimplyNews.Resource.Dimension.design_snackbar_padding_horizontal;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.design_snackbar_padding_vertical = global::SimplyNews.Resource.Dimension.design_snackbar_padding_vertical;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::SimplyNews.Resource.Dimension.design_snackbar_padding_vertical_2lines;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.design_snackbar_text_size = global::SimplyNews.Resource.Dimension.design_snackbar_text_size;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.design_tab_max_width = global::SimplyNews.Resource.Dimension.design_tab_max_width;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.design_tab_scrollable_min_width = global::SimplyNews.Resource.Dimension.design_tab_scrollable_min_width;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.design_tab_text_size = global::SimplyNews.Resource.Dimension.design_tab_text_size;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.design_tab_text_size_2line = global::SimplyNews.Resource.Dimension.design_tab_text_size_2line;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.design_textinput_caption_translate_y = global::SimplyNews.Resource.Dimension.design_textinput_caption_translate_y;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.disabled_alpha_material_dark = global::SimplyNews.Resource.Dimension.disabled_alpha_material_dark;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.disabled_alpha_material_light = global::SimplyNews.Resource.Dimension.disabled_alpha_material_light;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.fastscroll_default_thickness = global::SimplyNews.Resource.Dimension.fastscroll_default_thickness;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.fastscroll_margin = global::SimplyNews.Resource.Dimension.fastscroll_margin;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.fastscroll_minimum_range = global::SimplyNews.Resource.Dimension.fastscroll_minimum_range;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.highlight_alpha_material_colored = global::SimplyNews.Resource.Dimension.highlight_alpha_material_colored;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.highlight_alpha_material_dark = global::SimplyNews.Resource.Dimension.highlight_alpha_material_dark;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.highlight_alpha_material_light = global::SimplyNews.Resource.Dimension.highlight_alpha_material_light;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.hint_alpha_material_dark = global::SimplyNews.Resource.Dimension.hint_alpha_material_dark;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.hint_alpha_material_light = global::SimplyNews.Resource.Dimension.hint_alpha_material_light;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.hint_pressed_alpha_material_dark = global::SimplyNews.Resource.Dimension.hint_pressed_alpha_material_dark;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.hint_pressed_alpha_material_light = global::SimplyNews.Resource.Dimension.hint_pressed_alpha_material_light;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::SimplyNews.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::SimplyNews.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::SimplyNews.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode = global::SimplyNews.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin = global::SimplyNews.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius = global::SimplyNews.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset = global::SimplyNews.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.mtrl_bottomappbar_height = global::SimplyNews.Resource.Dimension.mtrl_bottomappbar_height;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.mtrl_btn_corner_radius = global::SimplyNews.Resource.Dimension.mtrl_btn_corner_radius;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.mtrl_btn_dialog_btn_min_width = global::SimplyNews.Resource.Dimension.mtrl_btn_dialog_btn_min_width;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.mtrl_btn_disabled_elevation = global::SimplyNews.Resource.Dimension.mtrl_btn_disabled_elevation;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.mtrl_btn_disabled_z = global::SimplyNews.Resource.Dimension.mtrl_btn_disabled_z;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.mtrl_btn_elevation = global::SimplyNews.Resource.Dimension.mtrl_btn_elevation;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.mtrl_btn_focused_z = global::SimplyNews.Resource.Dimension.mtrl_btn_focused_z;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.mtrl_btn_hovered_z = global::SimplyNews.Resource.Dimension.mtrl_btn_hovered_z;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.mtrl_btn_icon_btn_padding_left = global::SimplyNews.Resource.Dimension.mtrl_btn_icon_btn_padding_left;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.mtrl_btn_icon_padding = global::SimplyNews.Resource.Dimension.mtrl_btn_icon_padding;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.mtrl_btn_inset = global::SimplyNews.Resource.Dimension.mtrl_btn_inset;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.mtrl_btn_letter_spacing = global::SimplyNews.Resource.Dimension.mtrl_btn_letter_spacing;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.mtrl_btn_padding_bottom = global::SimplyNews.Resource.Dimension.mtrl_btn_padding_bottom;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.mtrl_btn_padding_left = global::SimplyNews.Resource.Dimension.mtrl_btn_padding_left;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.mtrl_btn_padding_right = global::SimplyNews.Resource.Dimension.mtrl_btn_padding_right;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.mtrl_btn_padding_top = global::SimplyNews.Resource.Dimension.mtrl_btn_padding_top;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.mtrl_btn_pressed_z = global::SimplyNews.Resource.Dimension.mtrl_btn_pressed_z;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.mtrl_btn_stroke_size = global::SimplyNews.Resource.Dimension.mtrl_btn_stroke_size;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.mtrl_btn_text_btn_icon_padding = global::SimplyNews.Resource.Dimension.mtrl_btn_text_btn_icon_padding;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.mtrl_btn_text_btn_padding_left = global::SimplyNews.Resource.Dimension.mtrl_btn_text_btn_padding_left;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.mtrl_btn_text_btn_padding_right = global::SimplyNews.Resource.Dimension.mtrl_btn_text_btn_padding_right;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.mtrl_btn_text_size = global::SimplyNews.Resource.Dimension.mtrl_btn_text_size;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.mtrl_btn_z = global::SimplyNews.Resource.Dimension.mtrl_btn_z;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.mtrl_card_elevation = global::SimplyNews.Resource.Dimension.mtrl_card_elevation;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.mtrl_card_spacing = global::SimplyNews.Resource.Dimension.mtrl_card_spacing;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.mtrl_chip_pressed_translation_z = global::SimplyNews.Resource.Dimension.mtrl_chip_pressed_translation_z;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.mtrl_chip_text_size = global::SimplyNews.Resource.Dimension.mtrl_chip_text_size;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.mtrl_fab_elevation = global::SimplyNews.Resource.Dimension.mtrl_fab_elevation;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.mtrl_fab_translation_z_hovered_focused = global::SimplyNews.Resource.Dimension.mtrl_fab_translation_z_hovered_focused;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.mtrl_fab_translation_z_pressed = global::SimplyNews.Resource.Dimension.mtrl_fab_translation_z_pressed;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.mtrl_navigation_elevation = global::SimplyNews.Resource.Dimension.mtrl_navigation_elevation;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.mtrl_navigation_item_horizontal_padding = global::SimplyNews.Resource.Dimension.mtrl_navigation_item_horizontal_padding;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.mtrl_navigation_item_icon_padding = global::SimplyNews.Resource.Dimension.mtrl_navigation_item_icon_padding;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.mtrl_snackbar_background_corner_radius = global::SimplyNews.Resource.Dimension.mtrl_snackbar_background_corner_radius;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.mtrl_snackbar_margin = global::SimplyNews.Resource.Dimension.mtrl_snackbar_margin;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.mtrl_textinput_box_corner_radius_medium = global::SimplyNews.Resource.Dimension.mtrl_textinput_box_corner_radius_medium;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.mtrl_textinput_box_corner_radius_small = global::SimplyNews.Resource.Dimension.mtrl_textinput_box_corner_radius_small;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.mtrl_textinput_box_label_cutout_padding = global::SimplyNews.Resource.Dimension.mtrl_textinput_box_label_cutout_padding;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.mtrl_textinput_box_stroke_width_default = global::SimplyNews.Resource.Dimension.mtrl_textinput_box_stroke_width_default;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.mtrl_textinput_box_stroke_width_focused = global::SimplyNews.Resource.Dimension.mtrl_textinput_box_stroke_width_focused;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding = global::SimplyNews.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.mtrl_toolbar_default_height = global::SimplyNews.Resource.Dimension.mtrl_toolbar_default_height;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.notification_action_icon_size = global::SimplyNews.Resource.Dimension.notification_action_icon_size;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.notification_action_text_size = global::SimplyNews.Resource.Dimension.notification_action_text_size;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.notification_big_circle_margin = global::SimplyNews.Resource.Dimension.notification_big_circle_margin;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.notification_content_margin_start = global::SimplyNews.Resource.Dimension.notification_content_margin_start;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.notification_large_icon_height = global::SimplyNews.Resource.Dimension.notification_large_icon_height;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.notification_large_icon_width = global::SimplyNews.Resource.Dimension.notification_large_icon_width;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.notification_main_column_padding_top = global::SimplyNews.Resource.Dimension.notification_main_column_padding_top;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.notification_media_narrow_margin = global::SimplyNews.Resource.Dimension.notification_media_narrow_margin;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.notification_right_icon_size = global::SimplyNews.Resource.Dimension.notification_right_icon_size;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.notification_right_side_padding_top = global::SimplyNews.Resource.Dimension.notification_right_side_padding_top;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.notification_small_icon_background_padding = global::SimplyNews.Resource.Dimension.notification_small_icon_background_padding;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.notification_small_icon_size_as_large = global::SimplyNews.Resource.Dimension.notification_small_icon_size_as_large;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.notification_subtext_size = global::SimplyNews.Resource.Dimension.notification_subtext_size;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.notification_top_pad = global::SimplyNews.Resource.Dimension.notification_top_pad;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.notification_top_pad_large_text = global::SimplyNews.Resource.Dimension.notification_top_pad_large_text;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.preference_dropdown_padding_start = global::SimplyNews.Resource.Dimension.preference_dropdown_padding_start;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.preference_icon_minWidth = global::SimplyNews.Resource.Dimension.preference_icon_minWidth;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.preference_seekbar_padding_horizontal = global::SimplyNews.Resource.Dimension.preference_seekbar_padding_horizontal;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.preference_seekbar_padding_vertical = global::SimplyNews.Resource.Dimension.preference_seekbar_padding_vertical;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.preference_seekbar_value_minWidth = global::SimplyNews.Resource.Dimension.preference_seekbar_value_minWidth;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.tooltip_corner_radius = global::SimplyNews.Resource.Dimension.tooltip_corner_radius;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.tooltip_horizontal_padding = global::SimplyNews.Resource.Dimension.tooltip_horizontal_padding;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.tooltip_margin = global::SimplyNews.Resource.Dimension.tooltip_margin;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.tooltip_precise_anchor_extra_offset = global::SimplyNews.Resource.Dimension.tooltip_precise_anchor_extra_offset;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.tooltip_precise_anchor_threshold = global::SimplyNews.Resource.Dimension.tooltip_precise_anchor_threshold;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.tooltip_vertical_padding = global::SimplyNews.Resource.Dimension.tooltip_vertical_padding;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.tooltip_y_offset_non_touch = global::SimplyNews.Resource.Dimension.tooltip_y_offset_non_touch;
+			global::MvvmCross.Plugin.Visibility.Resource.Dimension.tooltip_y_offset_touch = global::SimplyNews.Resource.Dimension.tooltip_y_offset_touch;
+			global::MvvmCross.Plugin.Visibility.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::SimplyNews.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::MvvmCross.Plugin.Visibility.Resource.Drawable.abc_action_bar_item_background_material = global::SimplyNews.Resource.Drawable.abc_action_bar_item_background_material;
+			global::MvvmCross.Plugin.Visibility.Resource.Drawable.abc_btn_borderless_material = global::SimplyNews.Resource.Drawable.abc_btn_borderless_material;
+			global::MvvmCross.Plugin.Visibility.Resource.Drawable.abc_btn_check_material = global::SimplyNews.Resource.Drawable.abc_btn_check_material;
+			global::MvvmCross.Plugin.Visibility.Resource.Drawable.abc_btn_check_material_anim = global::SimplyNews.Resource.Drawable.abc_btn_check_material_anim;
+			global::MvvmCross.Plugin.Visibility.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::SimplyNews.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::MvvmCross.Plugin.Visibility.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::SimplyNews.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::MvvmCross.Plugin.Visibility.Resource.Drawable.abc_btn_colored_material = global::SimplyNews.Resource.Drawable.abc_btn_colored_material;
+			global::MvvmCross.Plugin.Visibility.Resource.Drawable.abc_btn_default_mtrl_shape = global::SimplyNews.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::MvvmCross.Plugin.Visibility.Resource.Drawable.abc_btn_radio_material = global::SimplyNews.Resource.Drawable.abc_btn_radio_material;
+			global::MvvmCross.Plugin.Visibility.Resource.Drawable.abc_btn_radio_material_anim = global::SimplyNews.Resource.Drawable.abc_btn_radio_material_anim;
+			global::MvvmCross.Plugin.Visibility.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::SimplyNews.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::MvvmCross.Plugin.Visibility.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::SimplyNews.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::MvvmCross.Plugin.Visibility.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::SimplyNews.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::MvvmCross.Plugin.Visibility.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::SimplyNews.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::MvvmCross.Plugin.Visibility.Resource.Drawable.abc_cab_background_internal_bg = global::SimplyNews.Resource.Drawable.abc_cab_background_internal_bg;
+			global::MvvmCross.Plugin.Visibility.Resource.Drawable.abc_cab_background_top_material = global::SimplyNews.Resource.Drawable.abc_cab_background_top_material;
+			global::MvvmCross.Plugin.Visibility.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::SimplyNews.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::MvvmCross.Plugin.Visibility.Resource.Drawable.abc_control_background_material = global::SimplyNews.Resource.Drawable.abc_control_background_material;
+			global::MvvmCross.Plugin.Visibility.Resource.Drawable.abc_dialog_material_background = global::SimplyNews.Resource.Drawable.abc_dialog_material_background;
+			global::MvvmCross.Plugin.Visibility.Resource.Drawable.abc_edit_text_material = global::SimplyNews.Resource.Drawable.abc_edit_text_material;
+			global::MvvmCross.Plugin.Visibility.Resource.Drawable.abc_ic_ab_back_material = global::SimplyNews.Resource.Drawable.abc_ic_ab_back_material;
+			global::MvvmCross.Plugin.Visibility.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::SimplyNews.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
+			global::MvvmCross.Plugin.Visibility.Resource.Drawable.abc_ic_clear_material = global::SimplyNews.Resource.Drawable.abc_ic_clear_material;
+			global::MvvmCross.Plugin.Visibility.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::SimplyNews.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::MvvmCross.Plugin.Visibility.Resource.Drawable.abc_ic_go_search_api_material = global::SimplyNews.Resource.Drawable.abc_ic_go_search_api_material;
+			global::MvvmCross.Plugin.Visibility.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::SimplyNews.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::MvvmCross.Plugin.Visibility.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::SimplyNews.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::MvvmCross.Plugin.Visibility.Resource.Drawable.abc_ic_menu_overflow_material = global::SimplyNews.Resource.Drawable.abc_ic_menu_overflow_material;
+			global::MvvmCross.Plugin.Visibility.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::SimplyNews.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::MvvmCross.Plugin.Visibility.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::SimplyNews.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::MvvmCross.Plugin.Visibility.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::SimplyNews.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::MvvmCross.Plugin.Visibility.Resource.Drawable.abc_ic_search_api_material = global::SimplyNews.Resource.Drawable.abc_ic_search_api_material;
+			global::MvvmCross.Plugin.Visibility.Resource.Drawable.abc_ic_voice_search_api_material = global::SimplyNews.Resource.Drawable.abc_ic_voice_search_api_material;
+			global::MvvmCross.Plugin.Visibility.Resource.Drawable.abc_item_background_holo_dark = global::SimplyNews.Resource.Drawable.abc_item_background_holo_dark;
+			global::MvvmCross.Plugin.Visibility.Resource.Drawable.abc_item_background_holo_light = global::SimplyNews.Resource.Drawable.abc_item_background_holo_light;
+			global::MvvmCross.Plugin.Visibility.Resource.Drawable.abc_list_divider_material = global::SimplyNews.Resource.Drawable.abc_list_divider_material;
+			global::MvvmCross.Plugin.Visibility.Resource.Drawable.abc_list_divider_mtrl_alpha = global::SimplyNews.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::MvvmCross.Plugin.Visibility.Resource.Drawable.abc_list_focused_holo = global::SimplyNews.Resource.Drawable.abc_list_focused_holo;
+			global::MvvmCross.Plugin.Visibility.Resource.Drawable.abc_list_longpressed_holo = global::SimplyNews.Resource.Drawable.abc_list_longpressed_holo;
+			global::MvvmCross.Plugin.Visibility.Resource.Drawable.abc_list_pressed_holo_dark = global::SimplyNews.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::MvvmCross.Plugin.Visibility.Resource.Drawable.abc_list_pressed_holo_light = global::SimplyNews.Resource.Drawable.abc_list_pressed_holo_light;
+			global::MvvmCross.Plugin.Visibility.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::SimplyNews.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::MvvmCross.Plugin.Visibility.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::SimplyNews.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::MvvmCross.Plugin.Visibility.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::SimplyNews.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::MvvmCross.Plugin.Visibility.Resource.Drawable.abc_list_selector_disabled_holo_light = global::SimplyNews.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::MvvmCross.Plugin.Visibility.Resource.Drawable.abc_list_selector_holo_dark = global::SimplyNews.Resource.Drawable.abc_list_selector_holo_dark;
+			global::MvvmCross.Plugin.Visibility.Resource.Drawable.abc_list_selector_holo_light = global::SimplyNews.Resource.Drawable.abc_list_selector_holo_light;
+			global::MvvmCross.Plugin.Visibility.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::SimplyNews.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::MvvmCross.Plugin.Visibility.Resource.Drawable.abc_popup_background_mtrl_mult = global::SimplyNews.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::MvvmCross.Plugin.Visibility.Resource.Drawable.abc_ratingbar_indicator_material = global::SimplyNews.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::MvvmCross.Plugin.Visibility.Resource.Drawable.abc_ratingbar_material = global::SimplyNews.Resource.Drawable.abc_ratingbar_material;
+			global::MvvmCross.Plugin.Visibility.Resource.Drawable.abc_ratingbar_small_material = global::SimplyNews.Resource.Drawable.abc_ratingbar_small_material;
+			global::MvvmCross.Plugin.Visibility.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::SimplyNews.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::MvvmCross.Plugin.Visibility.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::SimplyNews.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::MvvmCross.Plugin.Visibility.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::SimplyNews.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::MvvmCross.Plugin.Visibility.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::SimplyNews.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::MvvmCross.Plugin.Visibility.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::SimplyNews.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::MvvmCross.Plugin.Visibility.Resource.Drawable.abc_seekbar_thumb_material = global::SimplyNews.Resource.Drawable.abc_seekbar_thumb_material;
+			global::MvvmCross.Plugin.Visibility.Resource.Drawable.abc_seekbar_tick_mark_material = global::SimplyNews.Resource.Drawable.abc_seekbar_tick_mark_material;
+			global::MvvmCross.Plugin.Visibility.Resource.Drawable.abc_seekbar_track_material = global::SimplyNews.Resource.Drawable.abc_seekbar_track_material;
+			global::MvvmCross.Plugin.Visibility.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::SimplyNews.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::MvvmCross.Plugin.Visibility.Resource.Drawable.abc_spinner_textfield_background_material = global::SimplyNews.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::MvvmCross.Plugin.Visibility.Resource.Drawable.abc_switch_thumb_material = global::SimplyNews.Resource.Drawable.abc_switch_thumb_material;
+			global::MvvmCross.Plugin.Visibility.Resource.Drawable.abc_switch_track_mtrl_alpha = global::SimplyNews.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::MvvmCross.Plugin.Visibility.Resource.Drawable.abc_tab_indicator_material = global::SimplyNews.Resource.Drawable.abc_tab_indicator_material;
+			global::MvvmCross.Plugin.Visibility.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::SimplyNews.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::MvvmCross.Plugin.Visibility.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::SimplyNews.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::MvvmCross.Plugin.Visibility.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::SimplyNews.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::MvvmCross.Plugin.Visibility.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::SimplyNews.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::MvvmCross.Plugin.Visibility.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::SimplyNews.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::MvvmCross.Plugin.Visibility.Resource.Drawable.abc_textfield_search_material = global::SimplyNews.Resource.Drawable.abc_textfield_search_material;
+			global::MvvmCross.Plugin.Visibility.Resource.Drawable.abc_text_cursor_material = global::SimplyNews.Resource.Drawable.abc_text_cursor_material;
+			global::MvvmCross.Plugin.Visibility.Resource.Drawable.abc_vector_test = global::SimplyNews.Resource.Drawable.abc_vector_test;
+			global::MvvmCross.Plugin.Visibility.Resource.Drawable.avd_hide_password = global::SimplyNews.Resource.Drawable.avd_hide_password;
+			global::MvvmCross.Plugin.Visibility.Resource.Drawable.avd_show_password = global::SimplyNews.Resource.Drawable.avd_show_password;
+			global::MvvmCross.Plugin.Visibility.Resource.Drawable.btn_checkbox_checked_mtrl = global::SimplyNews.Resource.Drawable.btn_checkbox_checked_mtrl;
+			global::MvvmCross.Plugin.Visibility.Resource.Drawable.btn_checkbox_checked_to_unchecked_mtrl_animation = global::SimplyNews.Resource.Drawable.btn_checkbox_checked_to_unchecked_mtrl_animation;
+			global::MvvmCross.Plugin.Visibility.Resource.Drawable.btn_checkbox_unchecked_mtrl = global::SimplyNews.Resource.Drawable.btn_checkbox_unchecked_mtrl;
+			global::MvvmCross.Plugin.Visibility.Resource.Drawable.btn_checkbox_unchecked_to_checked_mtrl_animation = global::SimplyNews.Resource.Drawable.btn_checkbox_unchecked_to_checked_mtrl_animation;
+			global::MvvmCross.Plugin.Visibility.Resource.Drawable.btn_radio_off_mtrl = global::SimplyNews.Resource.Drawable.btn_radio_off_mtrl;
+			global::MvvmCross.Plugin.Visibility.Resource.Drawable.btn_radio_off_to_on_mtrl_animation = global::SimplyNews.Resource.Drawable.btn_radio_off_to_on_mtrl_animation;
+			global::MvvmCross.Plugin.Visibility.Resource.Drawable.btn_radio_on_mtrl = global::SimplyNews.Resource.Drawable.btn_radio_on_mtrl;
+			global::MvvmCross.Plugin.Visibility.Resource.Drawable.btn_radio_on_to_off_mtrl_animation = global::SimplyNews.Resource.Drawable.btn_radio_on_to_off_mtrl_animation;
+			global::MvvmCross.Plugin.Visibility.Resource.Drawable.design_fab_background = global::SimplyNews.Resource.Drawable.design_fab_background;
+			global::MvvmCross.Plugin.Visibility.Resource.Drawable.design_ic_visibility = global::SimplyNews.Resource.Drawable.design_ic_visibility;
+			global::MvvmCross.Plugin.Visibility.Resource.Drawable.design_ic_visibility_off = global::SimplyNews.Resource.Drawable.design_ic_visibility_off;
+			global::MvvmCross.Plugin.Visibility.Resource.Drawable.design_password_eye = global::SimplyNews.Resource.Drawable.design_password_eye;
+			global::MvvmCross.Plugin.Visibility.Resource.Drawable.design_snackbar_background = global::SimplyNews.Resource.Drawable.design_snackbar_background;
+			global::MvvmCross.Plugin.Visibility.Resource.Drawable.ic_arrow_down_24dp = global::SimplyNews.Resource.Drawable.ic_arrow_down_24dp;
+			global::MvvmCross.Plugin.Visibility.Resource.Drawable.ic_mtrl_chip_checked_black = global::SimplyNews.Resource.Drawable.ic_mtrl_chip_checked_black;
+			global::MvvmCross.Plugin.Visibility.Resource.Drawable.ic_mtrl_chip_checked_circle = global::SimplyNews.Resource.Drawable.ic_mtrl_chip_checked_circle;
+			global::MvvmCross.Plugin.Visibility.Resource.Drawable.ic_mtrl_chip_close_circle = global::SimplyNews.Resource.Drawable.ic_mtrl_chip_close_circle;
+			global::MvvmCross.Plugin.Visibility.Resource.Drawable.mtrl_tabs_default_indicator = global::SimplyNews.Resource.Drawable.mtrl_tabs_default_indicator;
+			global::MvvmCross.Plugin.Visibility.Resource.Drawable.navigation_empty_icon = global::SimplyNews.Resource.Drawable.navigation_empty_icon;
+			global::MvvmCross.Plugin.Visibility.Resource.Drawable.notification_action_background = global::SimplyNews.Resource.Drawable.notification_action_background;
+			global::MvvmCross.Plugin.Visibility.Resource.Drawable.notification_bg = global::SimplyNews.Resource.Drawable.notification_bg;
+			global::MvvmCross.Plugin.Visibility.Resource.Drawable.notification_bg_low = global::SimplyNews.Resource.Drawable.notification_bg_low;
+			global::MvvmCross.Plugin.Visibility.Resource.Drawable.notification_bg_low_normal = global::SimplyNews.Resource.Drawable.notification_bg_low_normal;
+			global::MvvmCross.Plugin.Visibility.Resource.Drawable.notification_bg_low_pressed = global::SimplyNews.Resource.Drawable.notification_bg_low_pressed;
+			global::MvvmCross.Plugin.Visibility.Resource.Drawable.notification_bg_normal = global::SimplyNews.Resource.Drawable.notification_bg_normal;
+			global::MvvmCross.Plugin.Visibility.Resource.Drawable.notification_bg_normal_pressed = global::SimplyNews.Resource.Drawable.notification_bg_normal_pressed;
+			global::MvvmCross.Plugin.Visibility.Resource.Drawable.notification_icon_background = global::SimplyNews.Resource.Drawable.notification_icon_background;
+			global::MvvmCross.Plugin.Visibility.Resource.Drawable.notification_template_icon_bg = global::SimplyNews.Resource.Drawable.notification_template_icon_bg;
+			global::MvvmCross.Plugin.Visibility.Resource.Drawable.notification_template_icon_low_bg = global::SimplyNews.Resource.Drawable.notification_template_icon_low_bg;
+			global::MvvmCross.Plugin.Visibility.Resource.Drawable.notification_tile_bg = global::SimplyNews.Resource.Drawable.notification_tile_bg;
+			global::MvvmCross.Plugin.Visibility.Resource.Drawable.notify_panel_notification_icon_bg = global::SimplyNews.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::MvvmCross.Plugin.Visibility.Resource.Drawable.preference_list_divider_material = global::SimplyNews.Resource.Drawable.preference_list_divider_material;
+			global::MvvmCross.Plugin.Visibility.Resource.Drawable.tooltip_frame_dark = global::SimplyNews.Resource.Drawable.tooltip_frame_dark;
+			global::MvvmCross.Plugin.Visibility.Resource.Drawable.tooltip_frame_light = global::SimplyNews.Resource.Drawable.tooltip_frame_light;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.accessibility_action_clickable_span = global::SimplyNews.Resource.Id.accessibility_action_clickable_span;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.accessibility_custom_action_0 = global::SimplyNews.Resource.Id.accessibility_custom_action_0;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.accessibility_custom_action_1 = global::SimplyNews.Resource.Id.accessibility_custom_action_1;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.accessibility_custom_action_10 = global::SimplyNews.Resource.Id.accessibility_custom_action_10;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.accessibility_custom_action_11 = global::SimplyNews.Resource.Id.accessibility_custom_action_11;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.accessibility_custom_action_12 = global::SimplyNews.Resource.Id.accessibility_custom_action_12;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.accessibility_custom_action_13 = global::SimplyNews.Resource.Id.accessibility_custom_action_13;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.accessibility_custom_action_14 = global::SimplyNews.Resource.Id.accessibility_custom_action_14;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.accessibility_custom_action_15 = global::SimplyNews.Resource.Id.accessibility_custom_action_15;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.accessibility_custom_action_16 = global::SimplyNews.Resource.Id.accessibility_custom_action_16;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.accessibility_custom_action_17 = global::SimplyNews.Resource.Id.accessibility_custom_action_17;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.accessibility_custom_action_18 = global::SimplyNews.Resource.Id.accessibility_custom_action_18;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.accessibility_custom_action_19 = global::SimplyNews.Resource.Id.accessibility_custom_action_19;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.accessibility_custom_action_2 = global::SimplyNews.Resource.Id.accessibility_custom_action_2;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.accessibility_custom_action_20 = global::SimplyNews.Resource.Id.accessibility_custom_action_20;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.accessibility_custom_action_21 = global::SimplyNews.Resource.Id.accessibility_custom_action_21;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.accessibility_custom_action_22 = global::SimplyNews.Resource.Id.accessibility_custom_action_22;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.accessibility_custom_action_23 = global::SimplyNews.Resource.Id.accessibility_custom_action_23;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.accessibility_custom_action_24 = global::SimplyNews.Resource.Id.accessibility_custom_action_24;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.accessibility_custom_action_25 = global::SimplyNews.Resource.Id.accessibility_custom_action_25;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.accessibility_custom_action_26 = global::SimplyNews.Resource.Id.accessibility_custom_action_26;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.accessibility_custom_action_27 = global::SimplyNews.Resource.Id.accessibility_custom_action_27;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.accessibility_custom_action_28 = global::SimplyNews.Resource.Id.accessibility_custom_action_28;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.accessibility_custom_action_29 = global::SimplyNews.Resource.Id.accessibility_custom_action_29;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.accessibility_custom_action_3 = global::SimplyNews.Resource.Id.accessibility_custom_action_3;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.accessibility_custom_action_30 = global::SimplyNews.Resource.Id.accessibility_custom_action_30;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.accessibility_custom_action_31 = global::SimplyNews.Resource.Id.accessibility_custom_action_31;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.accessibility_custom_action_4 = global::SimplyNews.Resource.Id.accessibility_custom_action_4;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.accessibility_custom_action_5 = global::SimplyNews.Resource.Id.accessibility_custom_action_5;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.accessibility_custom_action_6 = global::SimplyNews.Resource.Id.accessibility_custom_action_6;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.accessibility_custom_action_7 = global::SimplyNews.Resource.Id.accessibility_custom_action_7;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.accessibility_custom_action_8 = global::SimplyNews.Resource.Id.accessibility_custom_action_8;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.accessibility_custom_action_9 = global::SimplyNews.Resource.Id.accessibility_custom_action_9;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.actions = global::SimplyNews.Resource.Id.actions;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.action_bar = global::SimplyNews.Resource.Id.action_bar;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.action_bar_activity_content = global::SimplyNews.Resource.Id.action_bar_activity_content;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.action_bar_container = global::SimplyNews.Resource.Id.action_bar_container;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.action_bar_root = global::SimplyNews.Resource.Id.action_bar_root;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.action_bar_spinner = global::SimplyNews.Resource.Id.action_bar_spinner;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.action_bar_subtitle = global::SimplyNews.Resource.Id.action_bar_subtitle;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.action_bar_title = global::SimplyNews.Resource.Id.action_bar_title;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.action_container = global::SimplyNews.Resource.Id.action_container;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.action_context_bar = global::SimplyNews.Resource.Id.action_context_bar;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.action_divider = global::SimplyNews.Resource.Id.action_divider;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.action_image = global::SimplyNews.Resource.Id.action_image;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.action_menu_divider = global::SimplyNews.Resource.Id.action_menu_divider;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.action_menu_presenter = global::SimplyNews.Resource.Id.action_menu_presenter;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.action_mode_bar = global::SimplyNews.Resource.Id.action_mode_bar;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.action_mode_bar_stub = global::SimplyNews.Resource.Id.action_mode_bar_stub;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.action_mode_close_button = global::SimplyNews.Resource.Id.action_mode_close_button;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.action_text = global::SimplyNews.Resource.Id.action_text;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.activity_chooser_view_content = global::SimplyNews.Resource.Id.activity_chooser_view_content;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.add = global::SimplyNews.Resource.Id.add;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.alertTitle = global::SimplyNews.Resource.Id.alertTitle;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.all = global::SimplyNews.Resource.Id.all;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.ALT = global::SimplyNews.Resource.Id.ALT;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.always = global::SimplyNews.Resource.Id.always;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.async = global::SimplyNews.Resource.Id.async;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.auto = global::SimplyNews.Resource.Id.auto;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.beginning = global::SimplyNews.Resource.Id.beginning;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.blocking = global::SimplyNews.Resource.Id.blocking;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.bottom = global::SimplyNews.Resource.Id.bottom;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.buttonPanel = global::SimplyNews.Resource.Id.buttonPanel;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.center = global::SimplyNews.Resource.Id.center;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.center_horizontal = global::SimplyNews.Resource.Id.center_horizontal;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.center_vertical = global::SimplyNews.Resource.Id.center_vertical;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.checkbox = global::SimplyNews.Resource.Id.checkbox;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.@checked = global::SimplyNews.Resource.Id.@checked;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.chronometer = global::SimplyNews.Resource.Id.chronometer;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.clip_horizontal = global::SimplyNews.Resource.Id.clip_horizontal;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.clip_vertical = global::SimplyNews.Resource.Id.clip_vertical;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.collapseActionView = global::SimplyNews.Resource.Id.collapseActionView;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.container = global::SimplyNews.Resource.Id.container;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.content = global::SimplyNews.Resource.Id.content;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.contentPanel = global::SimplyNews.Resource.Id.contentPanel;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.coordinator = global::SimplyNews.Resource.Id.coordinator;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.CTRL = global::SimplyNews.Resource.Id.CTRL;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.custom = global::SimplyNews.Resource.Id.custom;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.customPanel = global::SimplyNews.Resource.Id.customPanel;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.decor_content_parent = global::SimplyNews.Resource.Id.decor_content_parent;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.default_activity_button = global::SimplyNews.Resource.Id.default_activity_button;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.design_bottom_sheet = global::SimplyNews.Resource.Id.design_bottom_sheet;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.design_menu_item_action_area = global::SimplyNews.Resource.Id.design_menu_item_action_area;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.design_menu_item_action_area_stub = global::SimplyNews.Resource.Id.design_menu_item_action_area_stub;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.design_menu_item_text = global::SimplyNews.Resource.Id.design_menu_item_text;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.design_navigation_view = global::SimplyNews.Resource.Id.design_navigation_view;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.dialog_button = global::SimplyNews.Resource.Id.dialog_button;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.disableHome = global::SimplyNews.Resource.Id.disableHome;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.edit_query = global::SimplyNews.Resource.Id.edit_query;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.end = global::SimplyNews.Resource.Id.end;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.enterAlways = global::SimplyNews.Resource.Id.enterAlways;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.enterAlwaysCollapsed = global::SimplyNews.Resource.Id.enterAlwaysCollapsed;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.exitUntilCollapsed = global::SimplyNews.Resource.Id.exitUntilCollapsed;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.expanded_menu = global::SimplyNews.Resource.Id.expanded_menu;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.expand_activities_button = global::SimplyNews.Resource.Id.expand_activities_button;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.fill = global::SimplyNews.Resource.Id.fill;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.filled = global::SimplyNews.Resource.Id.filled;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.fill_horizontal = global::SimplyNews.Resource.Id.fill_horizontal;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.fill_vertical = global::SimplyNews.Resource.Id.fill_vertical;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.@fixed = global::SimplyNews.Resource.Id.@fixed;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.forever = global::SimplyNews.Resource.Id.forever;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.fragment_container_view_tag = global::SimplyNews.Resource.Id.fragment_container_view_tag;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.FUNCTION = global::SimplyNews.Resource.Id.FUNCTION;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.ghost_view = global::SimplyNews.Resource.Id.ghost_view;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.ghost_view_holder = global::SimplyNews.Resource.Id.ghost_view_holder;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.group_divider = global::SimplyNews.Resource.Id.group_divider;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.home = global::SimplyNews.Resource.Id.home;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.homeAsUp = global::SimplyNews.Resource.Id.homeAsUp;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.icon = global::SimplyNews.Resource.Id.icon;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.icon_frame = global::SimplyNews.Resource.Id.icon_frame;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.icon_group = global::SimplyNews.Resource.Id.icon_group;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.ifRoom = global::SimplyNews.Resource.Id.ifRoom;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.image = global::SimplyNews.Resource.Id.image;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.info = global::SimplyNews.Resource.Id.info;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.italic = global::SimplyNews.Resource.Id.italic;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.item_touch_helper_previous_elevation = global::SimplyNews.Resource.Id.item_touch_helper_previous_elevation;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.labeled = global::SimplyNews.Resource.Id.labeled;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.left = global::SimplyNews.Resource.Id.left;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.line1 = global::SimplyNews.Resource.Id.line1;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.line3 = global::SimplyNews.Resource.Id.line3;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.listMode = global::SimplyNews.Resource.Id.listMode;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.list_item = global::SimplyNews.Resource.Id.list_item;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.masked = global::SimplyNews.Resource.Id.masked;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.message = global::SimplyNews.Resource.Id.message;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.META = global::SimplyNews.Resource.Id.META;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.middle = global::SimplyNews.Resource.Id.middle;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.mini = global::SimplyNews.Resource.Id.mini;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.mtrl_child_content_container = global::SimplyNews.Resource.Id.mtrl_child_content_container;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.mtrl_internal_children_alpha_tag = global::SimplyNews.Resource.Id.mtrl_internal_children_alpha_tag;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.multiply = global::SimplyNews.Resource.Id.multiply;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.MvvmCrossTagId = global::SimplyNews.Resource.Id.MvvmCrossTagId;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.MvxBindingTagUnique = global::SimplyNews.Resource.Id.MvxBindingTagUnique;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.navigation_header_container = global::SimplyNews.Resource.Id.navigation_header_container;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.never = global::SimplyNews.Resource.Id.never;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.none = global::SimplyNews.Resource.Id.none;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.normal = global::SimplyNews.Resource.Id.normal;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.notification_background = global::SimplyNews.Resource.Id.notification_background;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.notification_main_column = global::SimplyNews.Resource.Id.notification_main_column;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.notification_main_column_container = global::SimplyNews.Resource.Id.notification_main_column_container;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.off = global::SimplyNews.Resource.Id.off;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.on = global::SimplyNews.Resource.Id.on;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.outline = global::SimplyNews.Resource.Id.outline;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.parallax = global::SimplyNews.Resource.Id.parallax;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.parentPanel = global::SimplyNews.Resource.Id.parentPanel;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.parent_matrix = global::SimplyNews.Resource.Id.parent_matrix;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.pin = global::SimplyNews.Resource.Id.pin;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.progress_circular = global::SimplyNews.Resource.Id.progress_circular;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.progress_horizontal = global::SimplyNews.Resource.Id.progress_horizontal;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.radio = global::SimplyNews.Resource.Id.radio;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.recycler_view = global::SimplyNews.Resource.Id.recycler_view;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.right = global::SimplyNews.Resource.Id.right;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.right_icon = global::SimplyNews.Resource.Id.right_icon;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.right_side = global::SimplyNews.Resource.Id.right_side;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.save_non_transition_alpha = global::SimplyNews.Resource.Id.save_non_transition_alpha;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.save_overlay_view = global::SimplyNews.Resource.Id.save_overlay_view;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.screen = global::SimplyNews.Resource.Id.screen;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.scroll = global::SimplyNews.Resource.Id.scroll;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.scrollable = global::SimplyNews.Resource.Id.scrollable;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.scrollIndicatorDown = global::SimplyNews.Resource.Id.scrollIndicatorDown;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.scrollIndicatorUp = global::SimplyNews.Resource.Id.scrollIndicatorUp;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.scrollView = global::SimplyNews.Resource.Id.scrollView;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.search_badge = global::SimplyNews.Resource.Id.search_badge;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.search_bar = global::SimplyNews.Resource.Id.search_bar;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.search_button = global::SimplyNews.Resource.Id.search_button;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.search_close_btn = global::SimplyNews.Resource.Id.search_close_btn;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.search_edit_frame = global::SimplyNews.Resource.Id.search_edit_frame;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.search_go_btn = global::SimplyNews.Resource.Id.search_go_btn;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.search_mag_icon = global::SimplyNews.Resource.Id.search_mag_icon;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.search_plate = global::SimplyNews.Resource.Id.search_plate;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.search_src_text = global::SimplyNews.Resource.Id.search_src_text;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.search_voice_btn = global::SimplyNews.Resource.Id.search_voice_btn;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.seekbar = global::SimplyNews.Resource.Id.seekbar;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.seekbar_value = global::SimplyNews.Resource.Id.seekbar_value;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.selected = global::SimplyNews.Resource.Id.selected;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.select_dialog_listview = global::SimplyNews.Resource.Id.select_dialog_listview;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.SHIFT = global::SimplyNews.Resource.Id.SHIFT;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.shortcut = global::SimplyNews.Resource.Id.shortcut;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.showCustom = global::SimplyNews.Resource.Id.showCustom;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.showHome = global::SimplyNews.Resource.Id.showHome;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.showTitle = global::SimplyNews.Resource.Id.showTitle;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.snackbar_action = global::SimplyNews.Resource.Id.snackbar_action;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.snackbar_text = global::SimplyNews.Resource.Id.snackbar_text;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.snap = global::SimplyNews.Resource.Id.snap;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.snapMargins = global::SimplyNews.Resource.Id.snapMargins;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.spacer = global::SimplyNews.Resource.Id.spacer;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.special_effects_controller_view_tag = global::SimplyNews.Resource.Id.special_effects_controller_view_tag;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.spinner = global::SimplyNews.Resource.Id.spinner;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.split_action_bar = global::SimplyNews.Resource.Id.split_action_bar;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.src_atop = global::SimplyNews.Resource.Id.src_atop;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.src_in = global::SimplyNews.Resource.Id.src_in;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.src_over = global::SimplyNews.Resource.Id.src_over;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.start = global::SimplyNews.Resource.Id.start;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.stretch = global::SimplyNews.Resource.Id.stretch;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.submenuarrow = global::SimplyNews.Resource.Id.submenuarrow;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.submit_area = global::SimplyNews.Resource.Id.submit_area;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.switchWidget = global::SimplyNews.Resource.Id.switchWidget;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.SYM = global::SimplyNews.Resource.Id.SYM;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.tabMode = global::SimplyNews.Resource.Id.tabMode;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.tag_accessibility_actions = global::SimplyNews.Resource.Id.tag_accessibility_actions;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.tag_accessibility_clickable_spans = global::SimplyNews.Resource.Id.tag_accessibility_clickable_spans;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.tag_accessibility_heading = global::SimplyNews.Resource.Id.tag_accessibility_heading;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.tag_accessibility_pane_title = global::SimplyNews.Resource.Id.tag_accessibility_pane_title;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.tag_on_apply_window_listener = global::SimplyNews.Resource.Id.tag_on_apply_window_listener;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.tag_on_receive_content_listener = global::SimplyNews.Resource.Id.tag_on_receive_content_listener;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.tag_on_receive_content_mime_types = global::SimplyNews.Resource.Id.tag_on_receive_content_mime_types;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.tag_screen_reader_focusable = global::SimplyNews.Resource.Id.tag_screen_reader_focusable;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.tag_state_description = global::SimplyNews.Resource.Id.tag_state_description;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.tag_transition_group = global::SimplyNews.Resource.Id.tag_transition_group;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.tag_unhandled_key_event_manager = global::SimplyNews.Resource.Id.tag_unhandled_key_event_manager;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.tag_unhandled_key_listeners = global::SimplyNews.Resource.Id.tag_unhandled_key_listeners;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.tag_window_insets_animation_callback = global::SimplyNews.Resource.Id.tag_window_insets_animation_callback;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.text = global::SimplyNews.Resource.Id.text;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.text2 = global::SimplyNews.Resource.Id.text2;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.textinput_counter = global::SimplyNews.Resource.Id.textinput_counter;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.textinput_error = global::SimplyNews.Resource.Id.textinput_error;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.textinput_helper_text = global::SimplyNews.Resource.Id.textinput_helper_text;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.textSpacerNoButtons = global::SimplyNews.Resource.Id.textSpacerNoButtons;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.textSpacerNoTitle = global::SimplyNews.Resource.Id.textSpacerNoTitle;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.textStart = global::SimplyNews.Resource.Id.textStart;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.time = global::SimplyNews.Resource.Id.time;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.title = global::SimplyNews.Resource.Id.title;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.titleDividerNoCustom = global::SimplyNews.Resource.Id.titleDividerNoCustom;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.title_template = global::SimplyNews.Resource.Id.title_template;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.top = global::SimplyNews.Resource.Id.top;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.topPanel = global::SimplyNews.Resource.Id.topPanel;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.touch_outside = global::SimplyNews.Resource.Id.touch_outside;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.transition_current_scene = global::SimplyNews.Resource.Id.transition_current_scene;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.transition_layout_save = global::SimplyNews.Resource.Id.transition_layout_save;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.transition_position = global::SimplyNews.Resource.Id.transition_position;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.transition_scene_layoutid_cache = global::SimplyNews.Resource.Id.transition_scene_layoutid_cache;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.transition_transform = global::SimplyNews.Resource.Id.transition_transform;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.@unchecked = global::SimplyNews.Resource.Id.@unchecked;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.uniform = global::SimplyNews.Resource.Id.uniform;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.unlabeled = global::SimplyNews.Resource.Id.unlabeled;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.up = global::SimplyNews.Resource.Id.up;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.useLogo = global::SimplyNews.Resource.Id.useLogo;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.view_offset_helper = global::SimplyNews.Resource.Id.view_offset_helper;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.view_tree_lifecycle_owner = global::SimplyNews.Resource.Id.view_tree_lifecycle_owner;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.view_tree_saved_state_registry_owner = global::SimplyNews.Resource.Id.view_tree_saved_state_registry_owner;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.view_tree_view_model_store_owner = global::SimplyNews.Resource.Id.view_tree_view_model_store_owner;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.visible = global::SimplyNews.Resource.Id.visible;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.visible_removing_fragment_view_tag = global::SimplyNews.Resource.Id.visible_removing_fragment_view_tag;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.withText = global::SimplyNews.Resource.Id.withText;
+			global::MvvmCross.Plugin.Visibility.Resource.Id.wrap_content = global::SimplyNews.Resource.Id.wrap_content;
+			global::MvvmCross.Plugin.Visibility.Resource.Integer.abc_config_activityDefaultDur = global::SimplyNews.Resource.Integer.abc_config_activityDefaultDur;
+			global::MvvmCross.Plugin.Visibility.Resource.Integer.abc_config_activityShortDur = global::SimplyNews.Resource.Integer.abc_config_activityShortDur;
+			global::MvvmCross.Plugin.Visibility.Resource.Integer.app_bar_elevation_anim_duration = global::SimplyNews.Resource.Integer.app_bar_elevation_anim_duration;
+			global::MvvmCross.Plugin.Visibility.Resource.Integer.bottom_sheet_slide_duration = global::SimplyNews.Resource.Integer.bottom_sheet_slide_duration;
+			global::MvvmCross.Plugin.Visibility.Resource.Integer.cancel_button_image_alpha = global::SimplyNews.Resource.Integer.cancel_button_image_alpha;
+			global::MvvmCross.Plugin.Visibility.Resource.Integer.config_tooltipAnimTime = global::SimplyNews.Resource.Integer.config_tooltipAnimTime;
+			global::MvvmCross.Plugin.Visibility.Resource.Integer.design_snackbar_text_max_lines = global::SimplyNews.Resource.Integer.design_snackbar_text_max_lines;
+			global::MvvmCross.Plugin.Visibility.Resource.Integer.design_tab_indicator_anim_duration_ms = global::SimplyNews.Resource.Integer.design_tab_indicator_anim_duration_ms;
+			global::MvvmCross.Plugin.Visibility.Resource.Integer.hide_password_duration = global::SimplyNews.Resource.Integer.hide_password_duration;
+			global::MvvmCross.Plugin.Visibility.Resource.Integer.mtrl_btn_anim_delay_ms = global::SimplyNews.Resource.Integer.mtrl_btn_anim_delay_ms;
+			global::MvvmCross.Plugin.Visibility.Resource.Integer.mtrl_btn_anim_duration_ms = global::SimplyNews.Resource.Integer.mtrl_btn_anim_duration_ms;
+			global::MvvmCross.Plugin.Visibility.Resource.Integer.mtrl_chip_anim_duration = global::SimplyNews.Resource.Integer.mtrl_chip_anim_duration;
+			global::MvvmCross.Plugin.Visibility.Resource.Integer.mtrl_tab_indicator_anim_duration_ms = global::SimplyNews.Resource.Integer.mtrl_tab_indicator_anim_duration_ms;
+			global::MvvmCross.Plugin.Visibility.Resource.Integer.show_password_duration = global::SimplyNews.Resource.Integer.show_password_duration;
+			global::MvvmCross.Plugin.Visibility.Resource.Integer.status_bar_notification_info_maxnum = global::SimplyNews.Resource.Integer.status_bar_notification_info_maxnum;
+			global::MvvmCross.Plugin.Visibility.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_0 = global::SimplyNews.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_0;
+			global::MvvmCross.Plugin.Visibility.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_1 = global::SimplyNews.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_1;
+			global::MvvmCross.Plugin.Visibility.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_0 = global::SimplyNews.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_0;
+			global::MvvmCross.Plugin.Visibility.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_1 = global::SimplyNews.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_1;
+			global::MvvmCross.Plugin.Visibility.Resource.Interpolator.btn_radio_to_off_mtrl_animation_interpolator_0 = global::SimplyNews.Resource.Interpolator.btn_radio_to_off_mtrl_animation_interpolator_0;
+			global::MvvmCross.Plugin.Visibility.Resource.Interpolator.btn_radio_to_on_mtrl_animation_interpolator_0 = global::SimplyNews.Resource.Interpolator.btn_radio_to_on_mtrl_animation_interpolator_0;
+			global::MvvmCross.Plugin.Visibility.Resource.Interpolator.fast_out_slow_in = global::SimplyNews.Resource.Interpolator.fast_out_slow_in;
+			global::MvvmCross.Plugin.Visibility.Resource.Interpolator.mtrl_fast_out_linear_in = global::SimplyNews.Resource.Interpolator.mtrl_fast_out_linear_in;
+			global::MvvmCross.Plugin.Visibility.Resource.Interpolator.mtrl_fast_out_slow_in = global::SimplyNews.Resource.Interpolator.mtrl_fast_out_slow_in;
+			global::MvvmCross.Plugin.Visibility.Resource.Interpolator.mtrl_linear = global::SimplyNews.Resource.Interpolator.mtrl_linear;
+			global::MvvmCross.Plugin.Visibility.Resource.Interpolator.mtrl_linear_out_slow_in = global::SimplyNews.Resource.Interpolator.mtrl_linear_out_slow_in;
+			global::MvvmCross.Plugin.Visibility.Resource.Layout.abc_action_bar_title_item = global::SimplyNews.Resource.Layout.abc_action_bar_title_item;
+			global::MvvmCross.Plugin.Visibility.Resource.Layout.abc_action_bar_up_container = global::SimplyNews.Resource.Layout.abc_action_bar_up_container;
+			global::MvvmCross.Plugin.Visibility.Resource.Layout.abc_action_menu_item_layout = global::SimplyNews.Resource.Layout.abc_action_menu_item_layout;
+			global::MvvmCross.Plugin.Visibility.Resource.Layout.abc_action_menu_layout = global::SimplyNews.Resource.Layout.abc_action_menu_layout;
+			global::MvvmCross.Plugin.Visibility.Resource.Layout.abc_action_mode_bar = global::SimplyNews.Resource.Layout.abc_action_mode_bar;
+			global::MvvmCross.Plugin.Visibility.Resource.Layout.abc_action_mode_close_item_material = global::SimplyNews.Resource.Layout.abc_action_mode_close_item_material;
+			global::MvvmCross.Plugin.Visibility.Resource.Layout.abc_activity_chooser_view = global::SimplyNews.Resource.Layout.abc_activity_chooser_view;
+			global::MvvmCross.Plugin.Visibility.Resource.Layout.abc_activity_chooser_view_list_item = global::SimplyNews.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::MvvmCross.Plugin.Visibility.Resource.Layout.abc_alert_dialog_button_bar_material = global::SimplyNews.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::MvvmCross.Plugin.Visibility.Resource.Layout.abc_alert_dialog_material = global::SimplyNews.Resource.Layout.abc_alert_dialog_material;
+			global::MvvmCross.Plugin.Visibility.Resource.Layout.abc_alert_dialog_title_material = global::SimplyNews.Resource.Layout.abc_alert_dialog_title_material;
+			global::MvvmCross.Plugin.Visibility.Resource.Layout.abc_cascading_menu_item_layout = global::SimplyNews.Resource.Layout.abc_cascading_menu_item_layout;
+			global::MvvmCross.Plugin.Visibility.Resource.Layout.abc_dialog_title_material = global::SimplyNews.Resource.Layout.abc_dialog_title_material;
+			global::MvvmCross.Plugin.Visibility.Resource.Layout.abc_expanded_menu_layout = global::SimplyNews.Resource.Layout.abc_expanded_menu_layout;
+			global::MvvmCross.Plugin.Visibility.Resource.Layout.abc_list_menu_item_checkbox = global::SimplyNews.Resource.Layout.abc_list_menu_item_checkbox;
+			global::MvvmCross.Plugin.Visibility.Resource.Layout.abc_list_menu_item_icon = global::SimplyNews.Resource.Layout.abc_list_menu_item_icon;
+			global::MvvmCross.Plugin.Visibility.Resource.Layout.abc_list_menu_item_layout = global::SimplyNews.Resource.Layout.abc_list_menu_item_layout;
+			global::MvvmCross.Plugin.Visibility.Resource.Layout.abc_list_menu_item_radio = global::SimplyNews.Resource.Layout.abc_list_menu_item_radio;
+			global::MvvmCross.Plugin.Visibility.Resource.Layout.abc_popup_menu_header_item_layout = global::SimplyNews.Resource.Layout.abc_popup_menu_header_item_layout;
+			global::MvvmCross.Plugin.Visibility.Resource.Layout.abc_popup_menu_item_layout = global::SimplyNews.Resource.Layout.abc_popup_menu_item_layout;
+			global::MvvmCross.Plugin.Visibility.Resource.Layout.abc_screen_content_include = global::SimplyNews.Resource.Layout.abc_screen_content_include;
+			global::MvvmCross.Plugin.Visibility.Resource.Layout.abc_screen_simple = global::SimplyNews.Resource.Layout.abc_screen_simple;
+			global::MvvmCross.Plugin.Visibility.Resource.Layout.abc_screen_simple_overlay_action_mode = global::SimplyNews.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::MvvmCross.Plugin.Visibility.Resource.Layout.abc_screen_toolbar = global::SimplyNews.Resource.Layout.abc_screen_toolbar;
+			global::MvvmCross.Plugin.Visibility.Resource.Layout.abc_search_dropdown_item_icons_2line = global::SimplyNews.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::MvvmCross.Plugin.Visibility.Resource.Layout.abc_search_view = global::SimplyNews.Resource.Layout.abc_search_view;
+			global::MvvmCross.Plugin.Visibility.Resource.Layout.abc_select_dialog_material = global::SimplyNews.Resource.Layout.abc_select_dialog_material;
+			global::MvvmCross.Plugin.Visibility.Resource.Layout.abc_tooltip = global::SimplyNews.Resource.Layout.abc_tooltip;
+			global::MvvmCross.Plugin.Visibility.Resource.Layout.custom_dialog = global::SimplyNews.Resource.Layout.custom_dialog;
+			global::MvvmCross.Plugin.Visibility.Resource.Layout.design_bottom_navigation_item = global::SimplyNews.Resource.Layout.design_bottom_navigation_item;
+			global::MvvmCross.Plugin.Visibility.Resource.Layout.design_bottom_sheet_dialog = global::SimplyNews.Resource.Layout.design_bottom_sheet_dialog;
+			global::MvvmCross.Plugin.Visibility.Resource.Layout.design_layout_snackbar = global::SimplyNews.Resource.Layout.design_layout_snackbar;
+			global::MvvmCross.Plugin.Visibility.Resource.Layout.design_layout_snackbar_include = global::SimplyNews.Resource.Layout.design_layout_snackbar_include;
+			global::MvvmCross.Plugin.Visibility.Resource.Layout.design_layout_tab_icon = global::SimplyNews.Resource.Layout.design_layout_tab_icon;
+			global::MvvmCross.Plugin.Visibility.Resource.Layout.design_layout_tab_text = global::SimplyNews.Resource.Layout.design_layout_tab_text;
+			global::MvvmCross.Plugin.Visibility.Resource.Layout.design_menu_item_action_area = global::SimplyNews.Resource.Layout.design_menu_item_action_area;
+			global::MvvmCross.Plugin.Visibility.Resource.Layout.design_navigation_item = global::SimplyNews.Resource.Layout.design_navigation_item;
+			global::MvvmCross.Plugin.Visibility.Resource.Layout.design_navigation_item_header = global::SimplyNews.Resource.Layout.design_navigation_item_header;
+			global::MvvmCross.Plugin.Visibility.Resource.Layout.design_navigation_item_separator = global::SimplyNews.Resource.Layout.design_navigation_item_separator;
+			global::MvvmCross.Plugin.Visibility.Resource.Layout.design_navigation_item_subheader = global::SimplyNews.Resource.Layout.design_navigation_item_subheader;
+			global::MvvmCross.Plugin.Visibility.Resource.Layout.design_navigation_menu = global::SimplyNews.Resource.Layout.design_navigation_menu;
+			global::MvvmCross.Plugin.Visibility.Resource.Layout.design_navigation_menu_item = global::SimplyNews.Resource.Layout.design_navigation_menu_item;
+			global::MvvmCross.Plugin.Visibility.Resource.Layout.expand_button = global::SimplyNews.Resource.Layout.expand_button;
+			global::MvvmCross.Plugin.Visibility.Resource.Layout.image_frame = global::SimplyNews.Resource.Layout.image_frame;
+			global::MvvmCross.Plugin.Visibility.Resource.Layout.mtrl_layout_snackbar = global::SimplyNews.Resource.Layout.mtrl_layout_snackbar;
+			global::MvvmCross.Plugin.Visibility.Resource.Layout.mtrl_layout_snackbar_include = global::SimplyNews.Resource.Layout.mtrl_layout_snackbar_include;
+			global::MvvmCross.Plugin.Visibility.Resource.Layout.notification_action = global::SimplyNews.Resource.Layout.notification_action;
+			global::MvvmCross.Plugin.Visibility.Resource.Layout.notification_action_tombstone = global::SimplyNews.Resource.Layout.notification_action_tombstone;
+			global::MvvmCross.Plugin.Visibility.Resource.Layout.notification_template_custom_big = global::SimplyNews.Resource.Layout.notification_template_custom_big;
+			global::MvvmCross.Plugin.Visibility.Resource.Layout.notification_template_icon_group = global::SimplyNews.Resource.Layout.notification_template_icon_group;
+			global::MvvmCross.Plugin.Visibility.Resource.Layout.notification_template_part_chronometer = global::SimplyNews.Resource.Layout.notification_template_part_chronometer;
+			global::MvvmCross.Plugin.Visibility.Resource.Layout.notification_template_part_time = global::SimplyNews.Resource.Layout.notification_template_part_time;
+			global::MvvmCross.Plugin.Visibility.Resource.Layout.preference = global::SimplyNews.Resource.Layout.preference;
+			global::MvvmCross.Plugin.Visibility.Resource.Layout.preference_category = global::SimplyNews.Resource.Layout.preference_category;
+			global::MvvmCross.Plugin.Visibility.Resource.Layout.preference_category_material = global::SimplyNews.Resource.Layout.preference_category_material;
+			global::MvvmCross.Plugin.Visibility.Resource.Layout.preference_dialog_edittext = global::SimplyNews.Resource.Layout.preference_dialog_edittext;
+			global::MvvmCross.Plugin.Visibility.Resource.Layout.preference_dropdown = global::SimplyNews.Resource.Layout.preference_dropdown;
+			global::MvvmCross.Plugin.Visibility.Resource.Layout.preference_dropdown_material = global::SimplyNews.Resource.Layout.preference_dropdown_material;
+			global::MvvmCross.Plugin.Visibility.Resource.Layout.preference_information = global::SimplyNews.Resource.Layout.preference_information;
+			global::MvvmCross.Plugin.Visibility.Resource.Layout.preference_information_material = global::SimplyNews.Resource.Layout.preference_information_material;
+			global::MvvmCross.Plugin.Visibility.Resource.Layout.preference_list_fragment = global::SimplyNews.Resource.Layout.preference_list_fragment;
+			global::MvvmCross.Plugin.Visibility.Resource.Layout.preference_material = global::SimplyNews.Resource.Layout.preference_material;
+			global::MvvmCross.Plugin.Visibility.Resource.Layout.preference_recyclerview = global::SimplyNews.Resource.Layout.preference_recyclerview;
+			global::MvvmCross.Plugin.Visibility.Resource.Layout.preference_widget_checkbox = global::SimplyNews.Resource.Layout.preference_widget_checkbox;
+			global::MvvmCross.Plugin.Visibility.Resource.Layout.preference_widget_seekbar = global::SimplyNews.Resource.Layout.preference_widget_seekbar;
+			global::MvvmCross.Plugin.Visibility.Resource.Layout.preference_widget_seekbar_material = global::SimplyNews.Resource.Layout.preference_widget_seekbar_material;
+			global::MvvmCross.Plugin.Visibility.Resource.Layout.preference_widget_switch = global::SimplyNews.Resource.Layout.preference_widget_switch;
+			global::MvvmCross.Plugin.Visibility.Resource.Layout.preference_widget_switch_compat = global::SimplyNews.Resource.Layout.preference_widget_switch_compat;
+			global::MvvmCross.Plugin.Visibility.Resource.Layout.select_dialog_item_material = global::SimplyNews.Resource.Layout.select_dialog_item_material;
+			global::MvvmCross.Plugin.Visibility.Resource.Layout.select_dialog_multichoice_material = global::SimplyNews.Resource.Layout.select_dialog_multichoice_material;
+			global::MvvmCross.Plugin.Visibility.Resource.Layout.select_dialog_singlechoice_material = global::SimplyNews.Resource.Layout.select_dialog_singlechoice_material;
+			global::MvvmCross.Plugin.Visibility.Resource.Layout.support_simple_spinner_dropdown_item = global::SimplyNews.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::MvvmCross.Plugin.Visibility.Resource.String.abc_action_bar_home_description = global::SimplyNews.Resource.String.abc_action_bar_home_description;
+			global::MvvmCross.Plugin.Visibility.Resource.String.abc_action_bar_up_description = global::SimplyNews.Resource.String.abc_action_bar_up_description;
+			global::MvvmCross.Plugin.Visibility.Resource.String.abc_action_menu_overflow_description = global::SimplyNews.Resource.String.abc_action_menu_overflow_description;
+			global::MvvmCross.Plugin.Visibility.Resource.String.abc_action_mode_done = global::SimplyNews.Resource.String.abc_action_mode_done;
+			global::MvvmCross.Plugin.Visibility.Resource.String.abc_activitychooserview_choose_application = global::SimplyNews.Resource.String.abc_activitychooserview_choose_application;
+			global::MvvmCross.Plugin.Visibility.Resource.String.abc_activity_chooser_view_see_all = global::SimplyNews.Resource.String.abc_activity_chooser_view_see_all;
+			global::MvvmCross.Plugin.Visibility.Resource.String.abc_capital_off = global::SimplyNews.Resource.String.abc_capital_off;
+			global::MvvmCross.Plugin.Visibility.Resource.String.abc_capital_on = global::SimplyNews.Resource.String.abc_capital_on;
+			global::MvvmCross.Plugin.Visibility.Resource.String.abc_menu_alt_shortcut_label = global::SimplyNews.Resource.String.abc_menu_alt_shortcut_label;
+			global::MvvmCross.Plugin.Visibility.Resource.String.abc_menu_ctrl_shortcut_label = global::SimplyNews.Resource.String.abc_menu_ctrl_shortcut_label;
+			global::MvvmCross.Plugin.Visibility.Resource.String.abc_menu_delete_shortcut_label = global::SimplyNews.Resource.String.abc_menu_delete_shortcut_label;
+			global::MvvmCross.Plugin.Visibility.Resource.String.abc_menu_enter_shortcut_label = global::SimplyNews.Resource.String.abc_menu_enter_shortcut_label;
+			global::MvvmCross.Plugin.Visibility.Resource.String.abc_menu_function_shortcut_label = global::SimplyNews.Resource.String.abc_menu_function_shortcut_label;
+			global::MvvmCross.Plugin.Visibility.Resource.String.abc_menu_meta_shortcut_label = global::SimplyNews.Resource.String.abc_menu_meta_shortcut_label;
+			global::MvvmCross.Plugin.Visibility.Resource.String.abc_menu_shift_shortcut_label = global::SimplyNews.Resource.String.abc_menu_shift_shortcut_label;
+			global::MvvmCross.Plugin.Visibility.Resource.String.abc_menu_space_shortcut_label = global::SimplyNews.Resource.String.abc_menu_space_shortcut_label;
+			global::MvvmCross.Plugin.Visibility.Resource.String.abc_menu_sym_shortcut_label = global::SimplyNews.Resource.String.abc_menu_sym_shortcut_label;
+			global::MvvmCross.Plugin.Visibility.Resource.String.abc_prepend_shortcut_label = global::SimplyNews.Resource.String.abc_prepend_shortcut_label;
+			global::MvvmCross.Plugin.Visibility.Resource.String.abc_searchview_description_clear = global::SimplyNews.Resource.String.abc_searchview_description_clear;
+			global::MvvmCross.Plugin.Visibility.Resource.String.abc_searchview_description_query = global::SimplyNews.Resource.String.abc_searchview_description_query;
+			global::MvvmCross.Plugin.Visibility.Resource.String.abc_searchview_description_search = global::SimplyNews.Resource.String.abc_searchview_description_search;
+			global::MvvmCross.Plugin.Visibility.Resource.String.abc_searchview_description_submit = global::SimplyNews.Resource.String.abc_searchview_description_submit;
+			global::MvvmCross.Plugin.Visibility.Resource.String.abc_searchview_description_voice = global::SimplyNews.Resource.String.abc_searchview_description_voice;
+			global::MvvmCross.Plugin.Visibility.Resource.String.abc_search_hint = global::SimplyNews.Resource.String.abc_search_hint;
+			global::MvvmCross.Plugin.Visibility.Resource.String.abc_shareactionprovider_share_with = global::SimplyNews.Resource.String.abc_shareactionprovider_share_with;
+			global::MvvmCross.Plugin.Visibility.Resource.String.abc_shareactionprovider_share_with_application = global::SimplyNews.Resource.String.abc_shareactionprovider_share_with_application;
+			global::MvvmCross.Plugin.Visibility.Resource.String.abc_toolbar_collapse_description = global::SimplyNews.Resource.String.abc_toolbar_collapse_description;
+			global::MvvmCross.Plugin.Visibility.Resource.String.appbar_scrolling_view_behavior = global::SimplyNews.Resource.String.appbar_scrolling_view_behavior;
+			global::MvvmCross.Plugin.Visibility.Resource.String.bottom_sheet_behavior = global::SimplyNews.Resource.String.bottom_sheet_behavior;
+			global::MvvmCross.Plugin.Visibility.Resource.String.character_counter_content_description = global::SimplyNews.Resource.String.character_counter_content_description;
+			global::MvvmCross.Plugin.Visibility.Resource.String.character_counter_pattern = global::SimplyNews.Resource.String.character_counter_pattern;
+			global::MvvmCross.Plugin.Visibility.Resource.String.copy = global::SimplyNews.Resource.String.copy;
+			global::MvvmCross.Plugin.Visibility.Resource.String.expand_button_title = global::SimplyNews.Resource.String.expand_button_title;
+			global::MvvmCross.Plugin.Visibility.Resource.String.fab_transformation_scrim_behavior = global::SimplyNews.Resource.String.fab_transformation_scrim_behavior;
+			global::MvvmCross.Plugin.Visibility.Resource.String.fab_transformation_sheet_behavior = global::SimplyNews.Resource.String.fab_transformation_sheet_behavior;
+			global::MvvmCross.Plugin.Visibility.Resource.String.hide_bottom_view_on_scroll_behavior = global::SimplyNews.Resource.String.hide_bottom_view_on_scroll_behavior;
+			global::MvvmCross.Plugin.Visibility.Resource.String.mtrl_chip_close_icon_content_description = global::SimplyNews.Resource.String.mtrl_chip_close_icon_content_description;
+			global::MvvmCross.Plugin.Visibility.Resource.String.not_set = global::SimplyNews.Resource.String.not_set;
+			global::MvvmCross.Plugin.Visibility.Resource.String.password_toggle_content_description = global::SimplyNews.Resource.String.password_toggle_content_description;
+			global::MvvmCross.Plugin.Visibility.Resource.String.path_password_eye = global::SimplyNews.Resource.String.path_password_eye;
+			global::MvvmCross.Plugin.Visibility.Resource.String.path_password_eye_mask_strike_through = global::SimplyNews.Resource.String.path_password_eye_mask_strike_through;
+			global::MvvmCross.Plugin.Visibility.Resource.String.path_password_eye_mask_visible = global::SimplyNews.Resource.String.path_password_eye_mask_visible;
+			global::MvvmCross.Plugin.Visibility.Resource.String.path_password_strike_through = global::SimplyNews.Resource.String.path_password_strike_through;
+			global::MvvmCross.Plugin.Visibility.Resource.String.preference_copied = global::SimplyNews.Resource.String.preference_copied;
+			global::MvvmCross.Plugin.Visibility.Resource.String.search_menu_title = global::SimplyNews.Resource.String.search_menu_title;
+			global::MvvmCross.Plugin.Visibility.Resource.String.status_bar_notification_info_overflow = global::SimplyNews.Resource.String.status_bar_notification_info_overflow;
+			global::MvvmCross.Plugin.Visibility.Resource.String.summary_collapsed_preference_list = global::SimplyNews.Resource.String.summary_collapsed_preference_list;
+			global::MvvmCross.Plugin.Visibility.Resource.String.v7_preference_off = global::SimplyNews.Resource.String.v7_preference_off;
+			global::MvvmCross.Plugin.Visibility.Resource.String.v7_preference_on = global::SimplyNews.Resource.String.v7_preference_on;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.AlertDialog_AppCompat = global::SimplyNews.Resource.Style.AlertDialog_AppCompat;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.AlertDialog_AppCompat_Light = global::SimplyNews.Resource.Style.AlertDialog_AppCompat_Light;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Animation_AppCompat_Dialog = global::SimplyNews.Resource.Style.Animation_AppCompat_Dialog;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Animation_AppCompat_DropDownUp = global::SimplyNews.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Animation_AppCompat_Tooltip = global::SimplyNews.Resource.Style.Animation_AppCompat_Tooltip;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Animation_Design_BottomSheetDialog = global::SimplyNews.Resource.Style.Animation_Design_BottomSheetDialog;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_AlertDialog_AppCompat = global::SimplyNews.Resource.Style.Base_AlertDialog_AppCompat;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_AlertDialog_AppCompat_Light = global::SimplyNews.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_Animation_AppCompat_Dialog = global::SimplyNews.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::SimplyNews.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_Animation_AppCompat_Tooltip = global::SimplyNews.Resource.Style.Base_Animation_AppCompat_Tooltip;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_CardView = global::SimplyNews.Resource.Style.Base_CardView;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::SimplyNews.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_DialogWindowTitle_AppCompat = global::SimplyNews.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_TextAppearance_AppCompat = global::SimplyNews.Resource.Style.Base_TextAppearance_AppCompat;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::SimplyNews.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::SimplyNews.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_TextAppearance_AppCompat_Button = global::SimplyNews.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::SimplyNews.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::SimplyNews.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::SimplyNews.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::SimplyNews.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::SimplyNews.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::SimplyNews.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::SimplyNews.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_TextAppearance_AppCompat_Large = global::SimplyNews.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::SimplyNews.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::SimplyNews.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::SimplyNews.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::SimplyNews.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::SimplyNews.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::SimplyNews.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::SimplyNews.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::SimplyNews.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::SimplyNews.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_TextAppearance_AppCompat_Small = global::SimplyNews.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::SimplyNews.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::SimplyNews.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::SimplyNews.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_TextAppearance_AppCompat_Title = global::SimplyNews.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::SimplyNews.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_TextAppearance_AppCompat_Tooltip = global::SimplyNews.Resource.Style.Base_TextAppearance_AppCompat_Tooltip;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::SimplyNews.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::SimplyNews.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::SimplyNews.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::SimplyNews.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::SimplyNews.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::SimplyNews.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::SimplyNews.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::SimplyNews.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::SimplyNews.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored = global::SimplyNews.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::SimplyNews.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::SimplyNews.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::SimplyNews.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::SimplyNews.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::SimplyNews.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::SimplyNews.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::SimplyNews.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::SimplyNews.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::SimplyNews.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::SimplyNews.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_ThemeOverlay_AppCompat = global::SimplyNews.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::SimplyNews.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::SimplyNews.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::SimplyNews.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::SimplyNews.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::SimplyNews.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::SimplyNews.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog = global::SimplyNews.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert = global::SimplyNews.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_Theme_AppCompat = global::SimplyNews.Resource.Style.Base_Theme_AppCompat;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::SimplyNews.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_Theme_AppCompat_Dialog = global::SimplyNews.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::SimplyNews.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::SimplyNews.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::SimplyNews.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::SimplyNews.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_Theme_AppCompat_Light = global::SimplyNews.Resource.Style.Base_Theme_AppCompat_Light;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::SimplyNews.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::SimplyNews.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::SimplyNews.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::SimplyNews.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::SimplyNews.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::SimplyNews.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_Theme_MaterialComponents = global::SimplyNews.Resource.Style.Base_Theme_MaterialComponents;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_Theme_MaterialComponents_Bridge = global::SimplyNews.Resource.Style.Base_Theme_MaterialComponents_Bridge;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_Theme_MaterialComponents_CompactMenu = global::SimplyNews.Resource.Style.Base_Theme_MaterialComponents_CompactMenu;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_Theme_MaterialComponents_Dialog = global::SimplyNews.Resource.Style.Base_Theme_MaterialComponents_Dialog;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge = global::SimplyNews.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert = global::SimplyNews.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize = global::SimplyNews.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth = global::SimplyNews.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_Theme_MaterialComponents_Light = global::SimplyNews.Resource.Style.Base_Theme_MaterialComponents_Light;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_Theme_MaterialComponents_Light_Bridge = global::SimplyNews.Resource.Style.Base_Theme_MaterialComponents_Light_Bridge;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar = global::SimplyNews.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::SimplyNews.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog = global::SimplyNews.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge = global::SimplyNews.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert = global::SimplyNews.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize = global::SimplyNews.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth = global::SimplyNews.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog = global::SimplyNews.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert = global::SimplyNews.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_V14_Theme_MaterialComponents = global::SimplyNews.Resource.Style.Base_V14_Theme_MaterialComponents;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge = global::SimplyNews.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog = global::SimplyNews.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_V14_Theme_MaterialComponents_Light = global::SimplyNews.Resource.Style.Base_V14_Theme_MaterialComponents_Light;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge = global::SimplyNews.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::SimplyNews.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog = global::SimplyNews.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::SimplyNews.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_V21_Theme_AppCompat = global::SimplyNews.Resource.Style.Base_V21_Theme_AppCompat;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::SimplyNews.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_V21_Theme_AppCompat_Light = global::SimplyNews.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::SimplyNews.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_V22_Theme_AppCompat = global::SimplyNews.Resource.Style.Base_V22_Theme_AppCompat;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_V22_Theme_AppCompat_Light = global::SimplyNews.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_V23_Theme_AppCompat = global::SimplyNews.Resource.Style.Base_V23_Theme_AppCompat;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_V23_Theme_AppCompat_Light = global::SimplyNews.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_V26_Theme_AppCompat = global::SimplyNews.Resource.Style.Base_V26_Theme_AppCompat;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_V26_Theme_AppCompat_Light = global::SimplyNews.Resource.Style.Base_V26_Theme_AppCompat_Light;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_V26_Widget_AppCompat_Toolbar = global::SimplyNews.Resource.Style.Base_V26_Widget_AppCompat_Toolbar;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_V28_Theme_AppCompat = global::SimplyNews.Resource.Style.Base_V28_Theme_AppCompat;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_V28_Theme_AppCompat_Light = global::SimplyNews.Resource.Style.Base_V28_Theme_AppCompat_Light;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::SimplyNews.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_V7_Theme_AppCompat = global::SimplyNews.Resource.Style.Base_V7_Theme_AppCompat;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::SimplyNews.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_V7_Theme_AppCompat_Light = global::SimplyNews.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::SimplyNews.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::SimplyNews.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::SimplyNews.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_V7_Widget_AppCompat_Toolbar = global::SimplyNews.Resource.Style.Base_V7_Widget_AppCompat_Toolbar;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_Widget_AppCompat_ActionBar = global::SimplyNews.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::SimplyNews.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::SimplyNews.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::SimplyNews.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::SimplyNews.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_Widget_AppCompat_ActionButton = global::SimplyNews.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::SimplyNews.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::SimplyNews.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_Widget_AppCompat_ActionMode = global::SimplyNews.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::SimplyNews.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::SimplyNews.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_Widget_AppCompat_Button = global::SimplyNews.Resource.Style.Base_Widget_AppCompat_Button;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::SimplyNews.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::SimplyNews.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::SimplyNews.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::SimplyNews.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::SimplyNews.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::SimplyNews.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_Widget_AppCompat_Button_Small = global::SimplyNews.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::SimplyNews.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::SimplyNews.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::SimplyNews.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::SimplyNews.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::SimplyNews.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::SimplyNews.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_Widget_AppCompat_EditText = global::SimplyNews.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_Widget_AppCompat_ImageButton = global::SimplyNews.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::SimplyNews.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::SimplyNews.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::SimplyNews.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::SimplyNews.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::SimplyNews.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::SimplyNews.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::SimplyNews.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::SimplyNews.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::SimplyNews.Resource.Style.Base_Widget_AppCompat_ListMenuView;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::SimplyNews.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_Widget_AppCompat_ListView = global::SimplyNews.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::SimplyNews.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::SimplyNews.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::SimplyNews.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::SimplyNews.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::SimplyNews.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::SimplyNews.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::SimplyNews.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_Widget_AppCompat_RatingBar = global::SimplyNews.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::SimplyNews.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::SimplyNews.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_Widget_AppCompat_SearchView = global::SimplyNews.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::SimplyNews.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_Widget_AppCompat_SeekBar = global::SimplyNews.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::SimplyNews.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_Widget_AppCompat_Spinner = global::SimplyNews.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::SimplyNews.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_Widget_AppCompat_TextView = global::SimplyNews.Resource.Style.Base_Widget_AppCompat_TextView;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::SimplyNews.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_Widget_AppCompat_Toolbar = global::SimplyNews.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::SimplyNews.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_Widget_Design_TabLayout = global::SimplyNews.Resource.Style.Base_Widget_Design_TabLayout;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_Widget_MaterialComponents_Chip = global::SimplyNews.Resource.Style.Base_Widget_MaterialComponents_Chip;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText = global::SimplyNews.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout = global::SimplyNews.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.CardView = global::SimplyNews.Resource.Style.CardView;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.CardView_Dark = global::SimplyNews.Resource.Style.CardView_Dark;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.CardView_Light = global::SimplyNews.Resource.Style.CardView_Light;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Platform_AppCompat = global::SimplyNews.Resource.Style.Platform_AppCompat;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Platform_AppCompat_Light = global::SimplyNews.Resource.Style.Platform_AppCompat_Light;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Platform_MaterialComponents = global::SimplyNews.Resource.Style.Platform_MaterialComponents;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Platform_MaterialComponents_Dialog = global::SimplyNews.Resource.Style.Platform_MaterialComponents_Dialog;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Platform_MaterialComponents_Light = global::SimplyNews.Resource.Style.Platform_MaterialComponents_Light;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Platform_MaterialComponents_Light_Dialog = global::SimplyNews.Resource.Style.Platform_MaterialComponents_Light_Dialog;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Platform_ThemeOverlay_AppCompat = global::SimplyNews.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::SimplyNews.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::SimplyNews.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Platform_V21_AppCompat = global::SimplyNews.Resource.Style.Platform_V21_AppCompat;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Platform_V21_AppCompat_Light = global::SimplyNews.Resource.Style.Platform_V21_AppCompat_Light;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Platform_V25_AppCompat = global::SimplyNews.Resource.Style.Platform_V25_AppCompat;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Platform_V25_AppCompat_Light = global::SimplyNews.Resource.Style.Platform_V25_AppCompat_Light;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Platform_Widget_AppCompat_Spinner = global::SimplyNews.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Preference = global::SimplyNews.Resource.Style.Preference;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.PreferenceCategoryTitleTextStyle = global::SimplyNews.Resource.Style.PreferenceCategoryTitleTextStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.PreferenceFragment = global::SimplyNews.Resource.Style.PreferenceFragment;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.PreferenceFragmentList = global::SimplyNews.Resource.Style.PreferenceFragmentList;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.PreferenceFragmentList_Material = global::SimplyNews.Resource.Style.PreferenceFragmentList_Material;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.PreferenceFragment_Material = global::SimplyNews.Resource.Style.PreferenceFragment_Material;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.PreferenceSummaryTextStyle = global::SimplyNews.Resource.Style.PreferenceSummaryTextStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.PreferenceThemeOverlay = global::SimplyNews.Resource.Style.PreferenceThemeOverlay;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.PreferenceThemeOverlay_v14 = global::SimplyNews.Resource.Style.PreferenceThemeOverlay_v14;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.PreferenceThemeOverlay_v14_Material = global::SimplyNews.Resource.Style.PreferenceThemeOverlay_v14_Material;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Preference_Category = global::SimplyNews.Resource.Style.Preference_Category;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Preference_Category_Material = global::SimplyNews.Resource.Style.Preference_Category_Material;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Preference_CheckBoxPreference = global::SimplyNews.Resource.Style.Preference_CheckBoxPreference;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Preference_CheckBoxPreference_Material = global::SimplyNews.Resource.Style.Preference_CheckBoxPreference_Material;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Preference_DialogPreference = global::SimplyNews.Resource.Style.Preference_DialogPreference;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Preference_DialogPreference_EditTextPreference = global::SimplyNews.Resource.Style.Preference_DialogPreference_EditTextPreference;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Preference_DialogPreference_EditTextPreference_Material = global::SimplyNews.Resource.Style.Preference_DialogPreference_EditTextPreference_Material;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Preference_DialogPreference_Material = global::SimplyNews.Resource.Style.Preference_DialogPreference_Material;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Preference_DropDown = global::SimplyNews.Resource.Style.Preference_DropDown;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Preference_DropDown_Material = global::SimplyNews.Resource.Style.Preference_DropDown_Material;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Preference_Information = global::SimplyNews.Resource.Style.Preference_Information;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Preference_Information_Material = global::SimplyNews.Resource.Style.Preference_Information_Material;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Preference_Material = global::SimplyNews.Resource.Style.Preference_Material;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Preference_PreferenceScreen = global::SimplyNews.Resource.Style.Preference_PreferenceScreen;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Preference_PreferenceScreen_Material = global::SimplyNews.Resource.Style.Preference_PreferenceScreen_Material;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Preference_SeekBarPreference = global::SimplyNews.Resource.Style.Preference_SeekBarPreference;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Preference_SeekBarPreference_Material = global::SimplyNews.Resource.Style.Preference_SeekBarPreference_Material;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Preference_SwitchPreference = global::SimplyNews.Resource.Style.Preference_SwitchPreference;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Preference_SwitchPreferenceCompat = global::SimplyNews.Resource.Style.Preference_SwitchPreferenceCompat;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Preference_SwitchPreferenceCompat_Material = global::SimplyNews.Resource.Style.Preference_SwitchPreferenceCompat_Material;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Preference_SwitchPreference_Material = global::SimplyNews.Resource.Style.Preference_SwitchPreference_Material;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::SimplyNews.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::SimplyNews.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::SimplyNews.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::SimplyNews.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::SimplyNews.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut = global::SimplyNews.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow = global::SimplyNews.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::SimplyNews.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title = global::SimplyNews.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::SimplyNews.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::SimplyNews.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::SimplyNews.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::SimplyNews.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::SimplyNews.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::SimplyNews.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::SimplyNews.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::SimplyNews.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.TextAppearance_AppCompat = global::SimplyNews.Resource.Style.TextAppearance_AppCompat;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.TextAppearance_AppCompat_Body1 = global::SimplyNews.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.TextAppearance_AppCompat_Body2 = global::SimplyNews.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.TextAppearance_AppCompat_Button = global::SimplyNews.Resource.Style.TextAppearance_AppCompat_Button;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.TextAppearance_AppCompat_Caption = global::SimplyNews.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.TextAppearance_AppCompat_Display1 = global::SimplyNews.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.TextAppearance_AppCompat_Display2 = global::SimplyNews.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.TextAppearance_AppCompat_Display3 = global::SimplyNews.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.TextAppearance_AppCompat_Display4 = global::SimplyNews.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.TextAppearance_AppCompat_Headline = global::SimplyNews.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.TextAppearance_AppCompat_Inverse = global::SimplyNews.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.TextAppearance_AppCompat_Large = global::SimplyNews.Resource.Style.TextAppearance_AppCompat_Large;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::SimplyNews.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::SimplyNews.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::SimplyNews.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::SimplyNews.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::SimplyNews.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.TextAppearance_AppCompat_Medium = global::SimplyNews.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::SimplyNews.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.TextAppearance_AppCompat_Menu = global::SimplyNews.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::SimplyNews.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::SimplyNews.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.TextAppearance_AppCompat_Small = global::SimplyNews.Resource.Style.TextAppearance_AppCompat_Small;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::SimplyNews.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.TextAppearance_AppCompat_Subhead = global::SimplyNews.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::SimplyNews.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.TextAppearance_AppCompat_Title = global::SimplyNews.Resource.Style.TextAppearance_AppCompat_Title;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::SimplyNews.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.TextAppearance_AppCompat_Tooltip = global::SimplyNews.Resource.Style.TextAppearance_AppCompat_Tooltip;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::SimplyNews.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::SimplyNews.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::SimplyNews.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::SimplyNews.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::SimplyNews.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::SimplyNews.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::SimplyNews.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::SimplyNews.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::SimplyNews.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::SimplyNews.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::SimplyNews.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored = global::SimplyNews.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::SimplyNews.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::SimplyNews.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::SimplyNews.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::SimplyNews.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::SimplyNews.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::SimplyNews.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::SimplyNews.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.TextAppearance_Compat_Notification = global::SimplyNews.Resource.Style.TextAppearance_Compat_Notification;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.TextAppearance_Compat_Notification_Info = global::SimplyNews.Resource.Style.TextAppearance_Compat_Notification_Info;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::SimplyNews.Resource.Style.TextAppearance_Compat_Notification_Line2;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.TextAppearance_Compat_Notification_Time = global::SimplyNews.Resource.Style.TextAppearance_Compat_Notification_Time;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.TextAppearance_Compat_Notification_Title = global::SimplyNews.Resource.Style.TextAppearance_Compat_Notification_Title;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::SimplyNews.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.TextAppearance_Design_Counter = global::SimplyNews.Resource.Style.TextAppearance_Design_Counter;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.TextAppearance_Design_Counter_Overflow = global::SimplyNews.Resource.Style.TextAppearance_Design_Counter_Overflow;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.TextAppearance_Design_Error = global::SimplyNews.Resource.Style.TextAppearance_Design_Error;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.TextAppearance_Design_HelperText = global::SimplyNews.Resource.Style.TextAppearance_Design_HelperText;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.TextAppearance_Design_Hint = global::SimplyNews.Resource.Style.TextAppearance_Design_Hint;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.TextAppearance_Design_Snackbar_Message = global::SimplyNews.Resource.Style.TextAppearance_Design_Snackbar_Message;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.TextAppearance_Design_Tab = global::SimplyNews.Resource.Style.TextAppearance_Design_Tab;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.TextAppearance_MaterialComponents_Body1 = global::SimplyNews.Resource.Style.TextAppearance_MaterialComponents_Body1;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.TextAppearance_MaterialComponents_Body2 = global::SimplyNews.Resource.Style.TextAppearance_MaterialComponents_Body2;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.TextAppearance_MaterialComponents_Button = global::SimplyNews.Resource.Style.TextAppearance_MaterialComponents_Button;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.TextAppearance_MaterialComponents_Caption = global::SimplyNews.Resource.Style.TextAppearance_MaterialComponents_Caption;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.TextAppearance_MaterialComponents_Chip = global::SimplyNews.Resource.Style.TextAppearance_MaterialComponents_Chip;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.TextAppearance_MaterialComponents_Headline1 = global::SimplyNews.Resource.Style.TextAppearance_MaterialComponents_Headline1;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.TextAppearance_MaterialComponents_Headline2 = global::SimplyNews.Resource.Style.TextAppearance_MaterialComponents_Headline2;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.TextAppearance_MaterialComponents_Headline3 = global::SimplyNews.Resource.Style.TextAppearance_MaterialComponents_Headline3;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.TextAppearance_MaterialComponents_Headline4 = global::SimplyNews.Resource.Style.TextAppearance_MaterialComponents_Headline4;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.TextAppearance_MaterialComponents_Headline5 = global::SimplyNews.Resource.Style.TextAppearance_MaterialComponents_Headline5;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.TextAppearance_MaterialComponents_Headline6 = global::SimplyNews.Resource.Style.TextAppearance_MaterialComponents_Headline6;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.TextAppearance_MaterialComponents_Overline = global::SimplyNews.Resource.Style.TextAppearance_MaterialComponents_Overline;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.TextAppearance_MaterialComponents_Subtitle1 = global::SimplyNews.Resource.Style.TextAppearance_MaterialComponents_Subtitle1;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.TextAppearance_MaterialComponents_Subtitle2 = global::SimplyNews.Resource.Style.TextAppearance_MaterialComponents_Subtitle2;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::SimplyNews.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::SimplyNews.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::SimplyNews.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.ThemeOverlay_AppCompat = global::SimplyNews.Resource.Style.ThemeOverlay_AppCompat;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::SimplyNews.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.ThemeOverlay_AppCompat_Dark = global::SimplyNews.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::SimplyNews.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.ThemeOverlay_AppCompat_DayNight = global::SimplyNews.Resource.Style.ThemeOverlay_AppCompat_DayNight;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.ThemeOverlay_AppCompat_DayNight_ActionBar = global::SimplyNews.Resource.Style.ThemeOverlay_AppCompat_DayNight_ActionBar;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::SimplyNews.Resource.Style.ThemeOverlay_AppCompat_Dialog;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::SimplyNews.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.ThemeOverlay_AppCompat_Light = global::SimplyNews.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.ThemeOverlay_MaterialComponents = global::SimplyNews.Resource.Style.ThemeOverlay_MaterialComponents;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar = global::SimplyNews.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.ThemeOverlay_MaterialComponents_Dark = global::SimplyNews.Resource.Style.ThemeOverlay_MaterialComponents_Dark;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar = global::SimplyNews.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.ThemeOverlay_MaterialComponents_Dialog = global::SimplyNews.Resource.Style.ThemeOverlay_MaterialComponents_Dialog;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert = global::SimplyNews.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.ThemeOverlay_MaterialComponents_Light = global::SimplyNews.Resource.Style.ThemeOverlay_MaterialComponents_Light;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText = global::SimplyNews.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox = global::SimplyNews.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense = global::SimplyNews.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox = global::SimplyNews.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::SimplyNews.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Theme_AppCompat = global::SimplyNews.Resource.Style.Theme_AppCompat;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Theme_AppCompat_CompactMenu = global::SimplyNews.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Theme_AppCompat_DayNight = global::SimplyNews.Resource.Style.Theme_AppCompat_DayNight;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::SimplyNews.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::SimplyNews.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::SimplyNews.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::SimplyNews.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::SimplyNews.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::SimplyNews.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Theme_AppCompat_Dialog = global::SimplyNews.Resource.Style.Theme_AppCompat_Dialog;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::SimplyNews.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Theme_AppCompat_Dialog_Alert = global::SimplyNews.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::SimplyNews.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Theme_AppCompat_Empty = global::SimplyNews.Resource.Style.Theme_AppCompat_Empty;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Theme_AppCompat_Light = global::SimplyNews.Resource.Style.Theme_AppCompat_Light;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::SimplyNews.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Theme_AppCompat_Light_Dialog = global::SimplyNews.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::SimplyNews.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::SimplyNews.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::SimplyNews.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::SimplyNews.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Theme_AppCompat_NoActionBar = global::SimplyNews.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Theme_Design = global::SimplyNews.Resource.Style.Theme_Design;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Theme_Design_BottomSheetDialog = global::SimplyNews.Resource.Style.Theme_Design_BottomSheetDialog;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Theme_Design_Light = global::SimplyNews.Resource.Style.Theme_Design_Light;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::SimplyNews.Resource.Style.Theme_Design_Light_BottomSheetDialog;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Theme_Design_Light_NoActionBar = global::SimplyNews.Resource.Style.Theme_Design_Light_NoActionBar;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Theme_Design_NoActionBar = global::SimplyNews.Resource.Style.Theme_Design_NoActionBar;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Theme_MaterialComponents = global::SimplyNews.Resource.Style.Theme_MaterialComponents;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Theme_MaterialComponents_BottomSheetDialog = global::SimplyNews.Resource.Style.Theme_MaterialComponents_BottomSheetDialog;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Theme_MaterialComponents_Bridge = global::SimplyNews.Resource.Style.Theme_MaterialComponents_Bridge;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Theme_MaterialComponents_CompactMenu = global::SimplyNews.Resource.Style.Theme_MaterialComponents_CompactMenu;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Theme_MaterialComponents_Dialog = global::SimplyNews.Resource.Style.Theme_MaterialComponents_Dialog;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Theme_MaterialComponents_DialogWhenLarge = global::SimplyNews.Resource.Style.Theme_MaterialComponents_DialogWhenLarge;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Theme_MaterialComponents_Dialog_Alert = global::SimplyNews.Resource.Style.Theme_MaterialComponents_Dialog_Alert;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth = global::SimplyNews.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Theme_MaterialComponents_Light = global::SimplyNews.Resource.Style.Theme_MaterialComponents_Light;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog = global::SimplyNews.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Theme_MaterialComponents_Light_Bridge = global::SimplyNews.Resource.Style.Theme_MaterialComponents_Light_Bridge;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar = global::SimplyNews.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::SimplyNews.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Theme_MaterialComponents_Light_Dialog = global::SimplyNews.Resource.Style.Theme_MaterialComponents_Light_Dialog;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge = global::SimplyNews.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert = global::SimplyNews.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth = global::SimplyNews.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Theme_MaterialComponents_Light_NoActionBar = global::SimplyNews.Resource.Style.Theme_MaterialComponents_Light_NoActionBar;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge = global::SimplyNews.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Theme_MaterialComponents_NoActionBar = global::SimplyNews.Resource.Style.Theme_MaterialComponents_NoActionBar;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge = global::SimplyNews.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Widget_AppCompat_ActionBar = global::SimplyNews.Resource.Style.Widget_AppCompat_ActionBar;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::SimplyNews.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::SimplyNews.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::SimplyNews.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::SimplyNews.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Widget_AppCompat_ActionButton = global::SimplyNews.Resource.Style.Widget_AppCompat_ActionButton;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::SimplyNews.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::SimplyNews.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Widget_AppCompat_ActionMode = global::SimplyNews.Resource.Style.Widget_AppCompat_ActionMode;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Widget_AppCompat_ActivityChooserView = global::SimplyNews.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::SimplyNews.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Widget_AppCompat_Button = global::SimplyNews.Resource.Style.Widget_AppCompat_Button;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Widget_AppCompat_ButtonBar = global::SimplyNews.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::SimplyNews.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Widget_AppCompat_Button_Borderless = global::SimplyNews.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::SimplyNews.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::SimplyNews.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Widget_AppCompat_Button_Colored = global::SimplyNews.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Widget_AppCompat_Button_Small = global::SimplyNews.Resource.Style.Widget_AppCompat_Button_Small;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::SimplyNews.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::SimplyNews.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::SimplyNews.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::SimplyNews.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::SimplyNews.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Widget_AppCompat_EditText = global::SimplyNews.Resource.Style.Widget_AppCompat_EditText;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Widget_AppCompat_ImageButton = global::SimplyNews.Resource.Style.Widget_AppCompat_ImageButton;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Widget_AppCompat_Light_ActionBar = global::SimplyNews.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::SimplyNews.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::SimplyNews.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::SimplyNews.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::SimplyNews.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::SimplyNews.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::SimplyNews.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::SimplyNews.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::SimplyNews.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Widget_AppCompat_Light_ActionButton = global::SimplyNews.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::SimplyNews.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::SimplyNews.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::SimplyNews.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::SimplyNews.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::SimplyNews.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::SimplyNews.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::SimplyNews.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::SimplyNews.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::SimplyNews.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::SimplyNews.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Widget_AppCompat_Light_SearchView = global::SimplyNews.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::SimplyNews.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Widget_AppCompat_ListMenuView = global::SimplyNews.Resource.Style.Widget_AppCompat_ListMenuView;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Widget_AppCompat_ListPopupWindow = global::SimplyNews.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Widget_AppCompat_ListView = global::SimplyNews.Resource.Style.Widget_AppCompat_ListView;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Widget_AppCompat_ListView_DropDown = global::SimplyNews.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Widget_AppCompat_ListView_Menu = global::SimplyNews.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Widget_AppCompat_PopupMenu = global::SimplyNews.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::SimplyNews.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Widget_AppCompat_PopupWindow = global::SimplyNews.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Widget_AppCompat_ProgressBar = global::SimplyNews.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::SimplyNews.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Widget_AppCompat_RatingBar = global::SimplyNews.Resource.Style.Widget_AppCompat_RatingBar;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::SimplyNews.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Widget_AppCompat_RatingBar_Small = global::SimplyNews.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Widget_AppCompat_SearchView = global::SimplyNews.Resource.Style.Widget_AppCompat_SearchView;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::SimplyNews.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Widget_AppCompat_SeekBar = global::SimplyNews.Resource.Style.Widget_AppCompat_SeekBar;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::SimplyNews.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Widget_AppCompat_Spinner = global::SimplyNews.Resource.Style.Widget_AppCompat_Spinner;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::SimplyNews.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::SimplyNews.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::SimplyNews.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Widget_AppCompat_TextView = global::SimplyNews.Resource.Style.Widget_AppCompat_TextView;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::SimplyNews.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Widget_AppCompat_Toolbar = global::SimplyNews.Resource.Style.Widget_AppCompat_Toolbar;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::SimplyNews.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Widget_Compat_NotificationActionContainer = global::SimplyNews.Resource.Style.Widget_Compat_NotificationActionContainer;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Widget_Compat_NotificationActionText = global::SimplyNews.Resource.Style.Widget_Compat_NotificationActionText;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Widget_Design_AppBarLayout = global::SimplyNews.Resource.Style.Widget_Design_AppBarLayout;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Widget_Design_BottomNavigationView = global::SimplyNews.Resource.Style.Widget_Design_BottomNavigationView;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Widget_Design_BottomSheet_Modal = global::SimplyNews.Resource.Style.Widget_Design_BottomSheet_Modal;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Widget_Design_CollapsingToolbar = global::SimplyNews.Resource.Style.Widget_Design_CollapsingToolbar;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Widget_Design_FloatingActionButton = global::SimplyNews.Resource.Style.Widget_Design_FloatingActionButton;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Widget_Design_NavigationView = global::SimplyNews.Resource.Style.Widget_Design_NavigationView;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::SimplyNews.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Widget_Design_Snackbar = global::SimplyNews.Resource.Style.Widget_Design_Snackbar;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Widget_Design_TabLayout = global::SimplyNews.Resource.Style.Widget_Design_TabLayout;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Widget_Design_TextInputLayout = global::SimplyNews.Resource.Style.Widget_Design_TextInputLayout;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Widget_MaterialComponents_BottomAppBar = global::SimplyNews.Resource.Style.Widget_MaterialComponents_BottomAppBar;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored = global::SimplyNews.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Widget_MaterialComponents_BottomNavigationView = global::SimplyNews.Resource.Style.Widget_MaterialComponents_BottomNavigationView;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored = global::SimplyNews.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal = global::SimplyNews.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Widget_MaterialComponents_Button = global::SimplyNews.Resource.Style.Widget_MaterialComponents_Button;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Widget_MaterialComponents_Button_Icon = global::SimplyNews.Resource.Style.Widget_MaterialComponents_Button_Icon;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton = global::SimplyNews.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon = global::SimplyNews.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Widget_MaterialComponents_Button_TextButton = global::SimplyNews.Resource.Style.Widget_MaterialComponents_Button_TextButton;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog = global::SimplyNews.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon = global::SimplyNews.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon = global::SimplyNews.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton = global::SimplyNews.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon = global::SimplyNews.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Widget_MaterialComponents_CardView = global::SimplyNews.Resource.Style.Widget_MaterialComponents_CardView;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Widget_MaterialComponents_ChipGroup = global::SimplyNews.Resource.Style.Widget_MaterialComponents_ChipGroup;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Widget_MaterialComponents_Chip_Action = global::SimplyNews.Resource.Style.Widget_MaterialComponents_Chip_Action;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Widget_MaterialComponents_Chip_Choice = global::SimplyNews.Resource.Style.Widget_MaterialComponents_Chip_Choice;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Widget_MaterialComponents_Chip_Entry = global::SimplyNews.Resource.Style.Widget_MaterialComponents_Chip_Entry;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Widget_MaterialComponents_Chip_Filter = global::SimplyNews.Resource.Style.Widget_MaterialComponents_Chip_Filter;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Widget_MaterialComponents_FloatingActionButton = global::SimplyNews.Resource.Style.Widget_MaterialComponents_FloatingActionButton;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Widget_MaterialComponents_NavigationView = global::SimplyNews.Resource.Style.Widget_MaterialComponents_NavigationView;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Widget_MaterialComponents_Snackbar = global::SimplyNews.Resource.Style.Widget_MaterialComponents_Snackbar;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth = global::SimplyNews.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Widget_MaterialComponents_TabLayout = global::SimplyNews.Resource.Style.Widget_MaterialComponents_TabLayout;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Widget_MaterialComponents_TabLayout_Colored = global::SimplyNews.Resource.Style.Widget_MaterialComponents_TabLayout_Colored;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox = global::SimplyNews.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense = global::SimplyNews.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox = global::SimplyNews.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::SimplyNews.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox = global::SimplyNews.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense = global::SimplyNews.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox = global::SimplyNews.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense = global::SimplyNews.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Widget_MaterialComponents_Toolbar = global::SimplyNews.Resource.Style.Widget_MaterialComponents_Toolbar;
+			global::MvvmCross.Plugin.Visibility.Resource.Style.Widget_Support_CoordinatorLayout = global::SimplyNews.Resource.Style.Widget_Support_CoordinatorLayout;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.ActionBar = global::SimplyNews.Resource.Styleable.ActionBar;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.ActionBarLayout = global::SimplyNews.Resource.Styleable.ActionBarLayout;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::SimplyNews.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.ActionBar_background = global::SimplyNews.Resource.Styleable.ActionBar_background;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.ActionBar_backgroundSplit = global::SimplyNews.Resource.Styleable.ActionBar_backgroundSplit;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.ActionBar_backgroundStacked = global::SimplyNews.Resource.Styleable.ActionBar_backgroundStacked;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.ActionBar_contentInsetEnd = global::SimplyNews.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::SimplyNews.Resource.Styleable.ActionBar_contentInsetEndWithActions;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.ActionBar_contentInsetLeft = global::SimplyNews.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.ActionBar_contentInsetRight = global::SimplyNews.Resource.Styleable.ActionBar_contentInsetRight;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.ActionBar_contentInsetStart = global::SimplyNews.Resource.Styleable.ActionBar_contentInsetStart;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::SimplyNews.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.ActionBar_customNavigationLayout = global::SimplyNews.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.ActionBar_displayOptions = global::SimplyNews.Resource.Styleable.ActionBar_displayOptions;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.ActionBar_divider = global::SimplyNews.Resource.Styleable.ActionBar_divider;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.ActionBar_elevation = global::SimplyNews.Resource.Styleable.ActionBar_elevation;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.ActionBar_height = global::SimplyNews.Resource.Styleable.ActionBar_height;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.ActionBar_hideOnContentScroll = global::SimplyNews.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.ActionBar_homeAsUpIndicator = global::SimplyNews.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.ActionBar_homeLayout = global::SimplyNews.Resource.Styleable.ActionBar_homeLayout;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.ActionBar_icon = global::SimplyNews.Resource.Styleable.ActionBar_icon;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::SimplyNews.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.ActionBar_itemPadding = global::SimplyNews.Resource.Styleable.ActionBar_itemPadding;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.ActionBar_logo = global::SimplyNews.Resource.Styleable.ActionBar_logo;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.ActionBar_navigationMode = global::SimplyNews.Resource.Styleable.ActionBar_navigationMode;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.ActionBar_popupTheme = global::SimplyNews.Resource.Styleable.ActionBar_popupTheme;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.ActionBar_progressBarPadding = global::SimplyNews.Resource.Styleable.ActionBar_progressBarPadding;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.ActionBar_progressBarStyle = global::SimplyNews.Resource.Styleable.ActionBar_progressBarStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.ActionBar_subtitle = global::SimplyNews.Resource.Styleable.ActionBar_subtitle;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.ActionBar_subtitleTextStyle = global::SimplyNews.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.ActionBar_title = global::SimplyNews.Resource.Styleable.ActionBar_title;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.ActionBar_titleTextStyle = global::SimplyNews.Resource.Styleable.ActionBar_titleTextStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.ActionMenuItemView = global::SimplyNews.Resource.Styleable.ActionMenuItemView;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.ActionMenuItemView_android_minWidth = global::SimplyNews.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.ActionMenuView = global::SimplyNews.Resource.Styleable.ActionMenuView;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.ActionMode = global::SimplyNews.Resource.Styleable.ActionMode;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.ActionMode_background = global::SimplyNews.Resource.Styleable.ActionMode_background;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.ActionMode_backgroundSplit = global::SimplyNews.Resource.Styleable.ActionMode_backgroundSplit;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.ActionMode_closeItemLayout = global::SimplyNews.Resource.Styleable.ActionMode_closeItemLayout;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.ActionMode_height = global::SimplyNews.Resource.Styleable.ActionMode_height;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.ActionMode_subtitleTextStyle = global::SimplyNews.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.ActionMode_titleTextStyle = global::SimplyNews.Resource.Styleable.ActionMode_titleTextStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.ActivityChooserView = global::SimplyNews.Resource.Styleable.ActivityChooserView;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::SimplyNews.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.ActivityChooserView_initialActivityCount = global::SimplyNews.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AlertDialog = global::SimplyNews.Resource.Styleable.AlertDialog;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AlertDialog_android_layout = global::SimplyNews.Resource.Styleable.AlertDialog_android_layout;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AlertDialog_buttonIconDimen = global::SimplyNews.Resource.Styleable.AlertDialog_buttonIconDimen;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::SimplyNews.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AlertDialog_listItemLayout = global::SimplyNews.Resource.Styleable.AlertDialog_listItemLayout;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AlertDialog_listLayout = global::SimplyNews.Resource.Styleable.AlertDialog_listLayout;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::SimplyNews.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AlertDialog_showTitle = global::SimplyNews.Resource.Styleable.AlertDialog_showTitle;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::SimplyNews.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AnimatedStateListDrawableCompat = global::SimplyNews.Resource.Styleable.AnimatedStateListDrawableCompat;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize = global::SimplyNews.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither = global::SimplyNews.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration = global::SimplyNews.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration = global::SimplyNews.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding = global::SimplyNews.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible = global::SimplyNews.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AnimatedStateListDrawableItem = global::SimplyNews.Resource.Styleable.AnimatedStateListDrawableItem;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable = global::SimplyNews.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AnimatedStateListDrawableItem_android_id = global::SimplyNews.Resource.Styleable.AnimatedStateListDrawableItem_android_id;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AnimatedStateListDrawableTransition = global::SimplyNews.Resource.Styleable.AnimatedStateListDrawableTransition;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable = global::SimplyNews.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId = global::SimplyNews.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible = global::SimplyNews.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId = global::SimplyNews.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppBarLayout = global::SimplyNews.Resource.Styleable.AppBarLayout;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppBarLayoutStates = global::SimplyNews.Resource.Styleable.AppBarLayoutStates;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppBarLayoutStates_state_collapsed = global::SimplyNews.Resource.Styleable.AppBarLayoutStates_state_collapsed;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppBarLayoutStates_state_collapsible = global::SimplyNews.Resource.Styleable.AppBarLayoutStates_state_collapsible;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppBarLayoutStates_state_liftable = global::SimplyNews.Resource.Styleable.AppBarLayoutStates_state_liftable;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppBarLayoutStates_state_lifted = global::SimplyNews.Resource.Styleable.AppBarLayoutStates_state_lifted;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppBarLayout_android_background = global::SimplyNews.Resource.Styleable.AppBarLayout_android_background;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster = global::SimplyNews.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus = global::SimplyNews.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppBarLayout_elevation = global::SimplyNews.Resource.Styleable.AppBarLayout_elevation;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppBarLayout_expanded = global::SimplyNews.Resource.Styleable.AppBarLayout_expanded;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppBarLayout_Layout = global::SimplyNews.Resource.Styleable.AppBarLayout_Layout;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags = global::SimplyNews.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator = global::SimplyNews.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppBarLayout_liftOnScroll = global::SimplyNews.Resource.Styleable.AppBarLayout_liftOnScroll;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatImageView = global::SimplyNews.Resource.Styleable.AppCompatImageView;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatImageView_android_src = global::SimplyNews.Resource.Styleable.AppCompatImageView_android_src;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatImageView_srcCompat = global::SimplyNews.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatImageView_tint = global::SimplyNews.Resource.Styleable.AppCompatImageView_tint;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatImageView_tintMode = global::SimplyNews.Resource.Styleable.AppCompatImageView_tintMode;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatSeekBar = global::SimplyNews.Resource.Styleable.AppCompatSeekBar;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatSeekBar_android_thumb = global::SimplyNews.Resource.Styleable.AppCompatSeekBar_android_thumb;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatSeekBar_tickMark = global::SimplyNews.Resource.Styleable.AppCompatSeekBar_tickMark;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::SimplyNews.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::SimplyNews.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTextHelper = global::SimplyNews.Resource.Styleable.AppCompatTextHelper;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::SimplyNews.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::SimplyNews.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::SimplyNews.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::SimplyNews.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::SimplyNews.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::SimplyNews.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::SimplyNews.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTextView = global::SimplyNews.Resource.Styleable.AppCompatTextView;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTextView_android_textAppearance = global::SimplyNews.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize = global::SimplyNews.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize = global::SimplyNews.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTextView_autoSizePresetSizes = global::SimplyNews.Resource.Styleable.AppCompatTextView_autoSizePresetSizes;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity = global::SimplyNews.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTextView_autoSizeTextType = global::SimplyNews.Resource.Styleable.AppCompatTextView_autoSizeTextType;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTextView_drawableBottomCompat = global::SimplyNews.Resource.Styleable.AppCompatTextView_drawableBottomCompat;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTextView_drawableEndCompat = global::SimplyNews.Resource.Styleable.AppCompatTextView_drawableEndCompat;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTextView_drawableLeftCompat = global::SimplyNews.Resource.Styleable.AppCompatTextView_drawableLeftCompat;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTextView_drawableRightCompat = global::SimplyNews.Resource.Styleable.AppCompatTextView_drawableRightCompat;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTextView_drawableStartCompat = global::SimplyNews.Resource.Styleable.AppCompatTextView_drawableStartCompat;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTextView_drawableTint = global::SimplyNews.Resource.Styleable.AppCompatTextView_drawableTint;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTextView_drawableTintMode = global::SimplyNews.Resource.Styleable.AppCompatTextView_drawableTintMode;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTextView_drawableTopCompat = global::SimplyNews.Resource.Styleable.AppCompatTextView_drawableTopCompat;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight = global::SimplyNews.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTextView_fontFamily = global::SimplyNews.Resource.Styleable.AppCompatTextView_fontFamily;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTextView_fontVariationSettings = global::SimplyNews.Resource.Styleable.AppCompatTextView_fontVariationSettings;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight = global::SimplyNews.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTextView_lineHeight = global::SimplyNews.Resource.Styleable.AppCompatTextView_lineHeight;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTextView_textAllCaps = global::SimplyNews.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTextView_textLocale = global::SimplyNews.Resource.Styleable.AppCompatTextView_textLocale;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTheme = global::SimplyNews.Resource.Styleable.AppCompatTheme;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTheme_actionBarDivider = global::SimplyNews.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::SimplyNews.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::SimplyNews.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTheme_actionBarSize = global::SimplyNews.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::SimplyNews.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTheme_actionBarStyle = global::SimplyNews.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::SimplyNews.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::SimplyNews.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::SimplyNews.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTheme_actionBarTheme = global::SimplyNews.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::SimplyNews.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::SimplyNews.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::SimplyNews.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::SimplyNews.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::SimplyNews.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTheme_actionModeBackground = global::SimplyNews.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::SimplyNews.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::SimplyNews.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::SimplyNews.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::SimplyNews.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::SimplyNews.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::SimplyNews.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::SimplyNews.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::SimplyNews.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::SimplyNews.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::SimplyNews.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTheme_actionModeStyle = global::SimplyNews.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::SimplyNews.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::SimplyNews.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::SimplyNews.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::SimplyNews.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::SimplyNews.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::SimplyNews.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::SimplyNews.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::SimplyNews.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::SimplyNews.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::SimplyNews.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::SimplyNews.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::SimplyNews.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::SimplyNews.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::SimplyNews.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::SimplyNews.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::SimplyNews.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::SimplyNews.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTheme_buttonStyle = global::SimplyNews.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::SimplyNews.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTheme_checkboxStyle = global::SimplyNews.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::SimplyNews.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTheme_colorAccent = global::SimplyNews.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::SimplyNews.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::SimplyNews.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTheme_colorControlActivated = global::SimplyNews.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::SimplyNews.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTheme_colorControlNormal = global::SimplyNews.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTheme_colorError = global::SimplyNews.Resource.Styleable.AppCompatTheme_colorError;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTheme_colorPrimary = global::SimplyNews.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::SimplyNews.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::SimplyNews.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTheme_controlBackground = global::SimplyNews.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTheme_dialogCornerRadius = global::SimplyNews.Resource.Styleable.AppCompatTheme_dialogCornerRadius;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::SimplyNews.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTheme_dialogTheme = global::SimplyNews.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::SimplyNews.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTheme_dividerVertical = global::SimplyNews.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::SimplyNews.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::SimplyNews.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTheme_editTextBackground = global::SimplyNews.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTheme_editTextColor = global::SimplyNews.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTheme_editTextStyle = global::SimplyNews.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::SimplyNews.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::SimplyNews.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::SimplyNews.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTheme_listChoiceIndicatorMultipleAnimated = global::SimplyNews.Resource.Styleable.AppCompatTheme_listChoiceIndicatorMultipleAnimated;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTheme_listChoiceIndicatorSingleAnimated = global::SimplyNews.Resource.Styleable.AppCompatTheme_listChoiceIndicatorSingleAnimated;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::SimplyNews.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::SimplyNews.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::SimplyNews.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::SimplyNews.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::SimplyNews.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::SimplyNews.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingEnd = global::SimplyNews.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingEnd;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::SimplyNews.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::SimplyNews.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingStart = global::SimplyNews.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingStart;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTheme_panelBackground = global::SimplyNews.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::SimplyNews.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::SimplyNews.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::SimplyNews.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::SimplyNews.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::SimplyNews.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::SimplyNews.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::SimplyNews.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::SimplyNews.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTheme_searchViewStyle = global::SimplyNews.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTheme_seekBarStyle = global::SimplyNews.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::SimplyNews.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::SimplyNews.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::SimplyNews.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTheme_spinnerStyle = global::SimplyNews.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTheme_switchStyle = global::SimplyNews.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::SimplyNews.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::SimplyNews.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary = global::SimplyNews.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::SimplyNews.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::SimplyNews.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::SimplyNews.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::SimplyNews.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::SimplyNews.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::SimplyNews.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::SimplyNews.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::SimplyNews.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTheme_toolbarStyle = global::SimplyNews.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTheme_tooltipForegroundColor = global::SimplyNews.Resource.Styleable.AppCompatTheme_tooltipForegroundColor;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTheme_tooltipFrameBackground = global::SimplyNews.Resource.Styleable.AppCompatTheme_tooltipFrameBackground;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTheme_viewInflaterClass = global::SimplyNews.Resource.Styleable.AppCompatTheme_viewInflaterClass;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTheme_windowActionBar = global::SimplyNews.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::SimplyNews.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::SimplyNews.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::SimplyNews.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::SimplyNews.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::SimplyNews.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::SimplyNews.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::SimplyNews.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::SimplyNews.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.AppCompatTheme_windowNoTitle = global::SimplyNews.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.BackgroundStyle = global::SimplyNews.Resource.Styleable.BackgroundStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.BackgroundStyle_android_selectableItemBackground = global::SimplyNews.Resource.Styleable.BackgroundStyle_android_selectableItemBackground;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.BackgroundStyle_selectableItemBackground = global::SimplyNews.Resource.Styleable.BackgroundStyle_selectableItemBackground;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.BottomAppBar = global::SimplyNews.Resource.Styleable.BottomAppBar;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.BottomAppBar_backgroundTint = global::SimplyNews.Resource.Styleable.BottomAppBar_backgroundTint;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.BottomAppBar_fabAlignmentMode = global::SimplyNews.Resource.Styleable.BottomAppBar_fabAlignmentMode;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.BottomAppBar_fabCradleMargin = global::SimplyNews.Resource.Styleable.BottomAppBar_fabCradleMargin;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius = global::SimplyNews.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset = global::SimplyNews.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.BottomAppBar_hideOnScroll = global::SimplyNews.Resource.Styleable.BottomAppBar_hideOnScroll;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.BottomNavigationView = global::SimplyNews.Resource.Styleable.BottomNavigationView;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled = global::SimplyNews.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.BottomSheetBehavior_Layout = global::SimplyNews.Resource.Styleable.BottomSheetBehavior_Layout;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents = global::SimplyNews.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable = global::SimplyNews.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight = global::SimplyNews.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::SimplyNews.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.ButtonBarLayout = global::SimplyNews.Resource.Styleable.ButtonBarLayout;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.ButtonBarLayout_allowStacking = global::SimplyNews.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.CardView = global::SimplyNews.Resource.Styleable.CardView;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.CardView_android_minHeight = global::SimplyNews.Resource.Styleable.CardView_android_minHeight;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.CardView_android_minWidth = global::SimplyNews.Resource.Styleable.CardView_android_minWidth;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.CardView_cardBackgroundColor = global::SimplyNews.Resource.Styleable.CardView_cardBackgroundColor;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.CardView_cardCornerRadius = global::SimplyNews.Resource.Styleable.CardView_cardCornerRadius;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.CardView_cardElevation = global::SimplyNews.Resource.Styleable.CardView_cardElevation;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.CardView_cardMaxElevation = global::SimplyNews.Resource.Styleable.CardView_cardMaxElevation;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.CardView_cardPreventCornerOverlap = global::SimplyNews.Resource.Styleable.CardView_cardPreventCornerOverlap;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.CardView_cardUseCompatPadding = global::SimplyNews.Resource.Styleable.CardView_cardUseCompatPadding;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.CardView_contentPadding = global::SimplyNews.Resource.Styleable.CardView_contentPadding;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.CardView_contentPaddingBottom = global::SimplyNews.Resource.Styleable.CardView_contentPaddingBottom;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.CardView_contentPaddingLeft = global::SimplyNews.Resource.Styleable.CardView_contentPaddingLeft;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.CardView_contentPaddingRight = global::SimplyNews.Resource.Styleable.CardView_contentPaddingRight;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.CardView_contentPaddingTop = global::SimplyNews.Resource.Styleable.CardView_contentPaddingTop;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.CheckBoxPreference = global::SimplyNews.Resource.Styleable.CheckBoxPreference;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.CheckBoxPreference_android_disableDependentsState = global::SimplyNews.Resource.Styleable.CheckBoxPreference_android_disableDependentsState;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.CheckBoxPreference_android_summaryOff = global::SimplyNews.Resource.Styleable.CheckBoxPreference_android_summaryOff;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.CheckBoxPreference_android_summaryOn = global::SimplyNews.Resource.Styleable.CheckBoxPreference_android_summaryOn;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.CheckBoxPreference_disableDependentsState = global::SimplyNews.Resource.Styleable.CheckBoxPreference_disableDependentsState;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.CheckBoxPreference_summaryOff = global::SimplyNews.Resource.Styleable.CheckBoxPreference_summaryOff;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.CheckBoxPreference_summaryOn = global::SimplyNews.Resource.Styleable.CheckBoxPreference_summaryOn;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.Chip = global::SimplyNews.Resource.Styleable.Chip;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.ChipGroup = global::SimplyNews.Resource.Styleable.ChipGroup;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.ChipGroup_checkedChip = global::SimplyNews.Resource.Styleable.ChipGroup_checkedChip;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.ChipGroup_chipSpacing = global::SimplyNews.Resource.Styleable.ChipGroup_chipSpacing;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.ChipGroup_chipSpacingHorizontal = global::SimplyNews.Resource.Styleable.ChipGroup_chipSpacingHorizontal;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.ChipGroup_chipSpacingVertical = global::SimplyNews.Resource.Styleable.ChipGroup_chipSpacingVertical;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.ChipGroup_singleLine = global::SimplyNews.Resource.Styleable.ChipGroup_singleLine;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.ChipGroup_singleSelection = global::SimplyNews.Resource.Styleable.ChipGroup_singleSelection;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.Chip_android_checkable = global::SimplyNews.Resource.Styleable.Chip_android_checkable;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.Chip_android_ellipsize = global::SimplyNews.Resource.Styleable.Chip_android_ellipsize;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.Chip_android_maxWidth = global::SimplyNews.Resource.Styleable.Chip_android_maxWidth;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.Chip_android_text = global::SimplyNews.Resource.Styleable.Chip_android_text;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.Chip_android_textAppearance = global::SimplyNews.Resource.Styleable.Chip_android_textAppearance;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.Chip_checkedIcon = global::SimplyNews.Resource.Styleable.Chip_checkedIcon;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.Chip_checkedIconEnabled = global::SimplyNews.Resource.Styleable.Chip_checkedIconEnabled;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.Chip_checkedIconVisible = global::SimplyNews.Resource.Styleable.Chip_checkedIconVisible;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.Chip_chipBackgroundColor = global::SimplyNews.Resource.Styleable.Chip_chipBackgroundColor;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.Chip_chipCornerRadius = global::SimplyNews.Resource.Styleable.Chip_chipCornerRadius;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.Chip_chipEndPadding = global::SimplyNews.Resource.Styleable.Chip_chipEndPadding;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.Chip_chipIcon = global::SimplyNews.Resource.Styleable.Chip_chipIcon;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.Chip_chipIconEnabled = global::SimplyNews.Resource.Styleable.Chip_chipIconEnabled;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.Chip_chipIconSize = global::SimplyNews.Resource.Styleable.Chip_chipIconSize;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.Chip_chipIconTint = global::SimplyNews.Resource.Styleable.Chip_chipIconTint;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.Chip_chipIconVisible = global::SimplyNews.Resource.Styleable.Chip_chipIconVisible;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.Chip_chipMinHeight = global::SimplyNews.Resource.Styleable.Chip_chipMinHeight;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.Chip_chipStartPadding = global::SimplyNews.Resource.Styleable.Chip_chipStartPadding;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.Chip_chipStrokeColor = global::SimplyNews.Resource.Styleable.Chip_chipStrokeColor;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.Chip_chipStrokeWidth = global::SimplyNews.Resource.Styleable.Chip_chipStrokeWidth;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.Chip_closeIcon = global::SimplyNews.Resource.Styleable.Chip_closeIcon;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.Chip_closeIconEnabled = global::SimplyNews.Resource.Styleable.Chip_closeIconEnabled;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.Chip_closeIconEndPadding = global::SimplyNews.Resource.Styleable.Chip_closeIconEndPadding;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.Chip_closeIconSize = global::SimplyNews.Resource.Styleable.Chip_closeIconSize;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.Chip_closeIconStartPadding = global::SimplyNews.Resource.Styleable.Chip_closeIconStartPadding;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.Chip_closeIconTint = global::SimplyNews.Resource.Styleable.Chip_closeIconTint;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.Chip_closeIconVisible = global::SimplyNews.Resource.Styleable.Chip_closeIconVisible;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.Chip_hideMotionSpec = global::SimplyNews.Resource.Styleable.Chip_hideMotionSpec;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.Chip_iconEndPadding = global::SimplyNews.Resource.Styleable.Chip_iconEndPadding;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.Chip_iconStartPadding = global::SimplyNews.Resource.Styleable.Chip_iconStartPadding;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.Chip_rippleColor = global::SimplyNews.Resource.Styleable.Chip_rippleColor;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.Chip_showMotionSpec = global::SimplyNews.Resource.Styleable.Chip_showMotionSpec;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.Chip_textEndPadding = global::SimplyNews.Resource.Styleable.Chip_textEndPadding;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.Chip_textStartPadding = global::SimplyNews.Resource.Styleable.Chip_textStartPadding;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.CollapsingToolbarLayout = global::SimplyNews.Resource.Styleable.CollapsingToolbarLayout;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::SimplyNews.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::SimplyNews.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::SimplyNews.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::SimplyNews.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::SimplyNews.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::SimplyNews.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::SimplyNews.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::SimplyNews.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::SimplyNews.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::SimplyNews.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.CollapsingToolbarLayout_Layout = global::SimplyNews.Resource.Styleable.CollapsingToolbarLayout_Layout;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode = global::SimplyNews.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = global::SimplyNews.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration = global::SimplyNews.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger = global::SimplyNews.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::SimplyNews.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.CollapsingToolbarLayout_title = global::SimplyNews.Resource.Styleable.CollapsingToolbarLayout_title;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::SimplyNews.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::SimplyNews.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.ColorStateListItem = global::SimplyNews.Resource.Styleable.ColorStateListItem;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.ColorStateListItem_alpha = global::SimplyNews.Resource.Styleable.ColorStateListItem_alpha;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.ColorStateListItem_android_alpha = global::SimplyNews.Resource.Styleable.ColorStateListItem_android_alpha;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.ColorStateListItem_android_color = global::SimplyNews.Resource.Styleable.ColorStateListItem_android_color;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.CompoundButton = global::SimplyNews.Resource.Styleable.CompoundButton;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.CompoundButton_android_button = global::SimplyNews.Resource.Styleable.CompoundButton_android_button;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.CompoundButton_buttonCompat = global::SimplyNews.Resource.Styleable.CompoundButton_buttonCompat;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.CompoundButton_buttonTint = global::SimplyNews.Resource.Styleable.CompoundButton_buttonTint;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.CompoundButton_buttonTintMode = global::SimplyNews.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.CoordinatorLayout = global::SimplyNews.Resource.Styleable.CoordinatorLayout;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.CoordinatorLayout_keylines = global::SimplyNews.Resource.Styleable.CoordinatorLayout_keylines;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.CoordinatorLayout_Layout = global::SimplyNews.Resource.Styleable.CoordinatorLayout_Layout;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::SimplyNews.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::SimplyNews.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::SimplyNews.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::SimplyNews.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::SimplyNews.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::SimplyNews.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::SimplyNews.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::SimplyNews.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.DialogPreference = global::SimplyNews.Resource.Styleable.DialogPreference;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.DialogPreference_android_dialogIcon = global::SimplyNews.Resource.Styleable.DialogPreference_android_dialogIcon;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.DialogPreference_android_dialogLayout = global::SimplyNews.Resource.Styleable.DialogPreference_android_dialogLayout;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.DialogPreference_android_dialogMessage = global::SimplyNews.Resource.Styleable.DialogPreference_android_dialogMessage;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.DialogPreference_android_dialogTitle = global::SimplyNews.Resource.Styleable.DialogPreference_android_dialogTitle;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.DialogPreference_android_negativeButtonText = global::SimplyNews.Resource.Styleable.DialogPreference_android_negativeButtonText;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.DialogPreference_android_positiveButtonText = global::SimplyNews.Resource.Styleable.DialogPreference_android_positiveButtonText;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.DialogPreference_dialogIcon = global::SimplyNews.Resource.Styleable.DialogPreference_dialogIcon;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.DialogPreference_dialogLayout = global::SimplyNews.Resource.Styleable.DialogPreference_dialogLayout;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.DialogPreference_dialogMessage = global::SimplyNews.Resource.Styleable.DialogPreference_dialogMessage;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.DialogPreference_dialogTitle = global::SimplyNews.Resource.Styleable.DialogPreference_dialogTitle;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.DialogPreference_negativeButtonText = global::SimplyNews.Resource.Styleable.DialogPreference_negativeButtonText;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.DialogPreference_positiveButtonText = global::SimplyNews.Resource.Styleable.DialogPreference_positiveButtonText;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.DrawerArrowToggle = global::SimplyNews.Resource.Styleable.DrawerArrowToggle;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::SimplyNews.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::SimplyNews.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.DrawerArrowToggle_barLength = global::SimplyNews.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.DrawerArrowToggle_color = global::SimplyNews.Resource.Styleable.DrawerArrowToggle_color;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.DrawerArrowToggle_drawableSize = global::SimplyNews.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::SimplyNews.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.DrawerArrowToggle_spinBars = global::SimplyNews.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.DrawerArrowToggle_thickness = global::SimplyNews.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.DrawerLayout = global::SimplyNews.Resource.Styleable.DrawerLayout;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.DrawerLayout_elevation = global::SimplyNews.Resource.Styleable.DrawerLayout_elevation;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.EditTextPreference = global::SimplyNews.Resource.Styleable.EditTextPreference;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.EditTextPreference_useSimpleSummaryProvider = global::SimplyNews.Resource.Styleable.EditTextPreference_useSimpleSummaryProvider;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.FloatingActionButton = global::SimplyNews.Resource.Styleable.FloatingActionButton;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.FloatingActionButton_backgroundTint = global::SimplyNews.Resource.Styleable.FloatingActionButton_backgroundTint;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::SimplyNews.Resource.Styleable.FloatingActionButton_backgroundTintMode;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.FloatingActionButton_Behavior_Layout = global::SimplyNews.Resource.Styleable.FloatingActionButton_Behavior_Layout;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide = global::SimplyNews.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.FloatingActionButton_borderWidth = global::SimplyNews.Resource.Styleable.FloatingActionButton_borderWidth;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.FloatingActionButton_elevation = global::SimplyNews.Resource.Styleable.FloatingActionButton_elevation;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.FloatingActionButton_fabCustomSize = global::SimplyNews.Resource.Styleable.FloatingActionButton_fabCustomSize;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.FloatingActionButton_fabSize = global::SimplyNews.Resource.Styleable.FloatingActionButton_fabSize;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.FloatingActionButton_hideMotionSpec = global::SimplyNews.Resource.Styleable.FloatingActionButton_hideMotionSpec;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.FloatingActionButton_hoveredFocusedTranslationZ = global::SimplyNews.Resource.Styleable.FloatingActionButton_hoveredFocusedTranslationZ;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.FloatingActionButton_maxImageSize = global::SimplyNews.Resource.Styleable.FloatingActionButton_maxImageSize;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::SimplyNews.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.FloatingActionButton_rippleColor = global::SimplyNews.Resource.Styleable.FloatingActionButton_rippleColor;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.FloatingActionButton_showMotionSpec = global::SimplyNews.Resource.Styleable.FloatingActionButton_showMotionSpec;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.FloatingActionButton_useCompatPadding = global::SimplyNews.Resource.Styleable.FloatingActionButton_useCompatPadding;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.FlowLayout = global::SimplyNews.Resource.Styleable.FlowLayout;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.FlowLayout_itemSpacing = global::SimplyNews.Resource.Styleable.FlowLayout_itemSpacing;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.FlowLayout_lineSpacing = global::SimplyNews.Resource.Styleable.FlowLayout_lineSpacing;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.FontFamily = global::SimplyNews.Resource.Styleable.FontFamily;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.FontFamilyFont = global::SimplyNews.Resource.Styleable.FontFamilyFont;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.FontFamilyFont_android_font = global::SimplyNews.Resource.Styleable.FontFamilyFont_android_font;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.FontFamilyFont_android_fontStyle = global::SimplyNews.Resource.Styleable.FontFamilyFont_android_fontStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.FontFamilyFont_android_fontVariationSettings = global::SimplyNews.Resource.Styleable.FontFamilyFont_android_fontVariationSettings;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.FontFamilyFont_android_fontWeight = global::SimplyNews.Resource.Styleable.FontFamilyFont_android_fontWeight;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.FontFamilyFont_android_ttcIndex = global::SimplyNews.Resource.Styleable.FontFamilyFont_android_ttcIndex;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.FontFamilyFont_font = global::SimplyNews.Resource.Styleable.FontFamilyFont_font;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.FontFamilyFont_fontStyle = global::SimplyNews.Resource.Styleable.FontFamilyFont_fontStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.FontFamilyFont_fontVariationSettings = global::SimplyNews.Resource.Styleable.FontFamilyFont_fontVariationSettings;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.FontFamilyFont_fontWeight = global::SimplyNews.Resource.Styleable.FontFamilyFont_fontWeight;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.FontFamilyFont_ttcIndex = global::SimplyNews.Resource.Styleable.FontFamilyFont_ttcIndex;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.FontFamily_fontProviderAuthority = global::SimplyNews.Resource.Styleable.FontFamily_fontProviderAuthority;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.FontFamily_fontProviderCerts = global::SimplyNews.Resource.Styleable.FontFamily_fontProviderCerts;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::SimplyNews.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::SimplyNews.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.FontFamily_fontProviderPackage = global::SimplyNews.Resource.Styleable.FontFamily_fontProviderPackage;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.FontFamily_fontProviderQuery = global::SimplyNews.Resource.Styleable.FontFamily_fontProviderQuery;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.FontFamily_fontProviderSystemFontFamily = global::SimplyNews.Resource.Styleable.FontFamily_fontProviderSystemFontFamily;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.ForegroundLinearLayout = global::SimplyNews.Resource.Styleable.ForegroundLinearLayout;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::SimplyNews.Resource.Styleable.ForegroundLinearLayout_android_foreground;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::SimplyNews.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::SimplyNews.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.Fragment = global::SimplyNews.Resource.Styleable.Fragment;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.FragmentContainerView = global::SimplyNews.Resource.Styleable.FragmentContainerView;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.FragmentContainerView_android_name = global::SimplyNews.Resource.Styleable.FragmentContainerView_android_name;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.FragmentContainerView_android_tag = global::SimplyNews.Resource.Styleable.FragmentContainerView_android_tag;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.Fragment_android_id = global::SimplyNews.Resource.Styleable.Fragment_android_id;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.Fragment_android_name = global::SimplyNews.Resource.Styleable.Fragment_android_name;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.Fragment_android_tag = global::SimplyNews.Resource.Styleable.Fragment_android_tag;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.GradientColor = global::SimplyNews.Resource.Styleable.GradientColor;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.GradientColorItem = global::SimplyNews.Resource.Styleable.GradientColorItem;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.GradientColorItem_android_color = global::SimplyNews.Resource.Styleable.GradientColorItem_android_color;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.GradientColorItem_android_offset = global::SimplyNews.Resource.Styleable.GradientColorItem_android_offset;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.GradientColor_android_centerColor = global::SimplyNews.Resource.Styleable.GradientColor_android_centerColor;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.GradientColor_android_centerX = global::SimplyNews.Resource.Styleable.GradientColor_android_centerX;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.GradientColor_android_centerY = global::SimplyNews.Resource.Styleable.GradientColor_android_centerY;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.GradientColor_android_endColor = global::SimplyNews.Resource.Styleable.GradientColor_android_endColor;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.GradientColor_android_endX = global::SimplyNews.Resource.Styleable.GradientColor_android_endX;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.GradientColor_android_endY = global::SimplyNews.Resource.Styleable.GradientColor_android_endY;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.GradientColor_android_gradientRadius = global::SimplyNews.Resource.Styleable.GradientColor_android_gradientRadius;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.GradientColor_android_startColor = global::SimplyNews.Resource.Styleable.GradientColor_android_startColor;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.GradientColor_android_startX = global::SimplyNews.Resource.Styleable.GradientColor_android_startX;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.GradientColor_android_startY = global::SimplyNews.Resource.Styleable.GradientColor_android_startY;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.GradientColor_android_tileMode = global::SimplyNews.Resource.Styleable.GradientColor_android_tileMode;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.GradientColor_android_type = global::SimplyNews.Resource.Styleable.GradientColor_android_type;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.LinearLayoutCompat = global::SimplyNews.Resource.Styleable.LinearLayoutCompat;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::SimplyNews.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::SimplyNews.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.LinearLayoutCompat_android_gravity = global::SimplyNews.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.LinearLayoutCompat_android_orientation = global::SimplyNews.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::SimplyNews.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.LinearLayoutCompat_divider = global::SimplyNews.Resource.Styleable.LinearLayoutCompat_divider;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::SimplyNews.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.LinearLayoutCompat_Layout = global::SimplyNews.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::SimplyNews.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::SimplyNews.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::SimplyNews.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::SimplyNews.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::SimplyNews.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.LinearLayoutCompat_showDividers = global::SimplyNews.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.ListPopupWindow = global::SimplyNews.Resource.Styleable.ListPopupWindow;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::SimplyNews.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::SimplyNews.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.ListPreference = global::SimplyNews.Resource.Styleable.ListPreference;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.ListPreference_android_entries = global::SimplyNews.Resource.Styleable.ListPreference_android_entries;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.ListPreference_android_entryValues = global::SimplyNews.Resource.Styleable.ListPreference_android_entryValues;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.ListPreference_entries = global::SimplyNews.Resource.Styleable.ListPreference_entries;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.ListPreference_entryValues = global::SimplyNews.Resource.Styleable.ListPreference_entryValues;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.ListPreference_useSimpleSummaryProvider = global::SimplyNews.Resource.Styleable.ListPreference_useSimpleSummaryProvider;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.MaterialButton = global::SimplyNews.Resource.Styleable.MaterialButton;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.MaterialButton_android_insetBottom = global::SimplyNews.Resource.Styleable.MaterialButton_android_insetBottom;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.MaterialButton_android_insetLeft = global::SimplyNews.Resource.Styleable.MaterialButton_android_insetLeft;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.MaterialButton_android_insetRight = global::SimplyNews.Resource.Styleable.MaterialButton_android_insetRight;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.MaterialButton_android_insetTop = global::SimplyNews.Resource.Styleable.MaterialButton_android_insetTop;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.MaterialButton_backgroundTint = global::SimplyNews.Resource.Styleable.MaterialButton_backgroundTint;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.MaterialButton_backgroundTintMode = global::SimplyNews.Resource.Styleable.MaterialButton_backgroundTintMode;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.MaterialButton_cornerRadius = global::SimplyNews.Resource.Styleable.MaterialButton_cornerRadius;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.MaterialButton_icon = global::SimplyNews.Resource.Styleable.MaterialButton_icon;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.MaterialButton_iconGravity = global::SimplyNews.Resource.Styleable.MaterialButton_iconGravity;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.MaterialButton_iconPadding = global::SimplyNews.Resource.Styleable.MaterialButton_iconPadding;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.MaterialButton_iconSize = global::SimplyNews.Resource.Styleable.MaterialButton_iconSize;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.MaterialButton_iconTint = global::SimplyNews.Resource.Styleable.MaterialButton_iconTint;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.MaterialButton_iconTintMode = global::SimplyNews.Resource.Styleable.MaterialButton_iconTintMode;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.MaterialButton_rippleColor = global::SimplyNews.Resource.Styleable.MaterialButton_rippleColor;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.MaterialButton_strokeColor = global::SimplyNews.Resource.Styleable.MaterialButton_strokeColor;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.MaterialButton_strokeWidth = global::SimplyNews.Resource.Styleable.MaterialButton_strokeWidth;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.MaterialCardView = global::SimplyNews.Resource.Styleable.MaterialCardView;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.MaterialCardView_strokeColor = global::SimplyNews.Resource.Styleable.MaterialCardView_strokeColor;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.MaterialCardView_strokeWidth = global::SimplyNews.Resource.Styleable.MaterialCardView_strokeWidth;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.MenuGroup = global::SimplyNews.Resource.Styleable.MenuGroup;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.MenuGroup_android_checkableBehavior = global::SimplyNews.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.MenuGroup_android_enabled = global::SimplyNews.Resource.Styleable.MenuGroup_android_enabled;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.MenuGroup_android_id = global::SimplyNews.Resource.Styleable.MenuGroup_android_id;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.MenuGroup_android_menuCategory = global::SimplyNews.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.MenuGroup_android_orderInCategory = global::SimplyNews.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.MenuGroup_android_visible = global::SimplyNews.Resource.Styleable.MenuGroup_android_visible;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.MenuItem = global::SimplyNews.Resource.Styleable.MenuItem;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.MenuItem_actionLayout = global::SimplyNews.Resource.Styleable.MenuItem_actionLayout;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.MenuItem_actionProviderClass = global::SimplyNews.Resource.Styleable.MenuItem_actionProviderClass;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.MenuItem_actionViewClass = global::SimplyNews.Resource.Styleable.MenuItem_actionViewClass;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.MenuItem_alphabeticModifiers = global::SimplyNews.Resource.Styleable.MenuItem_alphabeticModifiers;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::SimplyNews.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.MenuItem_android_checkable = global::SimplyNews.Resource.Styleable.MenuItem_android_checkable;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.MenuItem_android_checked = global::SimplyNews.Resource.Styleable.MenuItem_android_checked;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.MenuItem_android_enabled = global::SimplyNews.Resource.Styleable.MenuItem_android_enabled;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.MenuItem_android_icon = global::SimplyNews.Resource.Styleable.MenuItem_android_icon;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.MenuItem_android_id = global::SimplyNews.Resource.Styleable.MenuItem_android_id;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.MenuItem_android_menuCategory = global::SimplyNews.Resource.Styleable.MenuItem_android_menuCategory;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.MenuItem_android_numericShortcut = global::SimplyNews.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.MenuItem_android_onClick = global::SimplyNews.Resource.Styleable.MenuItem_android_onClick;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.MenuItem_android_orderInCategory = global::SimplyNews.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.MenuItem_android_title = global::SimplyNews.Resource.Styleable.MenuItem_android_title;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.MenuItem_android_titleCondensed = global::SimplyNews.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.MenuItem_android_visible = global::SimplyNews.Resource.Styleable.MenuItem_android_visible;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.MenuItem_contentDescription = global::SimplyNews.Resource.Styleable.MenuItem_contentDescription;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.MenuItem_iconTint = global::SimplyNews.Resource.Styleable.MenuItem_iconTint;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.MenuItem_iconTintMode = global::SimplyNews.Resource.Styleable.MenuItem_iconTintMode;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.MenuItem_numericModifiers = global::SimplyNews.Resource.Styleable.MenuItem_numericModifiers;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.MenuItem_showAsAction = global::SimplyNews.Resource.Styleable.MenuItem_showAsAction;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.MenuItem_tooltipText = global::SimplyNews.Resource.Styleable.MenuItem_tooltipText;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.MenuView = global::SimplyNews.Resource.Styleable.MenuView;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.MenuView_android_headerBackground = global::SimplyNews.Resource.Styleable.MenuView_android_headerBackground;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.MenuView_android_horizontalDivider = global::SimplyNews.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.MenuView_android_itemBackground = global::SimplyNews.Resource.Styleable.MenuView_android_itemBackground;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::SimplyNews.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.MenuView_android_itemTextAppearance = global::SimplyNews.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.MenuView_android_verticalDivider = global::SimplyNews.Resource.Styleable.MenuView_android_verticalDivider;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.MenuView_android_windowAnimationStyle = global::SimplyNews.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.MenuView_preserveIconSpacing = global::SimplyNews.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.MenuView_subMenuArrow = global::SimplyNews.Resource.Styleable.MenuView_subMenuArrow;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.MultiSelectListPreference = global::SimplyNews.Resource.Styleable.MultiSelectListPreference;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.MultiSelectListPreference_android_entries = global::SimplyNews.Resource.Styleable.MultiSelectListPreference_android_entries;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.MultiSelectListPreference_android_entryValues = global::SimplyNews.Resource.Styleable.MultiSelectListPreference_android_entryValues;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.MultiSelectListPreference_entries = global::SimplyNews.Resource.Styleable.MultiSelectListPreference_entries;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.MultiSelectListPreference_entryValues = global::SimplyNews.Resource.Styleable.MultiSelectListPreference_entryValues;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.MvxBinding = global::SimplyNews.Resource.Styleable.MvxBinding;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.MvxBinding_MvxBind = global::SimplyNews.Resource.Styleable.MvxBinding_MvxBind;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.MvxBinding_MvxLang = global::SimplyNews.Resource.Styleable.MvxBinding_MvxLang;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.MvxControl = global::SimplyNews.Resource.Styleable.MvxControl;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.MvxControl_MvxTemplate = global::SimplyNews.Resource.Styleable.MvxControl_MvxTemplate;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.MvxExpandableListView = global::SimplyNews.Resource.Styleable.MvxExpandableListView;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.MvxExpandableListView_MvxGroupItemTemplate = global::SimplyNews.Resource.Styleable.MvxExpandableListView_MvxGroupItemTemplate;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.MvxListView = global::SimplyNews.Resource.Styleable.MvxListView;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.MvxListView_MvxDropDownItemTemplate = global::SimplyNews.Resource.Styleable.MvxListView_MvxDropDownItemTemplate;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.MvxListView_MvxItemTemplate = global::SimplyNews.Resource.Styleable.MvxListView_MvxItemTemplate;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.NavigationView = global::SimplyNews.Resource.Styleable.NavigationView;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.NavigationView_android_background = global::SimplyNews.Resource.Styleable.NavigationView_android_background;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::SimplyNews.Resource.Styleable.NavigationView_android_fitsSystemWindows;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.NavigationView_android_maxWidth = global::SimplyNews.Resource.Styleable.NavigationView_android_maxWidth;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.NavigationView_elevation = global::SimplyNews.Resource.Styleable.NavigationView_elevation;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.NavigationView_headerLayout = global::SimplyNews.Resource.Styleable.NavigationView_headerLayout;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.NavigationView_itemBackground = global::SimplyNews.Resource.Styleable.NavigationView_itemBackground;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.NavigationView_itemHorizontalPadding = global::SimplyNews.Resource.Styleable.NavigationView_itemHorizontalPadding;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.NavigationView_itemIconPadding = global::SimplyNews.Resource.Styleable.NavigationView_itemIconPadding;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.NavigationView_itemIconTint = global::SimplyNews.Resource.Styleable.NavigationView_itemIconTint;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.NavigationView_itemTextAppearance = global::SimplyNews.Resource.Styleable.NavigationView_itemTextAppearance;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.NavigationView_itemTextColor = global::SimplyNews.Resource.Styleable.NavigationView_itemTextColor;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.NavigationView_menu = global::SimplyNews.Resource.Styleable.NavigationView_menu;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.PopupWindow = global::SimplyNews.Resource.Styleable.PopupWindow;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.PopupWindowBackgroundState = global::SimplyNews.Resource.Styleable.PopupWindowBackgroundState;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::SimplyNews.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::SimplyNews.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.PopupWindow_android_popupBackground = global::SimplyNews.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.PopupWindow_overlapAnchor = global::SimplyNews.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.Preference = global::SimplyNews.Resource.Styleable.Preference;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.PreferenceFragment = global::SimplyNews.Resource.Styleable.PreferenceFragment;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.PreferenceFragmentCompat = global::SimplyNews.Resource.Styleable.PreferenceFragmentCompat;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.PreferenceFragmentCompat_allowDividerAfterLastItem = global::SimplyNews.Resource.Styleable.PreferenceFragmentCompat_allowDividerAfterLastItem;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.PreferenceFragmentCompat_android_divider = global::SimplyNews.Resource.Styleable.PreferenceFragmentCompat_android_divider;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.PreferenceFragmentCompat_android_dividerHeight = global::SimplyNews.Resource.Styleable.PreferenceFragmentCompat_android_dividerHeight;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.PreferenceFragmentCompat_android_layout = global::SimplyNews.Resource.Styleable.PreferenceFragmentCompat_android_layout;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.PreferenceFragment_allowDividerAfterLastItem = global::SimplyNews.Resource.Styleable.PreferenceFragment_allowDividerAfterLastItem;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.PreferenceFragment_android_divider = global::SimplyNews.Resource.Styleable.PreferenceFragment_android_divider;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.PreferenceFragment_android_dividerHeight = global::SimplyNews.Resource.Styleable.PreferenceFragment_android_dividerHeight;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.PreferenceFragment_android_layout = global::SimplyNews.Resource.Styleable.PreferenceFragment_android_layout;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.PreferenceGroup = global::SimplyNews.Resource.Styleable.PreferenceGroup;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.PreferenceGroup_android_orderingFromXml = global::SimplyNews.Resource.Styleable.PreferenceGroup_android_orderingFromXml;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.PreferenceGroup_initialExpandedChildrenCount = global::SimplyNews.Resource.Styleable.PreferenceGroup_initialExpandedChildrenCount;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.PreferenceGroup_orderingFromXml = global::SimplyNews.Resource.Styleable.PreferenceGroup_orderingFromXml;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.PreferenceImageView = global::SimplyNews.Resource.Styleable.PreferenceImageView;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.PreferenceImageView_android_maxHeight = global::SimplyNews.Resource.Styleable.PreferenceImageView_android_maxHeight;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.PreferenceImageView_android_maxWidth = global::SimplyNews.Resource.Styleable.PreferenceImageView_android_maxWidth;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.PreferenceImageView_maxHeight = global::SimplyNews.Resource.Styleable.PreferenceImageView_maxHeight;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.PreferenceImageView_maxWidth = global::SimplyNews.Resource.Styleable.PreferenceImageView_maxWidth;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.PreferenceTheme = global::SimplyNews.Resource.Styleable.PreferenceTheme;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.PreferenceTheme_checkBoxPreferenceStyle = global::SimplyNews.Resource.Styleable.PreferenceTheme_checkBoxPreferenceStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.PreferenceTheme_dialogPreferenceStyle = global::SimplyNews.Resource.Styleable.PreferenceTheme_dialogPreferenceStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.PreferenceTheme_dropdownPreferenceStyle = global::SimplyNews.Resource.Styleable.PreferenceTheme_dropdownPreferenceStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.PreferenceTheme_editTextPreferenceStyle = global::SimplyNews.Resource.Styleable.PreferenceTheme_editTextPreferenceStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.PreferenceTheme_preferenceCategoryStyle = global::SimplyNews.Resource.Styleable.PreferenceTheme_preferenceCategoryStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.PreferenceTheme_preferenceCategoryTitleTextAppearance = global::SimplyNews.Resource.Styleable.PreferenceTheme_preferenceCategoryTitleTextAppearance;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.PreferenceTheme_preferenceFragmentCompatStyle = global::SimplyNews.Resource.Styleable.PreferenceTheme_preferenceFragmentCompatStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.PreferenceTheme_preferenceFragmentListStyle = global::SimplyNews.Resource.Styleable.PreferenceTheme_preferenceFragmentListStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.PreferenceTheme_preferenceFragmentStyle = global::SimplyNews.Resource.Styleable.PreferenceTheme_preferenceFragmentStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.PreferenceTheme_preferenceInformationStyle = global::SimplyNews.Resource.Styleable.PreferenceTheme_preferenceInformationStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.PreferenceTheme_preferenceScreenStyle = global::SimplyNews.Resource.Styleable.PreferenceTheme_preferenceScreenStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.PreferenceTheme_preferenceStyle = global::SimplyNews.Resource.Styleable.PreferenceTheme_preferenceStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.PreferenceTheme_preferenceTheme = global::SimplyNews.Resource.Styleable.PreferenceTheme_preferenceTheme;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.PreferenceTheme_seekBarPreferenceStyle = global::SimplyNews.Resource.Styleable.PreferenceTheme_seekBarPreferenceStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.PreferenceTheme_switchPreferenceCompatStyle = global::SimplyNews.Resource.Styleable.PreferenceTheme_switchPreferenceCompatStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.PreferenceTheme_switchPreferenceStyle = global::SimplyNews.Resource.Styleable.PreferenceTheme_switchPreferenceStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.Preference_allowDividerAbove = global::SimplyNews.Resource.Styleable.Preference_allowDividerAbove;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.Preference_allowDividerBelow = global::SimplyNews.Resource.Styleable.Preference_allowDividerBelow;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.Preference_android_defaultValue = global::SimplyNews.Resource.Styleable.Preference_android_defaultValue;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.Preference_android_dependency = global::SimplyNews.Resource.Styleable.Preference_android_dependency;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.Preference_android_enabled = global::SimplyNews.Resource.Styleable.Preference_android_enabled;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.Preference_android_fragment = global::SimplyNews.Resource.Styleable.Preference_android_fragment;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.Preference_android_icon = global::SimplyNews.Resource.Styleable.Preference_android_icon;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.Preference_android_iconSpaceReserved = global::SimplyNews.Resource.Styleable.Preference_android_iconSpaceReserved;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.Preference_android_key = global::SimplyNews.Resource.Styleable.Preference_android_key;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.Preference_android_layout = global::SimplyNews.Resource.Styleable.Preference_android_layout;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.Preference_android_order = global::SimplyNews.Resource.Styleable.Preference_android_order;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.Preference_android_persistent = global::SimplyNews.Resource.Styleable.Preference_android_persistent;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.Preference_android_selectable = global::SimplyNews.Resource.Styleable.Preference_android_selectable;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.Preference_android_shouldDisableView = global::SimplyNews.Resource.Styleable.Preference_android_shouldDisableView;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.Preference_android_singleLineTitle = global::SimplyNews.Resource.Styleable.Preference_android_singleLineTitle;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.Preference_android_summary = global::SimplyNews.Resource.Styleable.Preference_android_summary;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.Preference_android_title = global::SimplyNews.Resource.Styleable.Preference_android_title;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.Preference_android_widgetLayout = global::SimplyNews.Resource.Styleable.Preference_android_widgetLayout;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.Preference_defaultValue = global::SimplyNews.Resource.Styleable.Preference_defaultValue;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.Preference_dependency = global::SimplyNews.Resource.Styleable.Preference_dependency;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.Preference_enableCopying = global::SimplyNews.Resource.Styleable.Preference_enableCopying;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.Preference_enabled = global::SimplyNews.Resource.Styleable.Preference_enabled;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.Preference_fragment = global::SimplyNews.Resource.Styleable.Preference_fragment;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.Preference_icon = global::SimplyNews.Resource.Styleable.Preference_icon;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.Preference_iconSpaceReserved = global::SimplyNews.Resource.Styleable.Preference_iconSpaceReserved;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.Preference_isPreferenceVisible = global::SimplyNews.Resource.Styleable.Preference_isPreferenceVisible;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.Preference_key = global::SimplyNews.Resource.Styleable.Preference_key;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.Preference_layout = global::SimplyNews.Resource.Styleable.Preference_layout;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.Preference_order = global::SimplyNews.Resource.Styleable.Preference_order;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.Preference_persistent = global::SimplyNews.Resource.Styleable.Preference_persistent;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.Preference_selectable = global::SimplyNews.Resource.Styleable.Preference_selectable;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.Preference_shouldDisableView = global::SimplyNews.Resource.Styleable.Preference_shouldDisableView;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.Preference_singleLineTitle = global::SimplyNews.Resource.Styleable.Preference_singleLineTitle;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.Preference_summary = global::SimplyNews.Resource.Styleable.Preference_summary;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.Preference_title = global::SimplyNews.Resource.Styleable.Preference_title;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.Preference_widgetLayout = global::SimplyNews.Resource.Styleable.Preference_widgetLayout;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.RecycleListView = global::SimplyNews.Resource.Styleable.RecycleListView;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::SimplyNews.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::SimplyNews.Resource.Styleable.RecycleListView_paddingTopNoTitle;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.RecyclerView = global::SimplyNews.Resource.Styleable.RecyclerView;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.RecyclerView_android_clipToPadding = global::SimplyNews.Resource.Styleable.RecyclerView_android_clipToPadding;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.RecyclerView_android_descendantFocusability = global::SimplyNews.Resource.Styleable.RecyclerView_android_descendantFocusability;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.RecyclerView_android_orientation = global::SimplyNews.Resource.Styleable.RecyclerView_android_orientation;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.RecyclerView_fastScrollEnabled = global::SimplyNews.Resource.Styleable.RecyclerView_fastScrollEnabled;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable = global::SimplyNews.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable = global::SimplyNews.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable = global::SimplyNews.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable = global::SimplyNews.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.RecyclerView_layoutManager = global::SimplyNews.Resource.Styleable.RecyclerView_layoutManager;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.RecyclerView_reverseLayout = global::SimplyNews.Resource.Styleable.RecyclerView_reverseLayout;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.RecyclerView_spanCount = global::SimplyNews.Resource.Styleable.RecyclerView_spanCount;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.RecyclerView_stackFromEnd = global::SimplyNews.Resource.Styleable.RecyclerView_stackFromEnd;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.ScrimInsetsFrameLayout = global::SimplyNews.Resource.Styleable.ScrimInsetsFrameLayout;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::SimplyNews.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.ScrollingViewBehavior_Layout = global::SimplyNews.Resource.Styleable.ScrollingViewBehavior_Layout;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop = global::SimplyNews.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.SearchView = global::SimplyNews.Resource.Styleable.SearchView;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.SearchView_android_focusable = global::SimplyNews.Resource.Styleable.SearchView_android_focusable;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.SearchView_android_imeOptions = global::SimplyNews.Resource.Styleable.SearchView_android_imeOptions;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.SearchView_android_inputType = global::SimplyNews.Resource.Styleable.SearchView_android_inputType;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.SearchView_android_maxWidth = global::SimplyNews.Resource.Styleable.SearchView_android_maxWidth;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.SearchView_closeIcon = global::SimplyNews.Resource.Styleable.SearchView_closeIcon;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.SearchView_commitIcon = global::SimplyNews.Resource.Styleable.SearchView_commitIcon;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.SearchView_defaultQueryHint = global::SimplyNews.Resource.Styleable.SearchView_defaultQueryHint;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.SearchView_goIcon = global::SimplyNews.Resource.Styleable.SearchView_goIcon;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.SearchView_iconifiedByDefault = global::SimplyNews.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.SearchView_layout = global::SimplyNews.Resource.Styleable.SearchView_layout;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.SearchView_queryBackground = global::SimplyNews.Resource.Styleable.SearchView_queryBackground;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.SearchView_queryHint = global::SimplyNews.Resource.Styleable.SearchView_queryHint;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.SearchView_searchHintIcon = global::SimplyNews.Resource.Styleable.SearchView_searchHintIcon;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.SearchView_searchIcon = global::SimplyNews.Resource.Styleable.SearchView_searchIcon;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.SearchView_submitBackground = global::SimplyNews.Resource.Styleable.SearchView_submitBackground;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.SearchView_suggestionRowLayout = global::SimplyNews.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.SearchView_voiceIcon = global::SimplyNews.Resource.Styleable.SearchView_voiceIcon;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.SeekBarPreference = global::SimplyNews.Resource.Styleable.SeekBarPreference;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.SeekBarPreference_adjustable = global::SimplyNews.Resource.Styleable.SeekBarPreference_adjustable;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.SeekBarPreference_android_layout = global::SimplyNews.Resource.Styleable.SeekBarPreference_android_layout;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.SeekBarPreference_android_max = global::SimplyNews.Resource.Styleable.SeekBarPreference_android_max;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.SeekBarPreference_min = global::SimplyNews.Resource.Styleable.SeekBarPreference_min;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.SeekBarPreference_seekBarIncrement = global::SimplyNews.Resource.Styleable.SeekBarPreference_seekBarIncrement;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.SeekBarPreference_showSeekBarValue = global::SimplyNews.Resource.Styleable.SeekBarPreference_showSeekBarValue;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.SeekBarPreference_updatesContinuously = global::SimplyNews.Resource.Styleable.SeekBarPreference_updatesContinuously;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.Snackbar = global::SimplyNews.Resource.Styleable.Snackbar;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.SnackbarLayout = global::SimplyNews.Resource.Styleable.SnackbarLayout;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.SnackbarLayout_android_maxWidth = global::SimplyNews.Resource.Styleable.SnackbarLayout_android_maxWidth;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.SnackbarLayout_elevation = global::SimplyNews.Resource.Styleable.SnackbarLayout_elevation;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::SimplyNews.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.Snackbar_snackbarButtonStyle = global::SimplyNews.Resource.Styleable.Snackbar_snackbarButtonStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.Snackbar_snackbarStyle = global::SimplyNews.Resource.Styleable.Snackbar_snackbarStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.Spinner = global::SimplyNews.Resource.Styleable.Spinner;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.Spinner_android_dropDownWidth = global::SimplyNews.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.Spinner_android_entries = global::SimplyNews.Resource.Styleable.Spinner_android_entries;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.Spinner_android_popupBackground = global::SimplyNews.Resource.Styleable.Spinner_android_popupBackground;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.Spinner_android_prompt = global::SimplyNews.Resource.Styleable.Spinner_android_prompt;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.Spinner_popupTheme = global::SimplyNews.Resource.Styleable.Spinner_popupTheme;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.StateListDrawable = global::SimplyNews.Resource.Styleable.StateListDrawable;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.StateListDrawableItem = global::SimplyNews.Resource.Styleable.StateListDrawableItem;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.StateListDrawableItem_android_drawable = global::SimplyNews.Resource.Styleable.StateListDrawableItem_android_drawable;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.StateListDrawable_android_constantSize = global::SimplyNews.Resource.Styleable.StateListDrawable_android_constantSize;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.StateListDrawable_android_dither = global::SimplyNews.Resource.Styleable.StateListDrawable_android_dither;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.StateListDrawable_android_enterFadeDuration = global::SimplyNews.Resource.Styleable.StateListDrawable_android_enterFadeDuration;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.StateListDrawable_android_exitFadeDuration = global::SimplyNews.Resource.Styleable.StateListDrawable_android_exitFadeDuration;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.StateListDrawable_android_variablePadding = global::SimplyNews.Resource.Styleable.StateListDrawable_android_variablePadding;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.StateListDrawable_android_visible = global::SimplyNews.Resource.Styleable.StateListDrawable_android_visible;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.SwitchCompat = global::SimplyNews.Resource.Styleable.SwitchCompat;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.SwitchCompat_android_textOff = global::SimplyNews.Resource.Styleable.SwitchCompat_android_textOff;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.SwitchCompat_android_textOn = global::SimplyNews.Resource.Styleable.SwitchCompat_android_textOn;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.SwitchCompat_android_thumb = global::SimplyNews.Resource.Styleable.SwitchCompat_android_thumb;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.SwitchCompat_showText = global::SimplyNews.Resource.Styleable.SwitchCompat_showText;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.SwitchCompat_splitTrack = global::SimplyNews.Resource.Styleable.SwitchCompat_splitTrack;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.SwitchCompat_switchMinWidth = global::SimplyNews.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.SwitchCompat_switchPadding = global::SimplyNews.Resource.Styleable.SwitchCompat_switchPadding;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.SwitchCompat_switchTextAppearance = global::SimplyNews.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.SwitchCompat_thumbTextPadding = global::SimplyNews.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.SwitchCompat_thumbTint = global::SimplyNews.Resource.Styleable.SwitchCompat_thumbTint;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.SwitchCompat_thumbTintMode = global::SimplyNews.Resource.Styleable.SwitchCompat_thumbTintMode;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.SwitchCompat_track = global::SimplyNews.Resource.Styleable.SwitchCompat_track;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.SwitchCompat_trackTint = global::SimplyNews.Resource.Styleable.SwitchCompat_trackTint;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.SwitchCompat_trackTintMode = global::SimplyNews.Resource.Styleable.SwitchCompat_trackTintMode;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.SwitchPreference = global::SimplyNews.Resource.Styleable.SwitchPreference;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.SwitchPreferenceCompat = global::SimplyNews.Resource.Styleable.SwitchPreferenceCompat;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.SwitchPreferenceCompat_android_disableDependentsState = global::SimplyNews.Resource.Styleable.SwitchPreferenceCompat_android_disableDependentsState;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.SwitchPreferenceCompat_android_summaryOff = global::SimplyNews.Resource.Styleable.SwitchPreferenceCompat_android_summaryOff;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.SwitchPreferenceCompat_android_summaryOn = global::SimplyNews.Resource.Styleable.SwitchPreferenceCompat_android_summaryOn;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.SwitchPreferenceCompat_android_switchTextOff = global::SimplyNews.Resource.Styleable.SwitchPreferenceCompat_android_switchTextOff;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.SwitchPreferenceCompat_android_switchTextOn = global::SimplyNews.Resource.Styleable.SwitchPreferenceCompat_android_switchTextOn;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.SwitchPreferenceCompat_disableDependentsState = global::SimplyNews.Resource.Styleable.SwitchPreferenceCompat_disableDependentsState;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.SwitchPreferenceCompat_summaryOff = global::SimplyNews.Resource.Styleable.SwitchPreferenceCompat_summaryOff;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.SwitchPreferenceCompat_summaryOn = global::SimplyNews.Resource.Styleable.SwitchPreferenceCompat_summaryOn;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.SwitchPreferenceCompat_switchTextOff = global::SimplyNews.Resource.Styleable.SwitchPreferenceCompat_switchTextOff;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.SwitchPreferenceCompat_switchTextOn = global::SimplyNews.Resource.Styleable.SwitchPreferenceCompat_switchTextOn;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.SwitchPreference_android_disableDependentsState = global::SimplyNews.Resource.Styleable.SwitchPreference_android_disableDependentsState;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.SwitchPreference_android_summaryOff = global::SimplyNews.Resource.Styleable.SwitchPreference_android_summaryOff;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.SwitchPreference_android_summaryOn = global::SimplyNews.Resource.Styleable.SwitchPreference_android_summaryOn;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.SwitchPreference_android_switchTextOff = global::SimplyNews.Resource.Styleable.SwitchPreference_android_switchTextOff;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.SwitchPreference_android_switchTextOn = global::SimplyNews.Resource.Styleable.SwitchPreference_android_switchTextOn;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.SwitchPreference_disableDependentsState = global::SimplyNews.Resource.Styleable.SwitchPreference_disableDependentsState;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.SwitchPreference_summaryOff = global::SimplyNews.Resource.Styleable.SwitchPreference_summaryOff;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.SwitchPreference_summaryOn = global::SimplyNews.Resource.Styleable.SwitchPreference_summaryOn;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.SwitchPreference_switchTextOff = global::SimplyNews.Resource.Styleable.SwitchPreference_switchTextOff;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.SwitchPreference_switchTextOn = global::SimplyNews.Resource.Styleable.SwitchPreference_switchTextOn;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.TabItem = global::SimplyNews.Resource.Styleable.TabItem;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.TabItem_android_icon = global::SimplyNews.Resource.Styleable.TabItem_android_icon;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.TabItem_android_layout = global::SimplyNews.Resource.Styleable.TabItem_android_layout;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.TabItem_android_text = global::SimplyNews.Resource.Styleable.TabItem_android_text;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.TabLayout = global::SimplyNews.Resource.Styleable.TabLayout;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.TabLayout_tabBackground = global::SimplyNews.Resource.Styleable.TabLayout_tabBackground;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.TabLayout_tabContentStart = global::SimplyNews.Resource.Styleable.TabLayout_tabContentStart;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.TabLayout_tabGravity = global::SimplyNews.Resource.Styleable.TabLayout_tabGravity;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.TabLayout_tabIconTint = global::SimplyNews.Resource.Styleable.TabLayout_tabIconTint;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.TabLayout_tabIconTintMode = global::SimplyNews.Resource.Styleable.TabLayout_tabIconTintMode;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.TabLayout_tabIndicator = global::SimplyNews.Resource.Styleable.TabLayout_tabIndicator;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.TabLayout_tabIndicatorAnimationDuration = global::SimplyNews.Resource.Styleable.TabLayout_tabIndicatorAnimationDuration;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.TabLayout_tabIndicatorColor = global::SimplyNews.Resource.Styleable.TabLayout_tabIndicatorColor;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.TabLayout_tabIndicatorFullWidth = global::SimplyNews.Resource.Styleable.TabLayout_tabIndicatorFullWidth;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.TabLayout_tabIndicatorGravity = global::SimplyNews.Resource.Styleable.TabLayout_tabIndicatorGravity;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.TabLayout_tabIndicatorHeight = global::SimplyNews.Resource.Styleable.TabLayout_tabIndicatorHeight;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.TabLayout_tabInlineLabel = global::SimplyNews.Resource.Styleable.TabLayout_tabInlineLabel;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.TabLayout_tabMaxWidth = global::SimplyNews.Resource.Styleable.TabLayout_tabMaxWidth;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.TabLayout_tabMinWidth = global::SimplyNews.Resource.Styleable.TabLayout_tabMinWidth;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.TabLayout_tabMode = global::SimplyNews.Resource.Styleable.TabLayout_tabMode;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.TabLayout_tabPadding = global::SimplyNews.Resource.Styleable.TabLayout_tabPadding;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.TabLayout_tabPaddingBottom = global::SimplyNews.Resource.Styleable.TabLayout_tabPaddingBottom;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.TabLayout_tabPaddingEnd = global::SimplyNews.Resource.Styleable.TabLayout_tabPaddingEnd;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.TabLayout_tabPaddingStart = global::SimplyNews.Resource.Styleable.TabLayout_tabPaddingStart;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.TabLayout_tabPaddingTop = global::SimplyNews.Resource.Styleable.TabLayout_tabPaddingTop;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.TabLayout_tabRippleColor = global::SimplyNews.Resource.Styleable.TabLayout_tabRippleColor;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.TabLayout_tabSelectedTextColor = global::SimplyNews.Resource.Styleable.TabLayout_tabSelectedTextColor;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.TabLayout_tabTextAppearance = global::SimplyNews.Resource.Styleable.TabLayout_tabTextAppearance;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.TabLayout_tabTextColor = global::SimplyNews.Resource.Styleable.TabLayout_tabTextColor;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.TabLayout_tabUnboundedRipple = global::SimplyNews.Resource.Styleable.TabLayout_tabUnboundedRipple;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.TextAppearance = global::SimplyNews.Resource.Styleable.TextAppearance;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.TextAppearance_android_fontFamily = global::SimplyNews.Resource.Styleable.TextAppearance_android_fontFamily;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.TextAppearance_android_shadowColor = global::SimplyNews.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.TextAppearance_android_shadowDx = global::SimplyNews.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.TextAppearance_android_shadowDy = global::SimplyNews.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.TextAppearance_android_shadowRadius = global::SimplyNews.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.TextAppearance_android_textColor = global::SimplyNews.Resource.Styleable.TextAppearance_android_textColor;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.TextAppearance_android_textColorHint = global::SimplyNews.Resource.Styleable.TextAppearance_android_textColorHint;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.TextAppearance_android_textColorLink = global::SimplyNews.Resource.Styleable.TextAppearance_android_textColorLink;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.TextAppearance_android_textFontWeight = global::SimplyNews.Resource.Styleable.TextAppearance_android_textFontWeight;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.TextAppearance_android_textSize = global::SimplyNews.Resource.Styleable.TextAppearance_android_textSize;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.TextAppearance_android_textStyle = global::SimplyNews.Resource.Styleable.TextAppearance_android_textStyle;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.TextAppearance_android_typeface = global::SimplyNews.Resource.Styleable.TextAppearance_android_typeface;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.TextAppearance_fontFamily = global::SimplyNews.Resource.Styleable.TextAppearance_fontFamily;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.TextAppearance_fontVariationSettings = global::SimplyNews.Resource.Styleable.TextAppearance_fontVariationSettings;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.TextAppearance_textAllCaps = global::SimplyNews.Resource.Styleable.TextAppearance_textAllCaps;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.TextAppearance_textLocale = global::SimplyNews.Resource.Styleable.TextAppearance_textLocale;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.TextInputLayout = global::SimplyNews.Resource.Styleable.TextInputLayout;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.TextInputLayout_android_hint = global::SimplyNews.Resource.Styleable.TextInputLayout_android_hint;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.TextInputLayout_android_textColorHint = global::SimplyNews.Resource.Styleable.TextInputLayout_android_textColorHint;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.TextInputLayout_boxBackgroundColor = global::SimplyNews.Resource.Styleable.TextInputLayout_boxBackgroundColor;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.TextInputLayout_boxBackgroundMode = global::SimplyNews.Resource.Styleable.TextInputLayout_boxBackgroundMode;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.TextInputLayout_boxCollapsedPaddingTop = global::SimplyNews.Resource.Styleable.TextInputLayout_boxCollapsedPaddingTop;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomEnd = global::SimplyNews.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomEnd;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomStart = global::SimplyNews.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomStart;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd = global::SimplyNews.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart = global::SimplyNews.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.TextInputLayout_boxStrokeColor = global::SimplyNews.Resource.Styleable.TextInputLayout_boxStrokeColor;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.TextInputLayout_boxStrokeWidth = global::SimplyNews.Resource.Styleable.TextInputLayout_boxStrokeWidth;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.TextInputLayout_counterEnabled = global::SimplyNews.Resource.Styleable.TextInputLayout_counterEnabled;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.TextInputLayout_counterMaxLength = global::SimplyNews.Resource.Styleable.TextInputLayout_counterMaxLength;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::SimplyNews.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.TextInputLayout_counterTextAppearance = global::SimplyNews.Resource.Styleable.TextInputLayout_counterTextAppearance;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.TextInputLayout_errorEnabled = global::SimplyNews.Resource.Styleable.TextInputLayout_errorEnabled;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.TextInputLayout_errorTextAppearance = global::SimplyNews.Resource.Styleable.TextInputLayout_errorTextAppearance;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.TextInputLayout_helperText = global::SimplyNews.Resource.Styleable.TextInputLayout_helperText;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.TextInputLayout_helperTextEnabled = global::SimplyNews.Resource.Styleable.TextInputLayout_helperTextEnabled;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.TextInputLayout_helperTextTextAppearance = global::SimplyNews.Resource.Styleable.TextInputLayout_helperTextTextAppearance;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::SimplyNews.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.TextInputLayout_hintEnabled = global::SimplyNews.Resource.Styleable.TextInputLayout_hintEnabled;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.TextInputLayout_hintTextAppearance = global::SimplyNews.Resource.Styleable.TextInputLayout_hintTextAppearance;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.TextInputLayout_passwordToggleContentDescription = global::SimplyNews.Resource.Styleable.TextInputLayout_passwordToggleContentDescription;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.TextInputLayout_passwordToggleDrawable = global::SimplyNews.Resource.Styleable.TextInputLayout_passwordToggleDrawable;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.TextInputLayout_passwordToggleEnabled = global::SimplyNews.Resource.Styleable.TextInputLayout_passwordToggleEnabled;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.TextInputLayout_passwordToggleTint = global::SimplyNews.Resource.Styleable.TextInputLayout_passwordToggleTint;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.TextInputLayout_passwordToggleTintMode = global::SimplyNews.Resource.Styleable.TextInputLayout_passwordToggleTintMode;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.ThemeEnforcement = global::SimplyNews.Resource.Styleable.ThemeEnforcement;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.ThemeEnforcement_android_textAppearance = global::SimplyNews.Resource.Styleable.ThemeEnforcement_android_textAppearance;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme = global::SimplyNews.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.ThemeEnforcement_enforceTextAppearance = global::SimplyNews.Resource.Styleable.ThemeEnforcement_enforceTextAppearance;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.Toolbar = global::SimplyNews.Resource.Styleable.Toolbar;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.Toolbar_android_gravity = global::SimplyNews.Resource.Styleable.Toolbar_android_gravity;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.Toolbar_android_minHeight = global::SimplyNews.Resource.Styleable.Toolbar_android_minHeight;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.Toolbar_buttonGravity = global::SimplyNews.Resource.Styleable.Toolbar_buttonGravity;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.Toolbar_collapseContentDescription = global::SimplyNews.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.Toolbar_collapseIcon = global::SimplyNews.Resource.Styleable.Toolbar_collapseIcon;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.Toolbar_contentInsetEnd = global::SimplyNews.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::SimplyNews.Resource.Styleable.Toolbar_contentInsetEndWithActions;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.Toolbar_contentInsetLeft = global::SimplyNews.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.Toolbar_contentInsetRight = global::SimplyNews.Resource.Styleable.Toolbar_contentInsetRight;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.Toolbar_contentInsetStart = global::SimplyNews.Resource.Styleable.Toolbar_contentInsetStart;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::SimplyNews.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.Toolbar_logo = global::SimplyNews.Resource.Styleable.Toolbar_logo;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.Toolbar_logoDescription = global::SimplyNews.Resource.Styleable.Toolbar_logoDescription;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.Toolbar_maxButtonHeight = global::SimplyNews.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.Toolbar_menu = global::SimplyNews.Resource.Styleable.Toolbar_menu;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.Toolbar_navigationContentDescription = global::SimplyNews.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.Toolbar_navigationIcon = global::SimplyNews.Resource.Styleable.Toolbar_navigationIcon;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.Toolbar_popupTheme = global::SimplyNews.Resource.Styleable.Toolbar_popupTheme;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.Toolbar_subtitle = global::SimplyNews.Resource.Styleable.Toolbar_subtitle;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.Toolbar_subtitleTextAppearance = global::SimplyNews.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.Toolbar_subtitleTextColor = global::SimplyNews.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.Toolbar_title = global::SimplyNews.Resource.Styleable.Toolbar_title;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.Toolbar_titleMargin = global::SimplyNews.Resource.Styleable.Toolbar_titleMargin;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.Toolbar_titleMarginBottom = global::SimplyNews.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.Toolbar_titleMarginEnd = global::SimplyNews.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.Toolbar_titleMargins = global::SimplyNews.Resource.Styleable.Toolbar_titleMargins;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.Toolbar_titleMarginStart = global::SimplyNews.Resource.Styleable.Toolbar_titleMarginStart;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.Toolbar_titleMarginTop = global::SimplyNews.Resource.Styleable.Toolbar_titleMarginTop;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.Toolbar_titleTextAppearance = global::SimplyNews.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.Toolbar_titleTextColor = global::SimplyNews.Resource.Styleable.Toolbar_titleTextColor;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.View = global::SimplyNews.Resource.Styleable.View;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.ViewBackgroundHelper = global::SimplyNews.Resource.Styleable.ViewBackgroundHelper;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.ViewBackgroundHelper_android_background = global::SimplyNews.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::SimplyNews.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::SimplyNews.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.ViewStubCompat = global::SimplyNews.Resource.Styleable.ViewStubCompat;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.ViewStubCompat_android_id = global::SimplyNews.Resource.Styleable.ViewStubCompat_android_id;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.ViewStubCompat_android_inflatedId = global::SimplyNews.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.ViewStubCompat_android_layout = global::SimplyNews.Resource.Styleable.ViewStubCompat_android_layout;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.View_android_focusable = global::SimplyNews.Resource.Styleable.View_android_focusable;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.View_android_theme = global::SimplyNews.Resource.Styleable.View_android_theme;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.View_paddingEnd = global::SimplyNews.Resource.Styleable.View_paddingEnd;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.View_paddingStart = global::SimplyNews.Resource.Styleable.View_paddingStart;
+			global::MvvmCross.Plugin.Visibility.Resource.Styleable.View_theme = global::SimplyNews.Resource.Styleable.View_theme;
 		}
 		
 		public partial class Animation
@@ -5081,304 +7761,292 @@ namespace SimplyNews
 			public const int bright_foreground_material_light = 2131034150;
 			
 			// aapt resource value: 0x7F050027
-			public const int browser_actions_bg_grey = 2131034151;
+			public const int button_material_dark = 2131034151;
 			
 			// aapt resource value: 0x7F050028
-			public const int browser_actions_divider_color = 2131034152;
+			public const int button_material_light = 2131034152;
 			
 			// aapt resource value: 0x7F050029
-			public const int browser_actions_text_color = 2131034153;
+			public const int cardview_dark_background = 2131034153;
 			
 			// aapt resource value: 0x7F05002A
-			public const int browser_actions_title_color = 2131034154;
+			public const int cardview_light_background = 2131034154;
 			
 			// aapt resource value: 0x7F05002B
-			public const int button_material_dark = 2131034155;
+			public const int cardview_shadow_end_color = 2131034155;
 			
 			// aapt resource value: 0x7F05002C
-			public const int button_material_light = 2131034156;
+			public const int cardview_shadow_start_color = 2131034156;
 			
 			// aapt resource value: 0x7F05002D
-			public const int cardview_dark_background = 2131034157;
+			public const int colorAccent = 2131034157;
 			
 			// aapt resource value: 0x7F05002E
-			public const int cardview_light_background = 2131034158;
+			public const int colorPrimary = 2131034158;
 			
 			// aapt resource value: 0x7F05002F
-			public const int cardview_shadow_end_color = 2131034159;
+			public const int colorPrimaryDark = 2131034159;
 			
 			// aapt resource value: 0x7F050030
-			public const int cardview_shadow_start_color = 2131034160;
+			public const int design_bottom_navigation_shadow_color = 2131034160;
 			
 			// aapt resource value: 0x7F050031
-			public const int colorAccent = 2131034161;
+			public const int design_default_color_primary = 2131034161;
 			
 			// aapt resource value: 0x7F050032
-			public const int colorPrimary = 2131034162;
+			public const int design_default_color_primary_dark = 2131034162;
 			
 			// aapt resource value: 0x7F050033
-			public const int colorPrimaryDark = 2131034163;
+			public const int design_error = 2131034163;
 			
 			// aapt resource value: 0x7F050034
-			public const int design_bottom_navigation_shadow_color = 2131034164;
+			public const int design_fab_shadow_end_color = 2131034164;
 			
 			// aapt resource value: 0x7F050035
-			public const int design_default_color_primary = 2131034165;
+			public const int design_fab_shadow_mid_color = 2131034165;
 			
 			// aapt resource value: 0x7F050036
-			public const int design_default_color_primary_dark = 2131034166;
+			public const int design_fab_shadow_start_color = 2131034166;
 			
 			// aapt resource value: 0x7F050037
-			public const int design_error = 2131034167;
+			public const int design_fab_stroke_end_inner_color = 2131034167;
 			
 			// aapt resource value: 0x7F050038
-			public const int design_fab_shadow_end_color = 2131034168;
+			public const int design_fab_stroke_end_outer_color = 2131034168;
 			
 			// aapt resource value: 0x7F050039
-			public const int design_fab_shadow_mid_color = 2131034169;
+			public const int design_fab_stroke_top_inner_color = 2131034169;
 			
 			// aapt resource value: 0x7F05003A
-			public const int design_fab_shadow_start_color = 2131034170;
+			public const int design_fab_stroke_top_outer_color = 2131034170;
 			
 			// aapt resource value: 0x7F05003B
-			public const int design_fab_stroke_end_inner_color = 2131034171;
+			public const int design_snackbar_background_color = 2131034171;
 			
 			// aapt resource value: 0x7F05003C
-			public const int design_fab_stroke_end_outer_color = 2131034172;
+			public const int design_tint_password_toggle = 2131034172;
 			
 			// aapt resource value: 0x7F05003D
-			public const int design_fab_stroke_top_inner_color = 2131034173;
+			public const int dim_foreground_disabled_material_dark = 2131034173;
 			
 			// aapt resource value: 0x7F05003E
-			public const int design_fab_stroke_top_outer_color = 2131034174;
+			public const int dim_foreground_disabled_material_light = 2131034174;
 			
 			// aapt resource value: 0x7F05003F
-			public const int design_snackbar_background_color = 2131034175;
+			public const int dim_foreground_material_dark = 2131034175;
 			
 			// aapt resource value: 0x7F050040
-			public const int design_tint_password_toggle = 2131034176;
+			public const int dim_foreground_material_light = 2131034176;
 			
 			// aapt resource value: 0x7F050041
-			public const int dim_foreground_disabled_material_dark = 2131034177;
+			public const int error_color_material_dark = 2131034177;
 			
 			// aapt resource value: 0x7F050042
-			public const int dim_foreground_disabled_material_light = 2131034178;
+			public const int error_color_material_light = 2131034178;
 			
 			// aapt resource value: 0x7F050043
-			public const int dim_foreground_material_dark = 2131034179;
+			public const int foreground_material_dark = 2131034179;
 			
 			// aapt resource value: 0x7F050044
-			public const int dim_foreground_material_light = 2131034180;
+			public const int foreground_material_light = 2131034180;
 			
 			// aapt resource value: 0x7F050045
-			public const int error_color_material_dark = 2131034181;
+			public const int highlighted_text_material_dark = 2131034181;
 			
 			// aapt resource value: 0x7F050046
-			public const int error_color_material_light = 2131034182;
+			public const int highlighted_text_material_light = 2131034182;
 			
 			// aapt resource value: 0x7F050047
-			public const int foreground_material_dark = 2131034183;
+			public const int ic_launcher_background = 2131034183;
 			
 			// aapt resource value: 0x7F050048
-			public const int foreground_material_light = 2131034184;
+			public const int material_blue_grey_800 = 2131034184;
 			
 			// aapt resource value: 0x7F050049
-			public const int highlighted_text_material_dark = 2131034185;
+			public const int material_blue_grey_900 = 2131034185;
 			
 			// aapt resource value: 0x7F05004A
-			public const int highlighted_text_material_light = 2131034186;
+			public const int material_blue_grey_950 = 2131034186;
 			
 			// aapt resource value: 0x7F05004B
-			public const int ic_launcher_background = 2131034187;
+			public const int material_deep_teal_200 = 2131034187;
 			
 			// aapt resource value: 0x7F05004C
-			public const int material_blue_grey_800 = 2131034188;
+			public const int material_deep_teal_500 = 2131034188;
 			
 			// aapt resource value: 0x7F05004D
-			public const int material_blue_grey_900 = 2131034189;
+			public const int material_grey_100 = 2131034189;
 			
 			// aapt resource value: 0x7F05004E
-			public const int material_blue_grey_950 = 2131034190;
+			public const int material_grey_300 = 2131034190;
 			
 			// aapt resource value: 0x7F05004F
-			public const int material_deep_teal_200 = 2131034191;
+			public const int material_grey_50 = 2131034191;
 			
 			// aapt resource value: 0x7F050050
-			public const int material_deep_teal_500 = 2131034192;
+			public const int material_grey_600 = 2131034192;
 			
 			// aapt resource value: 0x7F050051
-			public const int material_grey_100 = 2131034193;
+			public const int material_grey_800 = 2131034193;
 			
 			// aapt resource value: 0x7F050052
-			public const int material_grey_300 = 2131034194;
+			public const int material_grey_850 = 2131034194;
 			
 			// aapt resource value: 0x7F050053
-			public const int material_grey_50 = 2131034195;
+			public const int material_grey_900 = 2131034195;
 			
 			// aapt resource value: 0x7F050054
-			public const int material_grey_600 = 2131034196;
+			public const int mtrl_bottom_nav_colored_item_tint = 2131034196;
 			
 			// aapt resource value: 0x7F050055
-			public const int material_grey_800 = 2131034197;
+			public const int mtrl_bottom_nav_item_tint = 2131034197;
 			
 			// aapt resource value: 0x7F050056
-			public const int material_grey_850 = 2131034198;
+			public const int mtrl_btn_bg_color_disabled = 2131034198;
 			
 			// aapt resource value: 0x7F050057
-			public const int material_grey_900 = 2131034199;
+			public const int mtrl_btn_bg_color_selector = 2131034199;
 			
 			// aapt resource value: 0x7F050058
-			public const int mtrl_bottom_nav_colored_item_tint = 2131034200;
+			public const int mtrl_btn_ripple_color = 2131034200;
 			
 			// aapt resource value: 0x7F050059
-			public const int mtrl_bottom_nav_item_tint = 2131034201;
+			public const int mtrl_btn_stroke_color_selector = 2131034201;
 			
 			// aapt resource value: 0x7F05005A
-			public const int mtrl_btn_bg_color_disabled = 2131034202;
+			public const int mtrl_btn_text_btn_ripple_color = 2131034202;
 			
 			// aapt resource value: 0x7F05005B
-			public const int mtrl_btn_bg_color_selector = 2131034203;
+			public const int mtrl_btn_text_color_disabled = 2131034203;
 			
 			// aapt resource value: 0x7F05005C
-			public const int mtrl_btn_ripple_color = 2131034204;
+			public const int mtrl_btn_text_color_selector = 2131034204;
 			
 			// aapt resource value: 0x7F05005D
-			public const int mtrl_btn_stroke_color_selector = 2131034205;
+			public const int mtrl_btn_transparent_bg_color = 2131034205;
 			
 			// aapt resource value: 0x7F05005E
-			public const int mtrl_btn_text_btn_ripple_color = 2131034206;
+			public const int mtrl_chip_background_color = 2131034206;
 			
 			// aapt resource value: 0x7F05005F
-			public const int mtrl_btn_text_color_disabled = 2131034207;
+			public const int mtrl_chip_close_icon_tint = 2131034207;
 			
 			// aapt resource value: 0x7F050060
-			public const int mtrl_btn_text_color_selector = 2131034208;
+			public const int mtrl_chip_ripple_color = 2131034208;
 			
 			// aapt resource value: 0x7F050061
-			public const int mtrl_btn_transparent_bg_color = 2131034209;
+			public const int mtrl_chip_text_color = 2131034209;
 			
 			// aapt resource value: 0x7F050062
-			public const int mtrl_chip_background_color = 2131034210;
+			public const int mtrl_fab_ripple_color = 2131034210;
 			
 			// aapt resource value: 0x7F050063
-			public const int mtrl_chip_close_icon_tint = 2131034211;
+			public const int mtrl_scrim_color = 2131034211;
 			
 			// aapt resource value: 0x7F050064
-			public const int mtrl_chip_ripple_color = 2131034212;
+			public const int mtrl_tabs_colored_ripple_color = 2131034212;
 			
 			// aapt resource value: 0x7F050065
-			public const int mtrl_chip_text_color = 2131034213;
+			public const int mtrl_tabs_icon_color_selector = 2131034213;
 			
 			// aapt resource value: 0x7F050066
-			public const int mtrl_fab_ripple_color = 2131034214;
+			public const int mtrl_tabs_icon_color_selector_colored = 2131034214;
 			
 			// aapt resource value: 0x7F050067
-			public const int mtrl_scrim_color = 2131034215;
+			public const int mtrl_tabs_legacy_text_color_selector = 2131034215;
 			
 			// aapt resource value: 0x7F050068
-			public const int mtrl_tabs_colored_ripple_color = 2131034216;
-			
-			// aapt resource value: 0x7F050069
-			public const int mtrl_tabs_icon_color_selector = 2131034217;
+			public const int mtrl_tabs_ripple_color = 2131034216;
 			
 			// aapt resource value: 0x7F05006A
-			public const int mtrl_tabs_icon_color_selector_colored = 2131034218;
+			public const int mtrl_textinput_default_box_stroke_color = 2131034218;
 			
 			// aapt resource value: 0x7F05006B
-			public const int mtrl_tabs_legacy_text_color_selector = 2131034219;
+			public const int mtrl_textinput_disabled_color = 2131034219;
 			
 			// aapt resource value: 0x7F05006C
-			public const int mtrl_tabs_ripple_color = 2131034220;
-			
-			// aapt resource value: 0x7F05006E
-			public const int mtrl_textinput_default_box_stroke_color = 2131034222;
-			
-			// aapt resource value: 0x7F05006F
-			public const int mtrl_textinput_disabled_color = 2131034223;
-			
-			// aapt resource value: 0x7F050070
-			public const int mtrl_textinput_filled_box_default_background_color = 2131034224;
-			
-			// aapt resource value: 0x7F050071
-			public const int mtrl_textinput_hovered_box_stroke_color = 2131034225;
+			public const int mtrl_textinput_filled_box_default_background_color = 2131034220;
 			
 			// aapt resource value: 0x7F05006D
-			public const int mtrl_text_btn_text_color_selector = 2131034221;
+			public const int mtrl_textinput_hovered_box_stroke_color = 2131034221;
+			
+			// aapt resource value: 0x7F050069
+			public const int mtrl_text_btn_text_color_selector = 2131034217;
+			
+			// aapt resource value: 0x7F05006E
+			public const int notification_action_color_filter = 2131034222;
+			
+			// aapt resource value: 0x7F05006F
+			public const int notification_icon_bg_color = 2131034223;
+			
+			// aapt resource value: 0x7F050070
+			public const int preference_fallback_accent_color = 2131034224;
+			
+			// aapt resource value: 0x7F050071
+			public const int primary_dark_material_dark = 2131034225;
 			
 			// aapt resource value: 0x7F050072
-			public const int notification_action_color_filter = 2131034226;
+			public const int primary_dark_material_light = 2131034226;
 			
 			// aapt resource value: 0x7F050073
-			public const int notification_icon_bg_color = 2131034227;
+			public const int primary_material_dark = 2131034227;
 			
 			// aapt resource value: 0x7F050074
-			public const int preference_fallback_accent_color = 2131034228;
+			public const int primary_material_light = 2131034228;
 			
 			// aapt resource value: 0x7F050075
-			public const int primary_dark_material_dark = 2131034229;
+			public const int primary_text_default_material_dark = 2131034229;
 			
 			// aapt resource value: 0x7F050076
-			public const int primary_dark_material_light = 2131034230;
+			public const int primary_text_default_material_light = 2131034230;
 			
 			// aapt resource value: 0x7F050077
-			public const int primary_material_dark = 2131034231;
+			public const int primary_text_disabled_material_dark = 2131034231;
 			
 			// aapt resource value: 0x7F050078
-			public const int primary_material_light = 2131034232;
+			public const int primary_text_disabled_material_light = 2131034232;
 			
 			// aapt resource value: 0x7F050079
-			public const int primary_text_default_material_dark = 2131034233;
+			public const int ripple_material_dark = 2131034233;
 			
 			// aapt resource value: 0x7F05007A
-			public const int primary_text_default_material_light = 2131034234;
+			public const int ripple_material_light = 2131034234;
 			
 			// aapt resource value: 0x7F05007B
-			public const int primary_text_disabled_material_dark = 2131034235;
+			public const int secondary_text_default_material_dark = 2131034235;
 			
 			// aapt resource value: 0x7F05007C
-			public const int primary_text_disabled_material_light = 2131034236;
+			public const int secondary_text_default_material_light = 2131034236;
 			
 			// aapt resource value: 0x7F05007D
-			public const int ripple_material_dark = 2131034237;
+			public const int secondary_text_disabled_material_dark = 2131034237;
 			
 			// aapt resource value: 0x7F05007E
-			public const int ripple_material_light = 2131034238;
+			public const int secondary_text_disabled_material_light = 2131034238;
 			
 			// aapt resource value: 0x7F05007F
-			public const int secondary_text_default_material_dark = 2131034239;
+			public const int switch_thumb_disabled_material_dark = 2131034239;
 			
 			// aapt resource value: 0x7F050080
-			public const int secondary_text_default_material_light = 2131034240;
+			public const int switch_thumb_disabled_material_light = 2131034240;
 			
 			// aapt resource value: 0x7F050081
-			public const int secondary_text_disabled_material_dark = 2131034241;
+			public const int switch_thumb_material_dark = 2131034241;
 			
 			// aapt resource value: 0x7F050082
-			public const int secondary_text_disabled_material_light = 2131034242;
+			public const int switch_thumb_material_light = 2131034242;
 			
 			// aapt resource value: 0x7F050083
-			public const int switch_thumb_disabled_material_dark = 2131034243;
+			public const int switch_thumb_normal_material_dark = 2131034243;
 			
 			// aapt resource value: 0x7F050084
-			public const int switch_thumb_disabled_material_light = 2131034244;
+			public const int switch_thumb_normal_material_light = 2131034244;
 			
 			// aapt resource value: 0x7F050085
-			public const int switch_thumb_material_dark = 2131034245;
+			public const int tooltip_background_dark = 2131034245;
 			
 			// aapt resource value: 0x7F050086
-			public const int switch_thumb_material_light = 2131034246;
-			
-			// aapt resource value: 0x7F050087
-			public const int switch_thumb_normal_material_dark = 2131034247;
-			
-			// aapt resource value: 0x7F050088
-			public const int switch_thumb_normal_material_light = 2131034248;
-			
-			// aapt resource value: 0x7F050089
-			public const int tooltip_background_dark = 2131034249;
-			
-			// aapt resource value: 0x7F05008A
-			public const int tooltip_background_light = 2131034250;
+			public const int tooltip_background_light = 2131034246;
 			
 			static Color()
 			{
@@ -5628,448 +8296,442 @@ namespace SimplyNews
 			public const int abc_text_size_title_material_toolbar = 2131099725;
 			
 			// aapt resource value: 0x7F06004E
-			public const int browser_actions_context_menu_max_width = 2131099726;
+			public const int cardview_compat_inset_shadow = 2131099726;
 			
 			// aapt resource value: 0x7F06004F
-			public const int browser_actions_context_menu_min_padding = 2131099727;
+			public const int cardview_default_elevation = 2131099727;
 			
 			// aapt resource value: 0x7F060050
-			public const int cardview_compat_inset_shadow = 2131099728;
+			public const int cardview_default_radius = 2131099728;
 			
 			// aapt resource value: 0x7F060051
-			public const int cardview_default_elevation = 2131099729;
+			public const int compat_button_inset_horizontal_material = 2131099729;
 			
 			// aapt resource value: 0x7F060052
-			public const int cardview_default_radius = 2131099730;
+			public const int compat_button_inset_vertical_material = 2131099730;
 			
 			// aapt resource value: 0x7F060053
-			public const int compat_button_inset_horizontal_material = 2131099731;
+			public const int compat_button_padding_horizontal_material = 2131099731;
 			
 			// aapt resource value: 0x7F060054
-			public const int compat_button_inset_vertical_material = 2131099732;
+			public const int compat_button_padding_vertical_material = 2131099732;
 			
 			// aapt resource value: 0x7F060055
-			public const int compat_button_padding_horizontal_material = 2131099733;
+			public const int compat_control_corner_material = 2131099733;
 			
 			// aapt resource value: 0x7F060056
-			public const int compat_button_padding_vertical_material = 2131099734;
+			public const int compat_notification_large_icon_max_height = 2131099734;
 			
 			// aapt resource value: 0x7F060057
-			public const int compat_control_corner_material = 2131099735;
+			public const int compat_notification_large_icon_max_width = 2131099735;
 			
 			// aapt resource value: 0x7F060058
-			public const int compat_notification_large_icon_max_height = 2131099736;
+			public const int def_drawer_elevation = 2131099736;
 			
 			// aapt resource value: 0x7F060059
-			public const int compat_notification_large_icon_max_width = 2131099737;
+			public const int design_appbar_elevation = 2131099737;
 			
 			// aapt resource value: 0x7F06005A
-			public const int def_drawer_elevation = 2131099738;
+			public const int design_bottom_navigation_active_item_max_width = 2131099738;
 			
 			// aapt resource value: 0x7F06005B
-			public const int design_appbar_elevation = 2131099739;
+			public const int design_bottom_navigation_active_item_min_width = 2131099739;
 			
 			// aapt resource value: 0x7F06005C
-			public const int design_bottom_navigation_active_item_max_width = 2131099740;
+			public const int design_bottom_navigation_active_text_size = 2131099740;
 			
 			// aapt resource value: 0x7F06005D
-			public const int design_bottom_navigation_active_item_min_width = 2131099741;
+			public const int design_bottom_navigation_elevation = 2131099741;
 			
 			// aapt resource value: 0x7F06005E
-			public const int design_bottom_navigation_active_text_size = 2131099742;
+			public const int design_bottom_navigation_height = 2131099742;
 			
 			// aapt resource value: 0x7F06005F
-			public const int design_bottom_navigation_elevation = 2131099743;
+			public const int design_bottom_navigation_icon_size = 2131099743;
 			
 			// aapt resource value: 0x7F060060
-			public const int design_bottom_navigation_height = 2131099744;
+			public const int design_bottom_navigation_item_max_width = 2131099744;
 			
 			// aapt resource value: 0x7F060061
-			public const int design_bottom_navigation_icon_size = 2131099745;
+			public const int design_bottom_navigation_item_min_width = 2131099745;
 			
 			// aapt resource value: 0x7F060062
-			public const int design_bottom_navigation_item_max_width = 2131099746;
+			public const int design_bottom_navigation_margin = 2131099746;
 			
 			// aapt resource value: 0x7F060063
-			public const int design_bottom_navigation_item_min_width = 2131099747;
+			public const int design_bottom_navigation_shadow_height = 2131099747;
 			
 			// aapt resource value: 0x7F060064
-			public const int design_bottom_navigation_margin = 2131099748;
+			public const int design_bottom_navigation_text_size = 2131099748;
 			
 			// aapt resource value: 0x7F060065
-			public const int design_bottom_navigation_shadow_height = 2131099749;
+			public const int design_bottom_sheet_modal_elevation = 2131099749;
 			
 			// aapt resource value: 0x7F060066
-			public const int design_bottom_navigation_text_size = 2131099750;
+			public const int design_bottom_sheet_peek_height_min = 2131099750;
 			
 			// aapt resource value: 0x7F060067
-			public const int design_bottom_sheet_modal_elevation = 2131099751;
+			public const int design_fab_border_width = 2131099751;
 			
 			// aapt resource value: 0x7F060068
-			public const int design_bottom_sheet_peek_height_min = 2131099752;
+			public const int design_fab_elevation = 2131099752;
 			
 			// aapt resource value: 0x7F060069
-			public const int design_fab_border_width = 2131099753;
+			public const int design_fab_image_size = 2131099753;
 			
 			// aapt resource value: 0x7F06006A
-			public const int design_fab_elevation = 2131099754;
+			public const int design_fab_size_mini = 2131099754;
 			
 			// aapt resource value: 0x7F06006B
-			public const int design_fab_image_size = 2131099755;
+			public const int design_fab_size_normal = 2131099755;
 			
 			// aapt resource value: 0x7F06006C
-			public const int design_fab_size_mini = 2131099756;
+			public const int design_fab_translation_z_hovered_focused = 2131099756;
 			
 			// aapt resource value: 0x7F06006D
-			public const int design_fab_size_normal = 2131099757;
+			public const int design_fab_translation_z_pressed = 2131099757;
 			
 			// aapt resource value: 0x7F06006E
-			public const int design_fab_translation_z_hovered_focused = 2131099758;
+			public const int design_navigation_elevation = 2131099758;
 			
 			// aapt resource value: 0x7F06006F
-			public const int design_fab_translation_z_pressed = 2131099759;
+			public const int design_navigation_icon_padding = 2131099759;
 			
 			// aapt resource value: 0x7F060070
-			public const int design_navigation_elevation = 2131099760;
+			public const int design_navigation_icon_size = 2131099760;
 			
 			// aapt resource value: 0x7F060071
-			public const int design_navigation_icon_padding = 2131099761;
+			public const int design_navigation_item_horizontal_padding = 2131099761;
 			
 			// aapt resource value: 0x7F060072
-			public const int design_navigation_icon_size = 2131099762;
+			public const int design_navigation_item_icon_padding = 2131099762;
 			
 			// aapt resource value: 0x7F060073
-			public const int design_navigation_item_horizontal_padding = 2131099763;
+			public const int design_navigation_max_width = 2131099763;
 			
 			// aapt resource value: 0x7F060074
-			public const int design_navigation_item_icon_padding = 2131099764;
+			public const int design_navigation_padding_bottom = 2131099764;
 			
 			// aapt resource value: 0x7F060075
-			public const int design_navigation_max_width = 2131099765;
+			public const int design_navigation_separator_vertical_padding = 2131099765;
 			
 			// aapt resource value: 0x7F060076
-			public const int design_navigation_padding_bottom = 2131099766;
+			public const int design_snackbar_action_inline_max_width = 2131099766;
 			
 			// aapt resource value: 0x7F060077
-			public const int design_navigation_separator_vertical_padding = 2131099767;
+			public const int design_snackbar_background_corner_radius = 2131099767;
 			
 			// aapt resource value: 0x7F060078
-			public const int design_snackbar_action_inline_max_width = 2131099768;
+			public const int design_snackbar_elevation = 2131099768;
 			
 			// aapt resource value: 0x7F060079
-			public const int design_snackbar_background_corner_radius = 2131099769;
+			public const int design_snackbar_extra_spacing_horizontal = 2131099769;
 			
 			// aapt resource value: 0x7F06007A
-			public const int design_snackbar_elevation = 2131099770;
+			public const int design_snackbar_max_width = 2131099770;
 			
 			// aapt resource value: 0x7F06007B
-			public const int design_snackbar_extra_spacing_horizontal = 2131099771;
+			public const int design_snackbar_min_width = 2131099771;
 			
 			// aapt resource value: 0x7F06007C
-			public const int design_snackbar_max_width = 2131099772;
+			public const int design_snackbar_padding_horizontal = 2131099772;
 			
 			// aapt resource value: 0x7F06007D
-			public const int design_snackbar_min_width = 2131099773;
+			public const int design_snackbar_padding_vertical = 2131099773;
 			
 			// aapt resource value: 0x7F06007E
-			public const int design_snackbar_padding_horizontal = 2131099774;
+			public const int design_snackbar_padding_vertical_2lines = 2131099774;
 			
 			// aapt resource value: 0x7F06007F
-			public const int design_snackbar_padding_vertical = 2131099775;
+			public const int design_snackbar_text_size = 2131099775;
 			
 			// aapt resource value: 0x7F060080
-			public const int design_snackbar_padding_vertical_2lines = 2131099776;
+			public const int design_tab_max_width = 2131099776;
 			
 			// aapt resource value: 0x7F060081
-			public const int design_snackbar_text_size = 2131099777;
+			public const int design_tab_scrollable_min_width = 2131099777;
 			
 			// aapt resource value: 0x7F060082
-			public const int design_tab_max_width = 2131099778;
+			public const int design_tab_text_size = 2131099778;
 			
 			// aapt resource value: 0x7F060083
-			public const int design_tab_scrollable_min_width = 2131099779;
+			public const int design_tab_text_size_2line = 2131099779;
 			
 			// aapt resource value: 0x7F060084
-			public const int design_tab_text_size = 2131099780;
+			public const int design_textinput_caption_translate_y = 2131099780;
 			
 			// aapt resource value: 0x7F060085
-			public const int design_tab_text_size_2line = 2131099781;
+			public const int disabled_alpha_material_dark = 2131099781;
 			
 			// aapt resource value: 0x7F060086
-			public const int design_textinput_caption_translate_y = 2131099782;
+			public const int disabled_alpha_material_light = 2131099782;
 			
 			// aapt resource value: 0x7F060087
-			public const int disabled_alpha_material_dark = 2131099783;
+			public const int fastscroll_default_thickness = 2131099783;
 			
 			// aapt resource value: 0x7F060088
-			public const int disabled_alpha_material_light = 2131099784;
+			public const int fastscroll_margin = 2131099784;
 			
 			// aapt resource value: 0x7F060089
-			public const int fastscroll_default_thickness = 2131099785;
+			public const int fastscroll_minimum_range = 2131099785;
 			
 			// aapt resource value: 0x7F06008A
-			public const int fastscroll_margin = 2131099786;
+			public const int highlight_alpha_material_colored = 2131099786;
 			
 			// aapt resource value: 0x7F06008B
-			public const int fastscroll_minimum_range = 2131099787;
+			public const int highlight_alpha_material_dark = 2131099787;
 			
 			// aapt resource value: 0x7F06008C
-			public const int highlight_alpha_material_colored = 2131099788;
+			public const int highlight_alpha_material_light = 2131099788;
 			
 			// aapt resource value: 0x7F06008D
-			public const int highlight_alpha_material_dark = 2131099789;
+			public const int hint_alpha_material_dark = 2131099789;
 			
 			// aapt resource value: 0x7F06008E
-			public const int highlight_alpha_material_light = 2131099790;
+			public const int hint_alpha_material_light = 2131099790;
 			
 			// aapt resource value: 0x7F06008F
-			public const int hint_alpha_material_dark = 2131099791;
+			public const int hint_pressed_alpha_material_dark = 2131099791;
 			
 			// aapt resource value: 0x7F060090
-			public const int hint_alpha_material_light = 2131099792;
+			public const int hint_pressed_alpha_material_light = 2131099792;
 			
 			// aapt resource value: 0x7F060091
-			public const int hint_pressed_alpha_material_dark = 2131099793;
+			public const int item_touch_helper_max_drag_scroll_per_frame = 2131099793;
 			
 			// aapt resource value: 0x7F060092
-			public const int hint_pressed_alpha_material_light = 2131099794;
+			public const int item_touch_helper_swipe_escape_max_velocity = 2131099794;
 			
 			// aapt resource value: 0x7F060093
-			public const int item_touch_helper_max_drag_scroll_per_frame = 2131099795;
+			public const int item_touch_helper_swipe_escape_velocity = 2131099795;
 			
 			// aapt resource value: 0x7F060094
-			public const int item_touch_helper_swipe_escape_max_velocity = 2131099796;
+			public const int mtrl_bottomappbar_fabOffsetEndMode = 2131099796;
 			
 			// aapt resource value: 0x7F060095
-			public const int item_touch_helper_swipe_escape_velocity = 2131099797;
+			public const int mtrl_bottomappbar_fab_cradle_margin = 2131099797;
 			
 			// aapt resource value: 0x7F060096
-			public const int mtrl_bottomappbar_fabOffsetEndMode = 2131099798;
+			public const int mtrl_bottomappbar_fab_cradle_rounded_corner_radius = 2131099798;
 			
 			// aapt resource value: 0x7F060097
-			public const int mtrl_bottomappbar_fab_cradle_margin = 2131099799;
+			public const int mtrl_bottomappbar_fab_cradle_vertical_offset = 2131099799;
 			
 			// aapt resource value: 0x7F060098
-			public const int mtrl_bottomappbar_fab_cradle_rounded_corner_radius = 2131099800;
+			public const int mtrl_bottomappbar_height = 2131099800;
 			
 			// aapt resource value: 0x7F060099
-			public const int mtrl_bottomappbar_fab_cradle_vertical_offset = 2131099801;
+			public const int mtrl_btn_corner_radius = 2131099801;
 			
 			// aapt resource value: 0x7F06009A
-			public const int mtrl_bottomappbar_height = 2131099802;
+			public const int mtrl_btn_dialog_btn_min_width = 2131099802;
 			
 			// aapt resource value: 0x7F06009B
-			public const int mtrl_btn_corner_radius = 2131099803;
+			public const int mtrl_btn_disabled_elevation = 2131099803;
 			
 			// aapt resource value: 0x7F06009C
-			public const int mtrl_btn_dialog_btn_min_width = 2131099804;
+			public const int mtrl_btn_disabled_z = 2131099804;
 			
 			// aapt resource value: 0x7F06009D
-			public const int mtrl_btn_disabled_elevation = 2131099805;
+			public const int mtrl_btn_elevation = 2131099805;
 			
 			// aapt resource value: 0x7F06009E
-			public const int mtrl_btn_disabled_z = 2131099806;
+			public const int mtrl_btn_focused_z = 2131099806;
 			
 			// aapt resource value: 0x7F06009F
-			public const int mtrl_btn_elevation = 2131099807;
+			public const int mtrl_btn_hovered_z = 2131099807;
 			
 			// aapt resource value: 0x7F0600A0
-			public const int mtrl_btn_focused_z = 2131099808;
+			public const int mtrl_btn_icon_btn_padding_left = 2131099808;
 			
 			// aapt resource value: 0x7F0600A1
-			public const int mtrl_btn_hovered_z = 2131099809;
+			public const int mtrl_btn_icon_padding = 2131099809;
 			
 			// aapt resource value: 0x7F0600A2
-			public const int mtrl_btn_icon_btn_padding_left = 2131099810;
+			public const int mtrl_btn_inset = 2131099810;
 			
 			// aapt resource value: 0x7F0600A3
-			public const int mtrl_btn_icon_padding = 2131099811;
+			public const int mtrl_btn_letter_spacing = 2131099811;
 			
 			// aapt resource value: 0x7F0600A4
-			public const int mtrl_btn_inset = 2131099812;
+			public const int mtrl_btn_padding_bottom = 2131099812;
 			
 			// aapt resource value: 0x7F0600A5
-			public const int mtrl_btn_letter_spacing = 2131099813;
+			public const int mtrl_btn_padding_left = 2131099813;
 			
 			// aapt resource value: 0x7F0600A6
-			public const int mtrl_btn_padding_bottom = 2131099814;
+			public const int mtrl_btn_padding_right = 2131099814;
 			
 			// aapt resource value: 0x7F0600A7
-			public const int mtrl_btn_padding_left = 2131099815;
+			public const int mtrl_btn_padding_top = 2131099815;
 			
 			// aapt resource value: 0x7F0600A8
-			public const int mtrl_btn_padding_right = 2131099816;
+			public const int mtrl_btn_pressed_z = 2131099816;
 			
 			// aapt resource value: 0x7F0600A9
-			public const int mtrl_btn_padding_top = 2131099817;
+			public const int mtrl_btn_stroke_size = 2131099817;
 			
 			// aapt resource value: 0x7F0600AA
-			public const int mtrl_btn_pressed_z = 2131099818;
+			public const int mtrl_btn_text_btn_icon_padding = 2131099818;
 			
 			// aapt resource value: 0x7F0600AB
-			public const int mtrl_btn_stroke_size = 2131099819;
+			public const int mtrl_btn_text_btn_padding_left = 2131099819;
 			
 			// aapt resource value: 0x7F0600AC
-			public const int mtrl_btn_text_btn_icon_padding = 2131099820;
+			public const int mtrl_btn_text_btn_padding_right = 2131099820;
 			
 			// aapt resource value: 0x7F0600AD
-			public const int mtrl_btn_text_btn_padding_left = 2131099821;
+			public const int mtrl_btn_text_size = 2131099821;
 			
 			// aapt resource value: 0x7F0600AE
-			public const int mtrl_btn_text_btn_padding_right = 2131099822;
+			public const int mtrl_btn_z = 2131099822;
 			
 			// aapt resource value: 0x7F0600AF
-			public const int mtrl_btn_text_size = 2131099823;
+			public const int mtrl_card_elevation = 2131099823;
 			
 			// aapt resource value: 0x7F0600B0
-			public const int mtrl_btn_z = 2131099824;
+			public const int mtrl_card_spacing = 2131099824;
 			
 			// aapt resource value: 0x7F0600B1
-			public const int mtrl_card_elevation = 2131099825;
+			public const int mtrl_chip_pressed_translation_z = 2131099825;
 			
 			// aapt resource value: 0x7F0600B2
-			public const int mtrl_card_spacing = 2131099826;
+			public const int mtrl_chip_text_size = 2131099826;
 			
 			// aapt resource value: 0x7F0600B3
-			public const int mtrl_chip_pressed_translation_z = 2131099827;
+			public const int mtrl_fab_elevation = 2131099827;
 			
 			// aapt resource value: 0x7F0600B4
-			public const int mtrl_chip_text_size = 2131099828;
+			public const int mtrl_fab_translation_z_hovered_focused = 2131099828;
 			
 			// aapt resource value: 0x7F0600B5
-			public const int mtrl_fab_elevation = 2131099829;
+			public const int mtrl_fab_translation_z_pressed = 2131099829;
 			
 			// aapt resource value: 0x7F0600B6
-			public const int mtrl_fab_translation_z_hovered_focused = 2131099830;
+			public const int mtrl_navigation_elevation = 2131099830;
 			
 			// aapt resource value: 0x7F0600B7
-			public const int mtrl_fab_translation_z_pressed = 2131099831;
+			public const int mtrl_navigation_item_horizontal_padding = 2131099831;
 			
 			// aapt resource value: 0x7F0600B8
-			public const int mtrl_navigation_elevation = 2131099832;
+			public const int mtrl_navigation_item_icon_padding = 2131099832;
 			
 			// aapt resource value: 0x7F0600B9
-			public const int mtrl_navigation_item_horizontal_padding = 2131099833;
+			public const int mtrl_snackbar_background_corner_radius = 2131099833;
 			
 			// aapt resource value: 0x7F0600BA
-			public const int mtrl_navigation_item_icon_padding = 2131099834;
+			public const int mtrl_snackbar_margin = 2131099834;
 			
 			// aapt resource value: 0x7F0600BB
-			public const int mtrl_snackbar_background_corner_radius = 2131099835;
+			public const int mtrl_textinput_box_bottom_offset = 2131099835;
 			
 			// aapt resource value: 0x7F0600BC
-			public const int mtrl_snackbar_margin = 2131099836;
+			public const int mtrl_textinput_box_corner_radius_medium = 2131099836;
 			
 			// aapt resource value: 0x7F0600BD
-			public const int mtrl_textinput_box_bottom_offset = 2131099837;
+			public const int mtrl_textinput_box_corner_radius_small = 2131099837;
 			
 			// aapt resource value: 0x7F0600BE
-			public const int mtrl_textinput_box_corner_radius_medium = 2131099838;
+			public const int mtrl_textinput_box_label_cutout_padding = 2131099838;
 			
 			// aapt resource value: 0x7F0600BF
-			public const int mtrl_textinput_box_corner_radius_small = 2131099839;
+			public const int mtrl_textinput_box_padding_end = 2131099839;
 			
 			// aapt resource value: 0x7F0600C0
-			public const int mtrl_textinput_box_label_cutout_padding = 2131099840;
+			public const int mtrl_textinput_box_stroke_width_default = 2131099840;
 			
 			// aapt resource value: 0x7F0600C1
-			public const int mtrl_textinput_box_padding_end = 2131099841;
+			public const int mtrl_textinput_box_stroke_width_focused = 2131099841;
 			
 			// aapt resource value: 0x7F0600C2
-			public const int mtrl_textinput_box_stroke_width_default = 2131099842;
+			public const int mtrl_textinput_outline_box_expanded_padding = 2131099842;
 			
 			// aapt resource value: 0x7F0600C3
-			public const int mtrl_textinput_box_stroke_width_focused = 2131099843;
+			public const int mtrl_toolbar_default_height = 2131099843;
 			
 			// aapt resource value: 0x7F0600C4
-			public const int mtrl_textinput_outline_box_expanded_padding = 2131099844;
+			public const int notification_action_icon_size = 2131099844;
 			
 			// aapt resource value: 0x7F0600C5
-			public const int mtrl_toolbar_default_height = 2131099845;
+			public const int notification_action_text_size = 2131099845;
 			
 			// aapt resource value: 0x7F0600C6
-			public const int notification_action_icon_size = 2131099846;
+			public const int notification_big_circle_margin = 2131099846;
 			
 			// aapt resource value: 0x7F0600C7
-			public const int notification_action_text_size = 2131099847;
+			public const int notification_content_margin_start = 2131099847;
 			
 			// aapt resource value: 0x7F0600C8
-			public const int notification_big_circle_margin = 2131099848;
+			public const int notification_large_icon_height = 2131099848;
 			
 			// aapt resource value: 0x7F0600C9
-			public const int notification_content_margin_start = 2131099849;
+			public const int notification_large_icon_width = 2131099849;
 			
 			// aapt resource value: 0x7F0600CA
-			public const int notification_large_icon_height = 2131099850;
+			public const int notification_main_column_padding_top = 2131099850;
 			
 			// aapt resource value: 0x7F0600CB
-			public const int notification_large_icon_width = 2131099851;
+			public const int notification_media_narrow_margin = 2131099851;
 			
 			// aapt resource value: 0x7F0600CC
-			public const int notification_main_column_padding_top = 2131099852;
+			public const int notification_right_icon_size = 2131099852;
 			
 			// aapt resource value: 0x7F0600CD
-			public const int notification_media_narrow_margin = 2131099853;
+			public const int notification_right_side_padding_top = 2131099853;
 			
 			// aapt resource value: 0x7F0600CE
-			public const int notification_right_icon_size = 2131099854;
+			public const int notification_small_icon_background_padding = 2131099854;
 			
 			// aapt resource value: 0x7F0600CF
-			public const int notification_right_side_padding_top = 2131099855;
+			public const int notification_small_icon_size_as_large = 2131099855;
 			
 			// aapt resource value: 0x7F0600D0
-			public const int notification_small_icon_background_padding = 2131099856;
+			public const int notification_subtext_size = 2131099856;
 			
 			// aapt resource value: 0x7F0600D1
-			public const int notification_small_icon_size_as_large = 2131099857;
+			public const int notification_top_pad = 2131099857;
 			
 			// aapt resource value: 0x7F0600D2
-			public const int notification_subtext_size = 2131099858;
+			public const int notification_top_pad_large_text = 2131099858;
 			
 			// aapt resource value: 0x7F0600D3
-			public const int notification_top_pad = 2131099859;
+			public const int preference_dropdown_padding_start = 2131099859;
 			
 			// aapt resource value: 0x7F0600D4
-			public const int notification_top_pad_large_text = 2131099860;
+			public const int preference_icon_minWidth = 2131099860;
 			
 			// aapt resource value: 0x7F0600D5
-			public const int preference_dropdown_padding_start = 2131099861;
+			public const int preference_seekbar_padding_horizontal = 2131099861;
 			
 			// aapt resource value: 0x7F0600D6
-			public const int preference_icon_minWidth = 2131099862;
+			public const int preference_seekbar_padding_vertical = 2131099862;
 			
 			// aapt resource value: 0x7F0600D7
-			public const int preference_seekbar_padding_horizontal = 2131099863;
+			public const int preference_seekbar_value_minWidth = 2131099863;
 			
 			// aapt resource value: 0x7F0600D8
-			public const int preference_seekbar_padding_vertical = 2131099864;
+			public const int tooltip_corner_radius = 2131099864;
 			
 			// aapt resource value: 0x7F0600D9
-			public const int preference_seekbar_value_minWidth = 2131099865;
+			public const int tooltip_horizontal_padding = 2131099865;
 			
 			// aapt resource value: 0x7F0600DA
-			public const int tooltip_corner_radius = 2131099866;
+			public const int tooltip_margin = 2131099866;
 			
 			// aapt resource value: 0x7F0600DB
-			public const int tooltip_horizontal_padding = 2131099867;
+			public const int tooltip_precise_anchor_extra_offset = 2131099867;
 			
 			// aapt resource value: 0x7F0600DC
-			public const int tooltip_margin = 2131099868;
+			public const int tooltip_precise_anchor_threshold = 2131099868;
 			
 			// aapt resource value: 0x7F0600DD
-			public const int tooltip_precise_anchor_extra_offset = 2131099869;
+			public const int tooltip_vertical_padding = 2131099869;
 			
 			// aapt resource value: 0x7F0600DE
-			public const int tooltip_precise_anchor_threshold = 2131099870;
+			public const int tooltip_y_offset_non_touch = 2131099870;
 			
 			// aapt resource value: 0x7F0600DF
-			public const int tooltip_vertical_padding = 2131099871;
-			
-			// aapt resource value: 0x7F0600E0
-			public const int tooltip_y_offset_non_touch = 2131099872;
-			
-			// aapt resource value: 0x7F0600E1
-			public const int tooltip_y_offset_touch = 2131099873;
+			public const int tooltip_y_offset_touch = 2131099871;
 			
 			static Dimension()
 			{
@@ -6662,226 +9324,211 @@ namespace SimplyNews
 			public const int bottom = 2131230788;
 			
 			// aapt resource value: 0x7F080045
-			public const int browser_actions_header_text = 2131230789;
-			
-			// aapt resource value: 0x7F080048
-			public const int browser_actions_menu_items = 2131230792;
+			public const int buttonPanel = 2131230789;
 			
 			// aapt resource value: 0x7F080046
-			public const int browser_actions_menu_item_icon = 2131230790;
+			public const int center = 2131230790;
 			
 			// aapt resource value: 0x7F080047
-			public const int browser_actions_menu_item_text = 2131230791;
+			public const int center_horizontal = 2131230791;
+			
+			// aapt resource value: 0x7F080048
+			public const int center_vertical = 2131230792;
 			
 			// aapt resource value: 0x7F080049
-			public const int browser_actions_menu_view = 2131230793;
+			public const int checkbox = 2131230793;
 			
 			// aapt resource value: 0x7F08004A
-			public const int buttonPanel = 2131230794;
+			public const int @checked = 2131230794;
 			
 			// aapt resource value: 0x7F08004B
-			public const int center = 2131230795;
+			public const int chronometer = 2131230795;
 			
 			// aapt resource value: 0x7F08004C
-			public const int center_horizontal = 2131230796;
+			public const int clip_horizontal = 2131230796;
 			
 			// aapt resource value: 0x7F08004D
-			public const int center_vertical = 2131230797;
+			public const int clip_vertical = 2131230797;
 			
 			// aapt resource value: 0x7F08004E
-			public const int checkbox = 2131230798;
+			public const int collapseActionView = 2131230798;
 			
 			// aapt resource value: 0x7F08004F
-			public const int @checked = 2131230799;
+			public const int container = 2131230799;
 			
 			// aapt resource value: 0x7F080050
-			public const int chronometer = 2131230800;
+			public const int content = 2131230800;
 			
 			// aapt resource value: 0x7F080051
-			public const int clip_horizontal = 2131230801;
+			public const int contentPanel = 2131230801;
 			
 			// aapt resource value: 0x7F080052
-			public const int clip_vertical = 2131230802;
-			
-			// aapt resource value: 0x7F080053
-			public const int collapseActionView = 2131230803;
-			
-			// aapt resource value: 0x7F080054
-			public const int container = 2131230804;
-			
-			// aapt resource value: 0x7F080055
-			public const int content = 2131230805;
-			
-			// aapt resource value: 0x7F080056
-			public const int contentPanel = 2131230806;
-			
-			// aapt resource value: 0x7F080057
-			public const int coordinator = 2131230807;
+			public const int coordinator = 2131230802;
 			
 			// aapt resource value: 0x7F080001
 			public const int CTRL = 2131230721;
 			
+			// aapt resource value: 0x7F080053
+			public const int custom = 2131230803;
+			
+			// aapt resource value: 0x7F080054
+			public const int customPanel = 2131230804;
+			
+			// aapt resource value: 0x7F080055
+			public const int decor_content_parent = 2131230805;
+			
+			// aapt resource value: 0x7F080056
+			public const int default_activity_button = 2131230806;
+			
+			// aapt resource value: 0x7F080057
+			public const int design_bottom_sheet = 2131230807;
+			
 			// aapt resource value: 0x7F080058
-			public const int custom = 2131230808;
+			public const int design_menu_item_action_area = 2131230808;
 			
 			// aapt resource value: 0x7F080059
-			public const int customPanel = 2131230809;
+			public const int design_menu_item_action_area_stub = 2131230809;
 			
 			// aapt resource value: 0x7F08005A
-			public const int decor_content_parent = 2131230810;
+			public const int design_menu_item_text = 2131230810;
 			
 			// aapt resource value: 0x7F08005B
-			public const int default_activity_button = 2131230811;
+			public const int design_navigation_view = 2131230811;
 			
 			// aapt resource value: 0x7F08005C
-			public const int design_bottom_sheet = 2131230812;
+			public const int dialog_button = 2131230812;
 			
 			// aapt resource value: 0x7F08005D
-			public const int design_menu_item_action_area = 2131230813;
+			public const int disableHome = 2131230813;
 			
 			// aapt resource value: 0x7F08005E
-			public const int design_menu_item_action_area_stub = 2131230814;
+			public const int edit_query = 2131230814;
 			
 			// aapt resource value: 0x7F08005F
-			public const int design_menu_item_text = 2131230815;
+			public const int end = 2131230815;
 			
 			// aapt resource value: 0x7F080060
-			public const int design_navigation_view = 2131230816;
+			public const int enterAlways = 2131230816;
 			
 			// aapt resource value: 0x7F080061
-			public const int dialog_button = 2131230817;
+			public const int enterAlwaysCollapsed = 2131230817;
 			
 			// aapt resource value: 0x7F080062
-			public const int disableHome = 2131230818;
-			
-			// aapt resource value: 0x7F080063
-			public const int edit_query = 2131230819;
+			public const int exitUntilCollapsed = 2131230818;
 			
 			// aapt resource value: 0x7F080064
-			public const int end = 2131230820;
+			public const int expanded_menu = 2131230820;
+			
+			// aapt resource value: 0x7F080063
+			public const int expand_activities_button = 2131230819;
 			
 			// aapt resource value: 0x7F080065
-			public const int enterAlways = 2131230821;
-			
-			// aapt resource value: 0x7F080066
-			public const int enterAlwaysCollapsed = 2131230822;
-			
-			// aapt resource value: 0x7F080067
-			public const int exitUntilCollapsed = 2131230823;
-			
-			// aapt resource value: 0x7F080069
-			public const int expanded_menu = 2131230825;
+			public const int fill = 2131230821;
 			
 			// aapt resource value: 0x7F080068
-			public const int expand_activities_button = 2131230824;
+			public const int filled = 2131230824;
+			
+			// aapt resource value: 0x7F080066
+			public const int fill_horizontal = 2131230822;
+			
+			// aapt resource value: 0x7F080067
+			public const int fill_vertical = 2131230823;
+			
+			// aapt resource value: 0x7F080069
+			public const int @fixed = 2131230825;
 			
 			// aapt resource value: 0x7F08006A
-			public const int fill = 2131230826;
-			
-			// aapt resource value: 0x7F08006D
-			public const int filled = 2131230829;
+			public const int forever = 2131230826;
 			
 			// aapt resource value: 0x7F08006B
-			public const int fill_horizontal = 2131230827;
-			
-			// aapt resource value: 0x7F08006C
-			public const int fill_vertical = 2131230828;
-			
-			// aapt resource value: 0x7F08006E
-			public const int @fixed = 2131230830;
-			
-			// aapt resource value: 0x7F08006F
-			public const int forever = 2131230831;
-			
-			// aapt resource value: 0x7F080070
-			public const int fragment_container_view_tag = 2131230832;
+			public const int fragment_container_view_tag = 2131230827;
 			
 			// aapt resource value: 0x7F080002
 			public const int FUNCTION = 2131230722;
 			
+			// aapt resource value: 0x7F08006C
+			public const int ghost_view = 2131230828;
+			
+			// aapt resource value: 0x7F08006D
+			public const int ghost_view_holder = 2131230829;
+			
+			// aapt resource value: 0x7F08006E
+			public const int group_divider = 2131230830;
+			
+			// aapt resource value: 0x7F08006F
+			public const int home = 2131230831;
+			
+			// aapt resource value: 0x7F080070
+			public const int homeAsUp = 2131230832;
+			
 			// aapt resource value: 0x7F080071
-			public const int ghost_view = 2131230833;
+			public const int icon = 2131230833;
 			
 			// aapt resource value: 0x7F080072
-			public const int ghost_view_holder = 2131230834;
+			public const int icon_frame = 2131230834;
 			
 			// aapt resource value: 0x7F080073
-			public const int group_divider = 2131230835;
+			public const int icon_group = 2131230835;
 			
 			// aapt resource value: 0x7F080074
-			public const int home = 2131230836;
+			public const int ifRoom = 2131230836;
 			
 			// aapt resource value: 0x7F080075
-			public const int homeAsUp = 2131230837;
+			public const int image = 2131230837;
 			
 			// aapt resource value: 0x7F080076
-			public const int icon = 2131230838;
+			public const int info = 2131230838;
 			
 			// aapt resource value: 0x7F080077
-			public const int icon_frame = 2131230839;
+			public const int italic = 2131230839;
 			
 			// aapt resource value: 0x7F080078
-			public const int icon_group = 2131230840;
+			public const int item_touch_helper_previous_elevation = 2131230840;
 			
 			// aapt resource value: 0x7F080079
-			public const int ifRoom = 2131230841;
+			public const int labeled = 2131230841;
 			
 			// aapt resource value: 0x7F08007A
-			public const int image = 2131230842;
+			public const int largeLabel = 2131230842;
 			
 			// aapt resource value: 0x7F08007B
-			public const int info = 2131230843;
+			public const int left = 2131230843;
 			
 			// aapt resource value: 0x7F08007C
-			public const int italic = 2131230844;
+			public const int line1 = 2131230844;
 			
 			// aapt resource value: 0x7F08007D
-			public const int item_touch_helper_previous_elevation = 2131230845;
+			public const int line3 = 2131230845;
 			
 			// aapt resource value: 0x7F08007E
-			public const int labeled = 2131230846;
+			public const int listMode = 2131230846;
 			
 			// aapt resource value: 0x7F08007F
-			public const int largeLabel = 2131230847;
+			public const int list_item = 2131230847;
 			
 			// aapt resource value: 0x7F080080
-			public const int left = 2131230848;
+			public const int masked = 2131230848;
 			
 			// aapt resource value: 0x7F080081
-			public const int line1 = 2131230849;
-			
-			// aapt resource value: 0x7F080082
-			public const int line3 = 2131230850;
-			
-			// aapt resource value: 0x7F080083
-			public const int listMode = 2131230851;
-			
-			// aapt resource value: 0x7F080084
-			public const int list_item = 2131230852;
-			
-			// aapt resource value: 0x7F080085
-			public const int masked = 2131230853;
-			
-			// aapt resource value: 0x7F080086
-			public const int message = 2131230854;
+			public const int message = 2131230849;
 			
 			// aapt resource value: 0x7F080003
 			public const int META = 2131230723;
 			
-			// aapt resource value: 0x7F080087
-			public const int middle = 2131230855;
+			// aapt resource value: 0x7F080082
+			public const int middle = 2131230850;
 			
-			// aapt resource value: 0x7F080088
-			public const int mini = 2131230856;
+			// aapt resource value: 0x7F080083
+			public const int mini = 2131230851;
 			
-			// aapt resource value: 0x7F080089
-			public const int mtrl_child_content_container = 2131230857;
+			// aapt resource value: 0x7F080084
+			public const int mtrl_child_content_container = 2131230852;
 			
-			// aapt resource value: 0x7F08008A
-			public const int mtrl_internal_children_alpha_tag = 2131230858;
+			// aapt resource value: 0x7F080085
+			public const int mtrl_internal_children_alpha_tag = 2131230853;
 			
-			// aapt resource value: 0x7F08008B
-			public const int multiply = 2131230859;
+			// aapt resource value: 0x7F080086
+			public const int multiply = 2131230854;
 			
 			// aapt resource value: 0x7F080004
 			public const int MvvmCrossTagId = 2131230724;
@@ -6889,359 +9536,362 @@ namespace SimplyNews
 			// aapt resource value: 0x7F080005
 			public const int MvxBindingTagUnique = 2131230725;
 			
+			// aapt resource value: 0x7F080087
+			public const int navigation_header_container = 2131230855;
+			
+			// aapt resource value: 0x7F080088
+			public const int never = 2131230856;
+			
+			// aapt resource value: 0x7F08008A
+			public const int newscontent = 2131230858;
+			
+			// aapt resource value: 0x7F080089
+			public const int news_categories = 2131230857;
+			
+			// aapt resource value: 0x7F08008B
+			public const int none = 2131230859;
+			
 			// aapt resource value: 0x7F08008C
-			public const int navigation_header_container = 2131230860;
+			public const int normal = 2131230860;
 			
 			// aapt resource value: 0x7F08008D
-			public const int never = 2131230861;
-			
-			// aapt resource value: 0x7F08008F
-			public const int newscontent = 2131230863;
+			public const int notification_background = 2131230861;
 			
 			// aapt resource value: 0x7F08008E
-			public const int news_categories = 2131230862;
+			public const int notification_main_column = 2131230862;
+			
+			// aapt resource value: 0x7F08008F
+			public const int notification_main_column_container = 2131230863;
 			
 			// aapt resource value: 0x7F080090
-			public const int none = 2131230864;
+			public const int off = 2131230864;
 			
 			// aapt resource value: 0x7F080091
-			public const int normal = 2131230865;
+			public const int on = 2131230865;
 			
 			// aapt resource value: 0x7F080092
-			public const int notification_background = 2131230866;
+			public const int outline = 2131230866;
 			
 			// aapt resource value: 0x7F080093
-			public const int notification_main_column = 2131230867;
+			public const int parallax = 2131230867;
 			
 			// aapt resource value: 0x7F080094
-			public const int notification_main_column_container = 2131230868;
+			public const int parentPanel = 2131230868;
 			
 			// aapt resource value: 0x7F080095
-			public const int off = 2131230869;
+			public const int parent_matrix = 2131230869;
 			
 			// aapt resource value: 0x7F080096
-			public const int on = 2131230870;
+			public const int pin = 2131230870;
 			
 			// aapt resource value: 0x7F080097
-			public const int outline = 2131230871;
+			public const int progress_circular = 2131230871;
 			
 			// aapt resource value: 0x7F080098
-			public const int parallax = 2131230872;
+			public const int progress_horizontal = 2131230872;
 			
 			// aapt resource value: 0x7F080099
-			public const int parentPanel = 2131230873;
+			public const int radio = 2131230873;
 			
 			// aapt resource value: 0x7F08009A
-			public const int parent_matrix = 2131230874;
+			public const int recycler_view = 2131230874;
 			
 			// aapt resource value: 0x7F08009B
-			public const int pin = 2131230875;
+			public const int right = 2131230875;
 			
 			// aapt resource value: 0x7F08009C
-			public const int progress_circular = 2131230876;
+			public const int right_icon = 2131230876;
 			
 			// aapt resource value: 0x7F08009D
-			public const int progress_horizontal = 2131230877;
+			public const int right_side = 2131230877;
 			
 			// aapt resource value: 0x7F08009E
-			public const int radio = 2131230878;
+			public const int save_non_transition_alpha = 2131230878;
 			
 			// aapt resource value: 0x7F08009F
-			public const int recycler_view = 2131230879;
+			public const int save_overlay_view = 2131230879;
 			
 			// aapt resource value: 0x7F0800A0
-			public const int right = 2131230880;
+			public const int screen = 2131230880;
 			
 			// aapt resource value: 0x7F0800A1
-			public const int right_icon = 2131230881;
-			
-			// aapt resource value: 0x7F0800A2
-			public const int right_side = 2131230882;
-			
-			// aapt resource value: 0x7F0800A3
-			public const int save_non_transition_alpha = 2131230883;
-			
-			// aapt resource value: 0x7F0800A4
-			public const int save_overlay_view = 2131230884;
+			public const int scroll = 2131230881;
 			
 			// aapt resource value: 0x7F0800A5
-			public const int screen = 2131230885;
+			public const int scrollable = 2131230885;
+			
+			// aapt resource value: 0x7F0800A2
+			public const int scrollIndicatorDown = 2131230882;
+			
+			// aapt resource value: 0x7F0800A3
+			public const int scrollIndicatorUp = 2131230883;
+			
+			// aapt resource value: 0x7F0800A4
+			public const int scrollView = 2131230884;
 			
 			// aapt resource value: 0x7F0800A6
-			public const int scroll = 2131230886;
-			
-			// aapt resource value: 0x7F0800AA
-			public const int scrollable = 2131230890;
+			public const int search_badge = 2131230886;
 			
 			// aapt resource value: 0x7F0800A7
-			public const int scrollIndicatorDown = 2131230887;
+			public const int search_bar = 2131230887;
 			
 			// aapt resource value: 0x7F0800A8
-			public const int scrollIndicatorUp = 2131230888;
+			public const int search_button = 2131230888;
 			
 			// aapt resource value: 0x7F0800A9
-			public const int scrollView = 2131230889;
+			public const int search_close_btn = 2131230889;
+			
+			// aapt resource value: 0x7F0800AA
+			public const int search_edit_frame = 2131230890;
 			
 			// aapt resource value: 0x7F0800AB
-			public const int search_badge = 2131230891;
+			public const int search_go_btn = 2131230891;
 			
 			// aapt resource value: 0x7F0800AC
-			public const int search_bar = 2131230892;
+			public const int search_mag_icon = 2131230892;
 			
 			// aapt resource value: 0x7F0800AD
-			public const int search_button = 2131230893;
+			public const int search_plate = 2131230893;
 			
 			// aapt resource value: 0x7F0800AE
-			public const int search_close_btn = 2131230894;
+			public const int search_src_text = 2131230894;
 			
 			// aapt resource value: 0x7F0800AF
-			public const int search_edit_frame = 2131230895;
+			public const int search_voice_btn = 2131230895;
 			
 			// aapt resource value: 0x7F0800B0
-			public const int search_go_btn = 2131230896;
+			public const int seekbar = 2131230896;
 			
 			// aapt resource value: 0x7F0800B1
-			public const int search_mag_icon = 2131230897;
-			
-			// aapt resource value: 0x7F0800B2
-			public const int search_plate = 2131230898;
+			public const int seekbar_value = 2131230897;
 			
 			// aapt resource value: 0x7F0800B3
-			public const int search_src_text = 2131230899;
+			public const int selected = 2131230899;
 			
-			// aapt resource value: 0x7F0800B4
-			public const int search_voice_btn = 2131230900;
-			
-			// aapt resource value: 0x7F0800B5
-			public const int seekbar = 2131230901;
-			
-			// aapt resource value: 0x7F0800B6
-			public const int seekbar_value = 2131230902;
-			
-			// aapt resource value: 0x7F0800B8
-			public const int selected = 2131230904;
-			
-			// aapt resource value: 0x7F0800B7
-			public const int select_dialog_listview = 2131230903;
+			// aapt resource value: 0x7F0800B2
+			public const int select_dialog_listview = 2131230898;
 			
 			// aapt resource value: 0x7F080006
 			public const int SHIFT = 2131230726;
 			
+			// aapt resource value: 0x7F0800B4
+			public const int shortcut = 2131230900;
+			
+			// aapt resource value: 0x7F0800B5
+			public const int showCustom = 2131230901;
+			
+			// aapt resource value: 0x7F0800B6
+			public const int showHome = 2131230902;
+			
+			// aapt resource value: 0x7F0800B7
+			public const int showTitle = 2131230903;
+			
+			// aapt resource value: 0x7F0800B8
+			public const int smallLabel = 2131230904;
+			
 			// aapt resource value: 0x7F0800B9
-			public const int shortcut = 2131230905;
+			public const int snackbar_action = 2131230905;
 			
 			// aapt resource value: 0x7F0800BA
-			public const int showCustom = 2131230906;
+			public const int snackbar_text = 2131230906;
 			
 			// aapt resource value: 0x7F0800BB
-			public const int showHome = 2131230907;
+			public const int snap = 2131230907;
 			
 			// aapt resource value: 0x7F0800BC
-			public const int showTitle = 2131230908;
+			public const int snapMargins = 2131230908;
 			
 			// aapt resource value: 0x7F0800BD
-			public const int smallLabel = 2131230909;
+			public const int spacer = 2131230909;
 			
 			// aapt resource value: 0x7F0800BE
-			public const int snackbar_action = 2131230910;
+			public const int special_effects_controller_view_tag = 2131230910;
 			
 			// aapt resource value: 0x7F0800BF
-			public const int snackbar_text = 2131230911;
+			public const int spinner = 2131230911;
 			
 			// aapt resource value: 0x7F0800C0
-			public const int snap = 2131230912;
+			public const int split_action_bar = 2131230912;
 			
 			// aapt resource value: 0x7F0800C1
-			public const int snapMargins = 2131230913;
+			public const int src_atop = 2131230913;
 			
 			// aapt resource value: 0x7F0800C2
-			public const int spacer = 2131230914;
+			public const int src_in = 2131230914;
 			
 			// aapt resource value: 0x7F0800C3
-			public const int special_effects_controller_view_tag = 2131230915;
+			public const int src_over = 2131230915;
 			
 			// aapt resource value: 0x7F0800C4
-			public const int spinner = 2131230916;
+			public const int start = 2131230916;
 			
 			// aapt resource value: 0x7F0800C5
-			public const int split_action_bar = 2131230917;
+			public const int statusView = 2131230917;
 			
 			// aapt resource value: 0x7F0800C6
-			public const int src_atop = 2131230918;
+			public const int stretch = 2131230918;
 			
 			// aapt resource value: 0x7F0800C7
-			public const int src_in = 2131230919;
+			public const int submenuarrow = 2131230919;
 			
 			// aapt resource value: 0x7F0800C8
-			public const int src_over = 2131230920;
+			public const int submit_area = 2131230920;
 			
 			// aapt resource value: 0x7F0800C9
-			public const int start = 2131230921;
-			
-			// aapt resource value: 0x7F0800CA
-			public const int stretch = 2131230922;
-			
-			// aapt resource value: 0x7F0800CB
-			public const int submenuarrow = 2131230923;
-			
-			// aapt resource value: 0x7F0800CC
-			public const int submit_area = 2131230924;
-			
-			// aapt resource value: 0x7F0800CD
-			public const int switchWidget = 2131230925;
+			public const int switchWidget = 2131230921;
 			
 			// aapt resource value: 0x7F080007
 			public const int SYM = 2131230727;
 			
+			// aapt resource value: 0x7F0800CA
+			public const int tabMode = 2131230922;
+			
+			// aapt resource value: 0x7F0800CB
+			public const int tag_accessibility_actions = 2131230923;
+			
+			// aapt resource value: 0x7F0800CC
+			public const int tag_accessibility_clickable_spans = 2131230924;
+			
+			// aapt resource value: 0x7F0800CD
+			public const int tag_accessibility_heading = 2131230925;
+			
 			// aapt resource value: 0x7F0800CE
-			public const int tabMode = 2131230926;
+			public const int tag_accessibility_pane_title = 2131230926;
 			
 			// aapt resource value: 0x7F0800CF
-			public const int tag_accessibility_actions = 2131230927;
+			public const int tag_on_apply_window_listener = 2131230927;
 			
 			// aapt resource value: 0x7F0800D0
-			public const int tag_accessibility_clickable_spans = 2131230928;
+			public const int tag_on_receive_content_listener = 2131230928;
 			
 			// aapt resource value: 0x7F0800D1
-			public const int tag_accessibility_heading = 2131230929;
+			public const int tag_on_receive_content_mime_types = 2131230929;
 			
 			// aapt resource value: 0x7F0800D2
-			public const int tag_accessibility_pane_title = 2131230930;
+			public const int tag_screen_reader_focusable = 2131230930;
 			
 			// aapt resource value: 0x7F0800D3
-			public const int tag_on_apply_window_listener = 2131230931;
+			public const int tag_state_description = 2131230931;
 			
 			// aapt resource value: 0x7F0800D4
-			public const int tag_on_receive_content_listener = 2131230932;
+			public const int tag_transition_group = 2131230932;
 			
 			// aapt resource value: 0x7F0800D5
-			public const int tag_on_receive_content_mime_types = 2131230933;
+			public const int tag_unhandled_key_event_manager = 2131230933;
 			
 			// aapt resource value: 0x7F0800D6
-			public const int tag_screen_reader_focusable = 2131230934;
+			public const int tag_unhandled_key_listeners = 2131230934;
 			
 			// aapt resource value: 0x7F0800D7
-			public const int tag_state_description = 2131230935;
+			public const int tag_window_insets_animation_callback = 2131230935;
 			
 			// aapt resource value: 0x7F0800D8
-			public const int tag_transition_group = 2131230936;
+			public const int text = 2131230936;
 			
 			// aapt resource value: 0x7F0800D9
-			public const int tag_unhandled_key_event_manager = 2131230937;
-			
-			// aapt resource value: 0x7F0800DA
-			public const int tag_unhandled_key_listeners = 2131230938;
-			
-			// aapt resource value: 0x7F0800DB
-			public const int tag_window_insets_animation_callback = 2131230939;
-			
-			// aapt resource value: 0x7F0800DC
-			public const int text = 2131230940;
-			
-			// aapt resource value: 0x7F0800DD
-			public const int text2 = 2131230941;
-			
-			// aapt resource value: 0x7F0800E2
-			public const int textinput_counter = 2131230946;
-			
-			// aapt resource value: 0x7F0800E3
-			public const int textinput_error = 2131230947;
-			
-			// aapt resource value: 0x7F0800E4
-			public const int textinput_helper_text = 2131230948;
+			public const int text2 = 2131230937;
 			
 			// aapt resource value: 0x7F0800DE
-			public const int textSpacerNoButtons = 2131230942;
+			public const int textinput_counter = 2131230942;
 			
 			// aapt resource value: 0x7F0800DF
-			public const int textSpacerNoTitle = 2131230943;
+			public const int textinput_error = 2131230943;
 			
 			// aapt resource value: 0x7F0800E0
-			public const int textStart = 2131230944;
+			public const int textinput_helper_text = 2131230944;
+			
+			// aapt resource value: 0x7F0800DA
+			public const int textSpacerNoButtons = 2131230938;
+			
+			// aapt resource value: 0x7F0800DB
+			public const int textSpacerNoTitle = 2131230939;
+			
+			// aapt resource value: 0x7F0800DC
+			public const int textStart = 2131230940;
+			
+			// aapt resource value: 0x7F0800DD
+			public const int text_input_password_toggle = 2131230941;
 			
 			// aapt resource value: 0x7F0800E1
-			public const int text_input_password_toggle = 2131230945;
+			public const int time = 2131230945;
+			
+			// aapt resource value: 0x7F0800E2
+			public const int title = 2131230946;
+			
+			// aapt resource value: 0x7F0800E3
+			public const int titleDividerNoCustom = 2131230947;
+			
+			// aapt resource value: 0x7F0800E4
+			public const int title_template = 2131230948;
 			
 			// aapt resource value: 0x7F0800E5
-			public const int time = 2131230949;
+			public const int toolbarLayout = 2131230949;
 			
 			// aapt resource value: 0x7F0800E6
-			public const int title = 2131230950;
+			public const int top = 2131230950;
 			
 			// aapt resource value: 0x7F0800E7
-			public const int titleDividerNoCustom = 2131230951;
+			public const int topActionBar = 2131230951;
 			
 			// aapt resource value: 0x7F0800E8
-			public const int title_template = 2131230952;
+			public const int topPanel = 2131230952;
 			
 			// aapt resource value: 0x7F0800E9
-			public const int toolbarLayout = 2131230953;
+			public const int touch_outside = 2131230953;
 			
 			// aapt resource value: 0x7F0800EA
-			public const int top = 2131230954;
+			public const int transition_current_scene = 2131230954;
 			
 			// aapt resource value: 0x7F0800EB
-			public const int topActionBar = 2131230955;
+			public const int transition_layout_save = 2131230955;
 			
 			// aapt resource value: 0x7F0800EC
-			public const int topPanel = 2131230956;
+			public const int transition_position = 2131230956;
 			
 			// aapt resource value: 0x7F0800ED
-			public const int touch_outside = 2131230957;
+			public const int transition_scene_layoutid_cache = 2131230957;
 			
 			// aapt resource value: 0x7F0800EE
-			public const int transition_current_scene = 2131230958;
+			public const int transition_transform = 2131230958;
 			
 			// aapt resource value: 0x7F0800EF
-			public const int transition_layout_save = 2131230959;
+			public const int @unchecked = 2131230959;
 			
 			// aapt resource value: 0x7F0800F0
-			public const int transition_position = 2131230960;
+			public const int uniform = 2131230960;
 			
 			// aapt resource value: 0x7F0800F1
-			public const int transition_scene_layoutid_cache = 2131230961;
+			public const int unlabeled = 2131230961;
 			
 			// aapt resource value: 0x7F0800F2
-			public const int transition_transform = 2131230962;
+			public const int up = 2131230962;
 			
 			// aapt resource value: 0x7F0800F3
-			public const int @unchecked = 2131230963;
+			public const int useLogo = 2131230963;
 			
 			// aapt resource value: 0x7F0800F4
-			public const int uniform = 2131230964;
+			public const int view_offset_helper = 2131230964;
 			
 			// aapt resource value: 0x7F0800F5
-			public const int unlabeled = 2131230965;
+			public const int view_tree_lifecycle_owner = 2131230965;
 			
 			// aapt resource value: 0x7F0800F6
-			public const int up = 2131230966;
+			public const int view_tree_saved_state_registry_owner = 2131230966;
 			
 			// aapt resource value: 0x7F0800F7
-			public const int useLogo = 2131230967;
+			public const int view_tree_view_model_store_owner = 2131230967;
 			
 			// aapt resource value: 0x7F0800F8
-			public const int view_offset_helper = 2131230968;
+			public const int visible = 2131230968;
 			
 			// aapt resource value: 0x7F0800F9
-			public const int view_tree_lifecycle_owner = 2131230969;
+			public const int visible_removing_fragment_view_tag = 2131230969;
 			
 			// aapt resource value: 0x7F0800FA
-			public const int view_tree_saved_state_registry_owner = 2131230970;
+			public const int withText = 2131230970;
 			
 			// aapt resource value: 0x7F0800FB
-			public const int view_tree_view_model_store_owner = 2131230971;
-			
-			// aapt resource value: 0x7F0800FC
-			public const int visible = 2131230972;
-			
-			// aapt resource value: 0x7F0800FD
-			public const int visible_removing_fragment_view_tag = 2131230973;
-			
-			// aapt resource value: 0x7F0800FE
-			public const int withText = 2131230974;
-			
-			// aapt resource value: 0x7F0800FF
-			public const int wrap_content = 2131230975;
+			public const int wrap_content = 2131230971;
 			
 			static Id()
 			{
@@ -7448,145 +10098,139 @@ namespace SimplyNews
 			public const int activity_main = 2131427356;
 			
 			// aapt resource value: 0x7F0B001D
-			public const int browser_actions_context_menu_page = 2131427357;
+			public const int custom_dialog = 2131427357;
 			
 			// aapt resource value: 0x7F0B001E
-			public const int browser_actions_context_menu_row = 2131427358;
+			public const int design_bottom_navigation_item = 2131427358;
 			
 			// aapt resource value: 0x7F0B001F
-			public const int custom_dialog = 2131427359;
+			public const int design_bottom_sheet_dialog = 2131427359;
 			
 			// aapt resource value: 0x7F0B0020
-			public const int design_bottom_navigation_item = 2131427360;
+			public const int design_layout_snackbar = 2131427360;
 			
 			// aapt resource value: 0x7F0B0021
-			public const int design_bottom_sheet_dialog = 2131427361;
+			public const int design_layout_snackbar_include = 2131427361;
 			
 			// aapt resource value: 0x7F0B0022
-			public const int design_layout_snackbar = 2131427362;
+			public const int design_layout_tab_icon = 2131427362;
 			
 			// aapt resource value: 0x7F0B0023
-			public const int design_layout_snackbar_include = 2131427363;
+			public const int design_layout_tab_text = 2131427363;
 			
 			// aapt resource value: 0x7F0B0024
-			public const int design_layout_tab_icon = 2131427364;
+			public const int design_menu_item_action_area = 2131427364;
 			
 			// aapt resource value: 0x7F0B0025
-			public const int design_layout_tab_text = 2131427365;
+			public const int design_navigation_item = 2131427365;
 			
 			// aapt resource value: 0x7F0B0026
-			public const int design_menu_item_action_area = 2131427366;
+			public const int design_navigation_item_header = 2131427366;
 			
 			// aapt resource value: 0x7F0B0027
-			public const int design_navigation_item = 2131427367;
+			public const int design_navigation_item_separator = 2131427367;
 			
 			// aapt resource value: 0x7F0B0028
-			public const int design_navigation_item_header = 2131427368;
+			public const int design_navigation_item_subheader = 2131427368;
 			
 			// aapt resource value: 0x7F0B0029
-			public const int design_navigation_item_separator = 2131427369;
+			public const int design_navigation_menu = 2131427369;
 			
 			// aapt resource value: 0x7F0B002A
-			public const int design_navigation_item_subheader = 2131427370;
+			public const int design_navigation_menu_item = 2131427370;
 			
 			// aapt resource value: 0x7F0B002B
-			public const int design_navigation_menu = 2131427371;
+			public const int design_text_input_password_icon = 2131427371;
 			
 			// aapt resource value: 0x7F0B002C
-			public const int design_navigation_menu_item = 2131427372;
+			public const int expand_button = 2131427372;
 			
 			// aapt resource value: 0x7F0B002D
-			public const int design_text_input_password_icon = 2131427373;
+			public const int image_frame = 2131427373;
 			
 			// aapt resource value: 0x7F0B002E
-			public const int expand_button = 2131427374;
+			public const int mtrl_layout_snackbar = 2131427374;
 			
 			// aapt resource value: 0x7F0B002F
-			public const int image_frame = 2131427375;
+			public const int mtrl_layout_snackbar_include = 2131427375;
 			
 			// aapt resource value: 0x7F0B0030
-			public const int mtrl_layout_snackbar = 2131427376;
+			public const int notification_action = 2131427376;
 			
 			// aapt resource value: 0x7F0B0031
-			public const int mtrl_layout_snackbar_include = 2131427377;
+			public const int notification_action_tombstone = 2131427377;
 			
 			// aapt resource value: 0x7F0B0032
-			public const int notification_action = 2131427378;
+			public const int notification_template_custom_big = 2131427378;
 			
 			// aapt resource value: 0x7F0B0033
-			public const int notification_action_tombstone = 2131427379;
+			public const int notification_template_icon_group = 2131427379;
 			
 			// aapt resource value: 0x7F0B0034
-			public const int notification_template_custom_big = 2131427380;
+			public const int notification_template_part_chronometer = 2131427380;
 			
 			// aapt resource value: 0x7F0B0035
-			public const int notification_template_icon_group = 2131427381;
+			public const int notification_template_part_time = 2131427381;
 			
 			// aapt resource value: 0x7F0B0036
-			public const int notification_template_part_chronometer = 2131427382;
+			public const int preference = 2131427382;
 			
 			// aapt resource value: 0x7F0B0037
-			public const int notification_template_part_time = 2131427383;
+			public const int preference_category = 2131427383;
 			
 			// aapt resource value: 0x7F0B0038
-			public const int preference = 2131427384;
+			public const int preference_category_material = 2131427384;
 			
 			// aapt resource value: 0x7F0B0039
-			public const int preference_category = 2131427385;
+			public const int preference_dialog_edittext = 2131427385;
 			
 			// aapt resource value: 0x7F0B003A
-			public const int preference_category_material = 2131427386;
+			public const int preference_dropdown = 2131427386;
 			
 			// aapt resource value: 0x7F0B003B
-			public const int preference_dialog_edittext = 2131427387;
+			public const int preference_dropdown_material = 2131427387;
 			
 			// aapt resource value: 0x7F0B003C
-			public const int preference_dropdown = 2131427388;
+			public const int preference_information = 2131427388;
 			
 			// aapt resource value: 0x7F0B003D
-			public const int preference_dropdown_material = 2131427389;
+			public const int preference_information_material = 2131427389;
 			
 			// aapt resource value: 0x7F0B003E
-			public const int preference_information = 2131427390;
+			public const int preference_list_fragment = 2131427390;
 			
 			// aapt resource value: 0x7F0B003F
-			public const int preference_information_material = 2131427391;
+			public const int preference_material = 2131427391;
 			
 			// aapt resource value: 0x7F0B0040
-			public const int preference_list_fragment = 2131427392;
+			public const int preference_recyclerview = 2131427392;
 			
 			// aapt resource value: 0x7F0B0041
-			public const int preference_material = 2131427393;
+			public const int preference_widget_checkbox = 2131427393;
 			
 			// aapt resource value: 0x7F0B0042
-			public const int preference_recyclerview = 2131427394;
+			public const int preference_widget_seekbar = 2131427394;
 			
 			// aapt resource value: 0x7F0B0043
-			public const int preference_widget_checkbox = 2131427395;
+			public const int preference_widget_seekbar_material = 2131427395;
 			
 			// aapt resource value: 0x7F0B0044
-			public const int preference_widget_seekbar = 2131427396;
+			public const int preference_widget_switch = 2131427396;
 			
 			// aapt resource value: 0x7F0B0045
-			public const int preference_widget_seekbar_material = 2131427397;
+			public const int preference_widget_switch_compat = 2131427397;
 			
 			// aapt resource value: 0x7F0B0046
-			public const int preference_widget_switch = 2131427398;
+			public const int select_dialog_item_material = 2131427398;
 			
 			// aapt resource value: 0x7F0B0047
-			public const int preference_widget_switch_compat = 2131427399;
+			public const int select_dialog_multichoice_material = 2131427399;
 			
 			// aapt resource value: 0x7F0B0048
-			public const int select_dialog_item_material = 2131427400;
+			public const int select_dialog_singlechoice_material = 2131427400;
 			
 			// aapt resource value: 0x7F0B0049
-			public const int select_dialog_multichoice_material = 2131427401;
-			
-			// aapt resource value: 0x7F0B004A
-			public const int select_dialog_singlechoice_material = 2131427402;
-			
-			// aapt resource value: 0x7F0B004B
-			public const int support_simple_spinner_dropdown_item = 2131427403;
+			public const int support_simple_spinner_dropdown_item = 2131427401;
 			
 			static Layout()
 			{
@@ -7726,67 +10370,55 @@ namespace SimplyNews
 			public const int copy = 2131558433;
 			
 			// aapt resource value: 0x7F0D0022
-			public const int copy_toast_msg = 2131558434;
+			public const int expand_button_title = 2131558434;
 			
 			// aapt resource value: 0x7F0D0023
-			public const int expand_button_title = 2131558435;
+			public const int fab_transformation_scrim_behavior = 2131558435;
 			
 			// aapt resource value: 0x7F0D0024
-			public const int fab_transformation_scrim_behavior = 2131558436;
+			public const int fab_transformation_sheet_behavior = 2131558436;
 			
 			// aapt resource value: 0x7F0D0025
-			public const int fab_transformation_sheet_behavior = 2131558437;
+			public const int hide_bottom_view_on_scroll_behavior = 2131558437;
 			
 			// aapt resource value: 0x7F0D0026
-			public const int fallback_menu_item_copy_link = 2131558438;
+			public const int mtrl_chip_close_icon_content_description = 2131558438;
 			
 			// aapt resource value: 0x7F0D0027
-			public const int fallback_menu_item_open_in_browser = 2131558439;
+			public const int not_set = 2131558439;
 			
 			// aapt resource value: 0x7F0D0028
-			public const int fallback_menu_item_share_link = 2131558440;
+			public const int password_toggle_content_description = 2131558440;
 			
 			// aapt resource value: 0x7F0D0029
-			public const int hide_bottom_view_on_scroll_behavior = 2131558441;
+			public const int path_password_eye = 2131558441;
 			
 			// aapt resource value: 0x7F0D002A
-			public const int mtrl_chip_close_icon_content_description = 2131558442;
+			public const int path_password_eye_mask_strike_through = 2131558442;
 			
 			// aapt resource value: 0x7F0D002B
-			public const int not_set = 2131558443;
+			public const int path_password_eye_mask_visible = 2131558443;
 			
 			// aapt resource value: 0x7F0D002C
-			public const int password_toggle_content_description = 2131558444;
+			public const int path_password_strike_through = 2131558444;
 			
 			// aapt resource value: 0x7F0D002D
-			public const int path_password_eye = 2131558445;
+			public const int preference_copied = 2131558445;
 			
 			// aapt resource value: 0x7F0D002E
-			public const int path_password_eye_mask_strike_through = 2131558446;
+			public const int search_menu_title = 2131558446;
 			
 			// aapt resource value: 0x7F0D002F
-			public const int path_password_eye_mask_visible = 2131558447;
+			public const int status_bar_notification_info_overflow = 2131558447;
 			
 			// aapt resource value: 0x7F0D0030
-			public const int path_password_strike_through = 2131558448;
+			public const int summary_collapsed_preference_list = 2131558448;
 			
 			// aapt resource value: 0x7F0D0031
-			public const int preference_copied = 2131558449;
+			public const int v7_preference_off = 2131558449;
 			
 			// aapt resource value: 0x7F0D0032
-			public const int search_menu_title = 2131558450;
-			
-			// aapt resource value: 0x7F0D0033
-			public const int status_bar_notification_info_overflow = 2131558451;
-			
-			// aapt resource value: 0x7F0D0034
-			public const int summary_collapsed_preference_list = 2131558452;
-			
-			// aapt resource value: 0x7F0D0035
-			public const int v7_preference_off = 2131558453;
-			
-			// aapt resource value: 0x7F0D0036
-			public const int v7_preference_on = 2131558454;
+			public const int v7_preference_on = 2131558450;
 			
 			static String()
 			{
@@ -13045,25 +15677,6 @@ namespace SimplyNews
 			}
 			
 			private Styleable()
-			{
-			}
-		}
-		
-		public partial class Xml
-		{
-			
-			// aapt resource value: 0x7F100000
-			public const int image_share_filepaths = 2131755008;
-			
-			// aapt resource value: 0x7F100001
-			public const int xamarin_essentials_fileprovider_file_paths = 2131755009;
-			
-			static Xml()
-			{
-				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
-			}
-			
-			private Xml()
 			{
 			}
 		}

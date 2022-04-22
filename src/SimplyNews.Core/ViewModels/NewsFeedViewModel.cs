@@ -64,13 +64,37 @@ namespace SimplyNews.Core.ViewModels
             }
         }
 
+        private bool _isNotBusy;
+        public bool IsNotBusy
+        {
+            get => _isNotBusy;
+            set
+            {
+                _isNotBusy = value;
+                RaisePropertyChanged(() => IsNotBusy);
+            }
+        }
+
         private MvxCommand<string> _categorySelectedCommand;
         public MvxCommand<string> CategorySelectedCommand => _categorySelectedCommand ??= new MvxCommand<string>(OnCategorySelectedAsync);
 
         private async void OnCategorySelectedAsync(string category)
         {
-            SelectedCategory = category;
-            await UpdateNewsFeedAsync();
+            try
+            {
+                if(category != null)
+                    SelectedCategory = category;
+                IsNotBusy = false;
+                await UpdateNewsFeedAsync();
+            }
+            catch(Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
+            finally
+            {
+                IsNotBusy = true;
+            }
         }
 
         private async Task UpdateNewsFeedAsync()

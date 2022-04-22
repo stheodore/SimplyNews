@@ -32,9 +32,7 @@ namespace SimplyNews
 
         private void UpdatedHtmlContent()
         {
-            var handler = HtmlContentChanged;
-            if (handler != null)
-                handler(this, EventArgs.Empty);
+            HtmlContentChanged?.Invoke(this, EventArgs.Empty);
         }
     }
 }
