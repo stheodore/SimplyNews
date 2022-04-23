@@ -10,7 +10,7 @@ namespace SimplyNews.Core.Services
 {
     public class NewsFeedService : INewsFeedService
     {
-        private string newsFeedBaseUrl = "https://inshortsapi.vercel.app/news?category=";
+        private readonly string newsFeedBaseUrl = "https://inshortsapi.vercel.app/news?category=";
         private string newsFeedUrl;
         private string fontSize = "2em";
 
